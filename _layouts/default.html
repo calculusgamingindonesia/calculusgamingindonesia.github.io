@@ -14,27 +14,81 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <style>
+    /* 1. PENGATURAN BODY (Dipisahkan agar tidak error) */
     body { 
-        font-family: "Computer Modern Serif", serif;
-        font-size: 18px;
-        line-height: 1.6; 
+        font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
+        font-size: 17px;
+        line-height: 1.65;
+        color: #2c3e50;
         margin: 40px auto; 
         max-width: 800px; 
         padding: 0 20px; 
         text-align: justify;
-        details { margin-top: 10px; }
+    }
+
+    /* 2. PENGATURAN LINK & KOTAK SOLUSI */
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    
+    details { margin-top: 10px; }
     summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
     .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
 
-    ol ul {
-        list-style-type: none; 
-        padding-left: 20px;
-        line-height: 1.8; }
-    li { margin-bottom: 25px; }
+    /* 3. PENOMORAN SOAL UTAMA BERKURUNG (1), (2), (3)... */
+    ol {
+      list-style-type: none;
+      counter-reset: soal-counter;
+      padding-left: 2.5em;
     }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-</style>
+
+    ol > li {
+      counter-increment: soal-counter;
+      position: relative;
+      margin-bottom: 25px;
+    }
+
+    ol > li::before {
+      content: "(" counter(soal-counter) ")";
+      position: absolute;
+      left: -2.5em;
+      width: 2em;
+      text-align: right;
+      font-weight: bold;
+    }
+
+    /* 4. PERBAIKAN SUB-SOAL & SYARAT (HANGING INDENT) */
+    ol ul {
+      list-style-type: none; 
+      padding-left: 2.5em;
+      counter-reset: none;
+      margin-top: 10px;
+    }
+    
+    ol ul > li {
+      text-indent: -2.2em; /* Menarik baris pertama ke kiri */
+      margin-bottom: 12px;
+    }
+    
+    ol ul > li::before {
+      content: none; 
+    }
+
+    /* Jaga-jaga jika kamu menggunakan daftar abjad bawaan (a, b) */
+    ol ol {
+      list-style-type: lower-alpha;
+      padding-left: 2em;
+      counter-reset: none;
+      margin-top: 10px;
+    }
+    ol ol > li {
+      margin-bottom: 12px;
+      text-indent: 0;
+    }
+    ol ol > li::before {
+      content: none;
+    }
+    </style>
+    
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
 </head>
 <body>
