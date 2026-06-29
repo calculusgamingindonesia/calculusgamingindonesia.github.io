@@ -4,7 +4,7 @@ layout: default
 
 <h1>Daftar Soal dan Solusi</h1>
 <ul>
-  {% assign soal_terurut = site.categories.soal | sort: 'urutan' %}
+  {% assign soal_terurut = site.categories.soaldansolusi | sort: 'urutan' %}
   {% for post in soal_terurut %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -14,7 +14,7 @@ layout: default
 
 <br> <h1>Daftar Materi Menarik</h1>
 <ul>
-  {% assign materi_terurut = site.categories.materi | sort: 'urutan' %}
+  {% assign materi_terurut = site.categories.materimenarik | sort: 'urutan' %}
   {% for post in materi_terurut %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
