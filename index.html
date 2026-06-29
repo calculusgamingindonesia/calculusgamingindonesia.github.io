@@ -5,17 +5,19 @@ layout: default
 <h1>Daftar Soal dan Solusi</h1>
 <ul>
   {% assign soal_terurut = site.categories.soaldansolusi | sort: 'urutan' %}
-  {% for post in soaldansolusi_terurut %}
+  {% for post in soal_terurut %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
-<br> <h1>Daftar Materi Menarik</h1>
+<br> 
+
+<h1>Daftar Materi Menarik</h1>
 <ul>
   {% assign materi_terurut = site.categories.materimenarik | sort: 'urutan' %}
-  {% for post in materimenarik_terurut %}
+  {% for post in materi_terurut %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
