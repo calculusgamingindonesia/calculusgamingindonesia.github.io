@@ -1,0 +1,87 @@
+---
+layout: default
+title: "Soal dan Solusi ONMIPA Nasional Tahun 2020 (Hari Kedua)"
+date: 2026-06-29
+category: soaldansolusi
+urutan: 6
+---
+
+<div style="text-align: center; margin-bottom: 30px;">
+    <h1 style="margin-bottom: 0;">Soal dan Solusi ONMIPA Nasional</h1>
+    <h1 style="margin-bottom: 0;">Tahun 2020 (Hari Kedua)</h1>
+</div>
+
+<ol style="padding-left: 20px; line-height: 1.8; text-align: justify;">
+
+    <li style="margin-bottom: 25px;">
+        Pasangan $(a, b)\in\mathbb{C}^2$ dikatakan <em>seimbang</em> jika $\vert a\vert=\vert b\vert=\vert a+b\vert$.
+        <ul style="list-style-type: none; padding-left: 15px; margin-top: 5px;">
+            <li>(a) Tunjukkan bahwa terdapat pasangan seimbang $(a, b)$ dengan $a\neq b$.</li>
+            <li>(b) Jika $(a, b)$ adalah pasangan seimbang dan $a^{2020}=b^{2020}$, tunjukkan bahwa $a=b$.</li>
+        </ul>
+        
+        <details style="margin-top: 10px;">
+            <summary style="cursor: pointer; color: #0366d6; font-weight: bold; user-select: none;">Lihat Solusi</summary>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; margin-top: 10px; border-radius: 4px; text-align: justify;">
+                Solusi diserahkan kepada pembaca sebagai latihan.
+            </div>
+        </details>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+        Misalkan $B=\{1, 2, \ldots, n\}$. Untuk setiap $k\in\mathbb{N}$ dengan $k\leq n$, buktikan bahwa banyaknya barisan $B_1, B_2, \ldots, B_k$ sedemikian sehingga $B_i\subseteq B$ untuk setiap $i\in\{1, 2, \ldots, k\}$ dan
+        $$\bigcup_{i=1}^kB_i=B$$
+        adalah $(2^k-1)^n$.
+        
+        <details style="margin-top: 10px;">
+            <summary style="cursor: pointer; color: #0366d6; font-weight: bold; user-select: none;">Lihat Solusi</summary>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; margin-top: 10px; border-radius: 4px; text-align: justify;">
+                Solusi diserahkan kepada pembaca sebagai latihan.
+            </div>
+        </details>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+        Diberikan $a\in\mathbb{R}$ serta interval terbuka dan terbatas $I\subseteq\mathbb{R}$ dengan $a\in I$. Diberikan juga fungsi terturunkan $f_n, g, h:I\to\mathbb{R}$ dengan $n\in\mathbb{N}$ yang memenuhi:
+        <ul style="list-style-type: none; padding-left: 15px; margin-top: 5px;">
+            <li>(a) $f_n(a)=g(a)$ untuk setiap $n\in\mathbb{N}$,</li>
+            <li>(b) $f_n'(x)\geq g'(x)$ untuk setiap $x\in I$ dengan $x>a$, dan</li>
+            <li>(c) barisan fungsi $(f_n')$ konvergen seragam ke $h'$ pada $I$.</li>
+        </ul>
+        Buktikan bahwa terdapat fungsi terturunkan $f:I\to\mathbb{R}$ sedemikian sehingga barisan fungsi $(f_n)$ konvergen ke $f$ pada $I$ dan memenuhi $g(x)\geq g(x)$ untuk setiap $x\in I$ dengan $x>a$.
+        
+        <details style="margin-top: 10px;">
+            <summary style="cursor: pointer; color: #0366d6; font-weight: bold; user-select: none;">Lihat Solusi</summary>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; margin-top: 10px; border-radius: 4px; text-align: justify;">
+                Solusi diserahkan kepada pembaca sebagai latihan.
+            </div>
+        </details>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+        Misalkan $R$ adalah ring dengan unsur satuan. Diketahui bahwa unsur $x, y\in R$ memenuhi $xy=1$ tetapi $yx\neq1$. 
+        <ul style="list-style-type: none; padding-left: 15px; margin-top: 5px;">
+            <li>(a) Untuk setiap $m, n\in\mathbb{N}$ yang berbeda, tunjukkan bahwa $y^mx^m\neq y^nx^n$.</li>
+            <li>(b) Tunjukkan bahwa terdapat tak hingga banyaknya unsur $z\in R$ yang memenuhi $z^{2020}=0$.</li>
+        </ul>
+        
+        <details style="margin-top: 10px;">
+            <summary style="cursor: pointer; color: #0366d6; font-weight: bold; user-select: none;">Lihat Solusi</summary>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; margin-top: 10px; border-radius: 4px; text-align: justify;">
+                Solusi diserahkan kepada pembaca sebagai latihan.
+            </div>
+        </details>
+    </li>
+
+    <li style="margin-bottom: 25px;">
+        Misalkan $A$, $B$, $C$, dan $D$ adalah matriks berukuran $9\times9$ dengan entri real yang memenuhi $CA=BC$. Jika $A$ dan $B$ memiliki polinomial karakteristik yang sama, selidiki apakah $A-DC$ dan $B-CD$ juga memiliki polinomial karakteristik yang sama.
+        
+        <details style="margin-top: 10px;">
+            <summary style="cursor: pointer; color: #0366d6; font-weight: bold; user-select: none;">Lihat Solusi</summary>
+            <div style="background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; margin-top: 10px; border-radius: 4px; text-align: justify;">
+                Solusi diserahkan kepada pembaca sebagai latihan.
+            </div>
+        </details>
+    </li>
+
+</ol>
