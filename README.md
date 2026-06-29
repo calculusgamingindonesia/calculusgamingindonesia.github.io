@@ -1,1 +1,0 @@
-# calculusgamingindonesia.github.io
