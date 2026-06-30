@@ -84,6 +84,32 @@
       content: none;
     }
     </style>
+
+    @media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 1.5rem !important; 
+        line-height: 1.4 !important;
+    }
+    
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ol {
+        padding-left: 1.5em; 
+    }
+    ol > li::before {
+        left: -1.5em;
+    }
+
+    .MathJax_Display, .katex-display {
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 10px;
+    }
+}
     
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
 </head>
