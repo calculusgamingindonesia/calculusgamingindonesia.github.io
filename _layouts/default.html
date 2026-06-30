@@ -59,28 +59,34 @@
             padding-left: 0;
             margin-top: 15px;
         }
-        ol ul > li {
-            padding-left: 2em;
-            text-indent: -1.5em;
-            margin-bottom: 12px;
-            line-height: 1.7;
-        }
-        ol ul > li::before {
-            content: none;
-        }
-        
         ol ol {
             list-style-type: lower-alpha;
             padding-left: 2em;
             counter-reset: none;
             margin-top: 10px;
         }
-        ol ol > li {
+
+        ol ul > li, ol ol > li {
+            position: relative;
+            padding-left: 2em !important;
+            text-indent: 0 !important;
             margin-bottom: 12px;
-            text-indent: 0;
+            line-height: 1.7;
+            text-align: justify;
         }
-        ol ol > li::before {
+        ol ul > li::before, ol ol > li::before {
             content: none;
+        }
+
+        .custom-sub-marker {
+            position: absolute;
+            left: 0;
+            width: 1.5em;
+            text-align: right;
+        }
+        .custom-sub-content {
+            display: block;
+            text-align: justify;
         }
 
         @media screen and (max-width: 768px) {
@@ -99,21 +105,7 @@
                 left: -2.25em;
             }
             ol ul > li, ol ol > li {
-                position: relative;
-                padding-left: 2em !important;
-                text-indent: 0 !important;
-                text-align: justify;
-            }
-            .custom-sub-marker {
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 2em;
-                text-align: left;
-            }
-            .custom-sub-content {
-                display: block;
-                text-align: justify;
+                padding-left: 2.25em !important;
             }
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
@@ -132,7 +124,7 @@
             let target = li.querySelector("p") || li;
             let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
             if (match) {
-                let marker = match[1];
+                let marker = match[1].trim();
                 let content = target.innerHTML.substring(match[0].length);
                 target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
             }
