@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi ONMIPA Nasional Matematika 2019 (Hari Kedua)"
 date: 2026-06-28
 category: soaldansolusi
-urutan: 8
+urutan: 4
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
