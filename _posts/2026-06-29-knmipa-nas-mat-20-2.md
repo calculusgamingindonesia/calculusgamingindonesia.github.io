@@ -46,7 +46,7 @@ urutan: 10
    * (ii) $f_n'(x)\geq g'(x)$ untuk setiap $x\in I$ dengan $x>a$, dan
    * (iii) barisan fungsi $(f_n')$ konvergen seragam ke $h'$ pada $I$.
    
-   Buktikan bahwa terdapat fungsi terturunkan $f:I\to\mathbb{R}$ sedemikian sehingga barisan fungsi $(f_n)$ konvergen ke $f$ pada $I$ dan memenuhi $f(x)\geq g(x)$ untuk setiap $x\in I$ dengan $x>a$.
+   Buktikan bahwa terdapat fungsi terturunkan $f:I\to\mathbb{R}$ sedemikian sehingga barisan fungsi $(f_n)$ konvergen ke $f$ pada $I$ dan memenuhi $h(x)\geq g(x)$ untuk setiap $x\in I$ dengan $x>a$.
    
    <details>
        <summary>Lihat Solusi</summary>
