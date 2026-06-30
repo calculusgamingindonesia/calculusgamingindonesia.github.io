@@ -14,10 +14,11 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <style>
-    /* 1. PENGATURAN BODY (Dipisahkan agar tidak error) */
     body { 
         font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
         font-size: 17px;
+        color: #000000;
+        font-weight: 500;
         line-height: 1.65;
         margin: 40px auto; 
         max-width: 800px; 
@@ -25,7 +26,6 @@
         text-align: justify;
     }
 
-    /* 2. PENGATURAN LINK & KOTAK SOLUSI */
     a { color: #0366d6; text-decoration: none; }
     a:hover { text-decoration: underline; }
     
@@ -33,39 +33,36 @@
     summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
     .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
 
-/* 3. PENOMORAN SOAL UTAMA BERKURUNG (1), (2), (3)... */
     ol {
-      list-style-type: none;       /* Matikan angka 1. 2. 3. bawaan */
-      counter-reset: soal-counter; /* Siapkan penghitung otomatis */
-      padding-left: 2em;           /* Jarak menjorok ke dalam untuk soal */
+      list-style-type: none;   
+      counter-reset: soal-counter;
+      padding-left: 2em;    
     }
 
     ol > li {
       counter-increment: soal-counter;
       position: relative;
-      margin-bottom: 30px;         /* Jarak antar soal utama */
+      margin-bottom: 30px;     
     }
 
-    /* Membuat angka (1) (2) otomatis, tebal, dan rapi di kiri */
     ol > li::before {
       content: "(" counter(soal-counter) ")";
       position: absolute;
-      left: -2em;                  /* Ditarik ke kiri agar pas di luar teks */
+      left: -2em;               
       width: 1.5em;
       text-align: right;
       font-weight: bold;
     }
 
-    /* 4. PERBAIKAN SUB-SOAL & SYARAT (HANGING INDENT SEMPURNA) */
     ol ul {
-      list-style-type: none;       /* Hilangkan bulatan hitam Markdown */
+      list-style-type: none;   
       padding-left: 0;
       margin-top: 15px;
     }
     
     ol ul > li {
-      padding-left: 2em;           /* Dorong semua teks ke kanan */
-      text-indent: -2em;           /* Tarik HANYA baris pertama ke kiri untuk tempat (a) */
+      padding-left: 2em;  
+      text-indent: -2em; 
       margin-bottom: 12px;
       line-height: 1.7;
     }
@@ -74,7 +71,6 @@
       content: none; 
     }
 
-    /* Jaga-jaga jika kamu menggunakan daftar abjad bawaan (a, b) */
     ol ol {
       list-style-type: lower-alpha;
       padding-left: 2em;
