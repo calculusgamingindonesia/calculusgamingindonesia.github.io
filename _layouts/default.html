@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | Calculus Gaming Indonesia</title>
-    
     <script>
       MathJax = { tex: { inlineMath: [['$', '$']],
     macros: {
@@ -12,64 +11,54 @@
     } } };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
     <style>
-    body { 
+    body {
         font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
         font-size: 17px;
         color: #000000;
         font-weight: 500;
         line-height: 1.65;
-        margin: 40px auto; 
-        max-width: 800px; 
-        padding: 0 20px; 
+        margin: 40px auto;
+        max-width: 800px;
+        padding: 0 20px;
         text-align: justify;
     }
-
     a { color: #0366d6; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    
     details { margin-top: 10px; }
     summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
     .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
-
     ol {
-      list-style-type: none;   
+      list-style-type: none;
       counter-reset: soal-counter;
-      padding-left: 2em;    
+      padding-left: 2em;
     }
-
     ol > li {
       counter-increment: soal-counter;
       position: relative;
-      margin-bottom: 30px;     
+      margin-bottom: 30px;
     }
-
     ol > li::before {
       content: "(" counter(soal-counter) ")";
       position: absolute;
-      left: -2em;               
+      left: -2em;
       width: 1.5em;
       text-align: right;
     }
-
     ol ul {
-      list-style-type: none;   
+      list-style-type: none;
       padding-left: 0;
       margin-top: 15px;
     }
-    
     ol ul > li {
-      padding-left: 2em;  
-      text-indent: -2em; 
+      padding-left: 2em;
+      text-indent: -2em;
       margin-bottom: 12px;
       line-height: 1.7;
     }
-    
     ol ul > li::before {
-      content: none; 
+      content: none;
     }
-
     ol ol {
       list-style-type: lower-alpha;
       padding-left: 2em;
@@ -83,34 +72,27 @@
     ol ol > li::before {
       content: none;
     }
-    
 @media screen and (max-width: 768px) {
         h1 {
-            font-size: 1.5rem !important; 
+            font-size: 1.5rem !important;
             line-height: 1.4 !important;
         }
-        
         body {
             padding-left: 15px;
             padding-right: 15px;
         }
-
         ol {
-            padding-left: 1.75em; 
+            padding-left: 1.75em;
         }
         ol > li::before {
             left: -2.25em;
         }
-
-        /* MODIFIKASI: Mengunci teks subnomor agar wajib rata kiri di awal */
         ol ul > li, ol ol > li {
             position: relative;
-            padding-left: 2em !important; /* Ruang khusus di kiri untuk nomor */
-            text-indent: 0 !important;        /* Matikan indentasi lama agar tidak renggang */
+            padding-left: 2em !important;
+            text-indent: 0 !important;
             text-align: justify;
         }
-        
-        /* Gaya untuk penanda (i), (ii), (a) yang dipisah */
         .custom-sub-marker {
             position: absolute;
             left: 0;
@@ -118,13 +100,10 @@
             width: 2em;
             text-align: left;
         }
-
-        /* Gaya untuk teks utama agar kata pertama terkunci di pinggir kiri */
         .custom-sub-content {
             display: block;
             text-align: justify;
         }
-
         .MathJax_Display, .katex-display {
             overflow-x: auto;
             overflow-y: hidden;
@@ -132,7 +111,6 @@
         }
     }
     </style>
-
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
 </head>
     <script>
@@ -153,7 +131,6 @@
         <h2><a href="/">Calculus Gaming Indonesia</a></h2>
         <hr>
     </header>
-
     <main>
         {{ content }}
     </main>
