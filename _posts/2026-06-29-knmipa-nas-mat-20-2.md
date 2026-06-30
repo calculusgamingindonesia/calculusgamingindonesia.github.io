@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Soal dan Solusi ONMIPA Nasional Tahun 2020 (Hari Kedua)"
+title: "Soal dan Solusi KNMIPA Nasional Matematika 2020 (Hari Kedua)"
 date: 2026-06-29
 category: soaldansolusi
 urutan: 10
@@ -8,8 +8,8 @@ urutan: 10
 
 <div style="text-align: center; margin-bottom: 40px;">
     <h1 style="margin: 0; line-height: 1.3;">
-        Soal dan Solusi ONMIPA Nasional <br>
-        Tahun 2020 (Hari Kedua)
+        Soal dan Solusi KNMIPA Nasional <br>
+        Matematika 2020 (Hari Kedua)
     </h1>
 </div>
 
