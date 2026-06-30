@@ -3,28 +3,30 @@ layout: default
 ---
 <h1>Daftar Soal dan Solusi</h1>
 {% if site.categories.soaldansolusi %}
-  <ul>
-    {% assign soaldansolusi_terurut = site.categories.soaldansolusi | sort: 'urutan' %}
-    {% for post in soaldansolusi_terurut %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul>
+        {% assign soaldansolusi_terurut = site.categories.soaldansolusi | sort: 'urutan' %}
+        {% for post in soaldansolusi_terurut %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 {% else %}
-  <p>Belum ada soal dan solusi karena penulis sedang malas.</p>
+    <p>Belum ada soal dan solusi karena penulis sedang malas.</p>
 {% endif %}
+
 <br>
+
 <h1>Daftar Materi Menarik</h1>
 {% if site.categories.materimenarik %}
-  <ul>
-    {% assign materimenarik_terurut = site.categories.materimenarik | sort: 'urutan' %}
-    {% for post in materimenarik_terurut %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul>
+        {% assign materimenarik_terurut = site.categories.materimenarik | sort: 'urutan' %}
+        {% for post in materimenarik_terurut %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 {% else %}
-  <p>Belum ada materi menarik karena penulis sedang malas.</p>
+    <p>Belum ada materi menarik karena penulis sedang malas.</p>
 {% endif %}
