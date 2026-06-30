@@ -33,39 +33,41 @@
     summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
     .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
 
-    /* 3. PENOMORAN SOAL UTAMA BERKURUNG (1), (2), (3)... */
+/* 3. PENOMORAN SOAL UTAMA BERKURUNG (1), (2), (3)... */
     ol {
-      list-style-type: none;
-      counter-reset: soal-counter;
-      padding-left: 2.5em;
+      list-style-type: none;       /* Matikan angka 1. 2. 3. bawaan */
+      counter-reset: soal-counter; /* Siapkan penghitung otomatis */
+      padding-left: 2em;           /* Jarak menjorok ke dalam untuk soal */
     }
 
     ol > li {
       counter-increment: soal-counter;
       position: relative;
-      margin-bottom: 25px;
+      margin-bottom: 30px;         /* Jarak antar soal utama */
     }
 
+    /* Membuat angka (1) (2) otomatis, tebal, dan rapi di kiri */
     ol > li::before {
       content: "(" counter(soal-counter) ")";
       position: absolute;
-      left: -2.5em;
-      width: 2em;
+      left: -2em;                  /* Ditarik ke kiri agar pas di luar teks */
+      width: 1.5em;
       text-align: right;
       font-weight: bold;
     }
 
-    /* 4. PERBAIKAN SUB-SOAL & SYARAT (HANGING INDENT) */
+    /* 4. PERBAIKAN SUB-SOAL & SYARAT (HANGING INDENT SEMPURNA) */
     ol ul {
-      list-style-type: none; 
-      padding-left: 2.5em;
-      counter-reset: none;
-      margin-top: 10px;
+      list-style-type: none;       /* Hilangkan bulatan hitam Markdown */
+      padding-left: 0;
+      margin-top: 15px;
     }
     
     ol ul > li {
-      text-indent: -2.2em; /* Menarik baris pertama ke kiri */
+      padding-left: 2em;           /* Dorong semua teks ke kanan */
+      text-indent: -2em;           /* Tarik HANYA baris pertama ke kiri untuk tempat (a) */
       margin-bottom: 12px;
+      line-height: 1.7;
     }
     
     ol ul > li::before {
