@@ -18,23 +18,23 @@ urutan: 9
    $$\dbinom{m+1}{x+y+1}=\sum_{i=0}^m\dbinom{i}{x}\dbinom{m-i}{y}.$$
    
    <details>
-     <summary>Lihat Solusi</summary>
-     <div class="kotak-solusi" markdown="1">
-     
-     Solusi diserahkan kepada pembaca sebagai latihan.
-     
-     </div>
+       <summary>Lihat Solusi</summary>
+       <div class="kotak-solusi" markdown="1">
+       
+       Solusi diserahkan kepada pembaca sebagai latihan.
+       
+       </div>
    </details>
 
 2. Tentukan semua fungsi $f:\mathbb{C}\to\mathbb{C}$ yang memenuhi $f(0)=0$ dan $\vert f(z)-f(w)\vert=\vert z-w\vert$ untuk setiap $z\in\mathbb{C}$ dan $w\in\set{0, 1, i}$.
    
    <details>
-     <summary>Lihat Solusi</summary>
-     <div class="kotak-solusi" markdown="1">
-     
-     Solusi diserahkan kepada pembaca sebagai latihan.
-     
-     </div>
+       <summary>Lihat Solusi</summary>
+       <div class="kotak-solusi" markdown="1">
+       
+       Solusi diserahkan kepada pembaca sebagai latihan.
+       
+       </div>
    </details>
 
 3. Diberikan fungsi kontinu $f:[a, b]\to\mathbb{R}$ dan fungsi $F:[a, b]\to\mathbb{R}$ dengan
@@ -44,12 +44,12 @@ urutan: 9
    Jika $(p_n)\subseteq[a, b]$ adalah barisan Cauchy, buktikan bahwa terdapat $p, c\in[a, b]$ sedemikian sehingga barisan $(F(p_n))$ konvergen ke $f(c)(p-a)$.
    
    <details>
-     <summary>Lihat Solusi</summary>
-     <div class="kotak-solusi" markdown="1">
-     
-     Solusi diserahkan kepada pembaca sebagai latihan.
-     
-     </div>
+       <summary>Lihat Solusi</summary>
+       <div class="kotak-solusi" markdown="1">
+       
+       Solusi diserahkan kepada pembaca sebagai latihan.
+       
+       </div>
    </details>
 
 4. Misalkan $V$ adalah ruang vektor berdimensi $n \geq 2$ dan $\mathcal{B} = \set{v_1, v_2, \dots, v_n}$ adalah basis dari $V$. Diberikan operator linear $T: V \to V$ yang memiliki invers dan operator linear $A, B: V \to V$ yang memenuhi $A(v_1) = B(v_1) = 0$, $A(v_i) = T^{-1}(v_i)$, dan $B(v_i) = T^{-1}(v_{i-1})$ untuk setiap $i \in \set{2, 3, \dots, n}$.
@@ -57,21 +57,21 @@ urutan: 9
    * (b) Tentukan nilai dari $\mathrm{rank}((B \circ T)^{n-1})$.
    
    <details>
-     <summary>Lihat Solusi</summary>
-     <div class="kotak-solusi" markdown="1">
-     
-     Solusi diserahkan kepada pembaca sebagai latihan.
-     
-     </div>
+       <summary>Lihat Solusi</summary>
+       <div class="kotak-solusi" markdown="1">
+       
+       Solusi diserahkan kepada pembaca sebagai latihan.
+       
+       </div>
    </details>
 
 5. Misalkan $G$ adalah grup hingga dan $m\in\mathbb{N}$ adalah kelipatan $3$. Jika $G$ memuat tepat sebanyak $m$ unsur berorde $m$, buktikan bahwa $m$ adalah kelipatan $6$ dan $G$ memuat tepat $3$ subgrup siklik berorde $m$.
    
    <details>
-     <summary>Lihat Solusi</summary>
-     <div class="kotak-solusi" markdown="1">
-     
-     Solusi diserahkan kepada pembaca sebagai latihan.
-     
-     </div>
+       <summary>Lihat Solusi</summary>
+       <div class="kotak-solusi" markdown="1">
+       
+       Solusi diserahkan kepada pembaca sebagai latihan.
+       
+       </div>
    </details>
