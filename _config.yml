@@ -1,3 +1,5 @@
 title: Calculus Gaming Indonesia
 description: Platform diskusi dan solusi soal matematika kompetisi.
 theme: minima
+plugins:
+  - jekyll-sitemap
