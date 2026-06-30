@@ -52,7 +52,7 @@ urutan: 3
        </div>
    </details>
 
-4. Diberikan fungsi analitik $f:U\to\mathbb{C}$ dengan $U=\{z\in\mathbb{C}:\vert z\vert<1\}$ dan
+4. Diberikan fungsi analitik $f:U\to\mathbb{C}$ dengan $U=\set{z\in\mathbb{C}:\vert z\vert<1}$ dan
    
    $$f(z)=\sum_{n=0}^\infty c_nz^n$$
    
