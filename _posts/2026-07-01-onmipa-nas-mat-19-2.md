@@ -63,7 +63,7 @@ urutan: 4
        </div>
    </details>
 
-5. Diberikan barisan $(a_n)\subseteq\mathbb{R}^+$ dengan $n\in\mathbb{N}\cup\{0\}$. Barisan tersebut memenuhi $\sqrt{a_1}\geq\sqrt{a_0}+1$ dan $\bigg\vert a_{n+1}-\dfrac{a_n^2}{a_{n-1}}\bigg\vert\leq1$ untuk setiap $n\in\mathbb{N}$. Buktikan bahwa barisan $\bigg(\dfrac{a_{n+1}}{a_n}\bigg)$ konvergen, katakan ke $\alpha$. Selanjutnya, buktikan bahwa barisan $\bigg(\dfrac{a_n}{\alpha^n}\bigg)$ juga konvergen.
+5. Diberikan barisan $(a_n)\subseteq\mathbb{R}^+$ dengan $n\in\mathbb{N}\cup\set{0}$. Barisan tersebut memenuhi $\sqrt{a_1}\geq\sqrt{a_0}+1$ dan $\bigg\vert a_{n+1}-\dfrac{a_n^2}{a_{n-1}}\bigg\vert\leq1$ untuk setiap $n\in\mathbb{N}$. Buktikan bahwa barisan $\bigg(\dfrac{a_{n+1}}{a_n}\bigg)$ konvergen, katakan ke $\alpha$. Selanjutnya, buktikan bahwa barisan $\bigg(\dfrac{a_n}{\alpha^n}\bigg)$ juga konvergen.
    
    <details>
        <summary>Lihat Solusi</summary>
