@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Soal dan Solusi KNMIPA Nasional Matematika 2020 (Hari Pertama)"
-/*description: "Website ini menyediakan solusi, jawaban, pembahasan, dan penyelesaian lengkap dari soal ONMIPA tingkat nasional bidang matematika tahun 2020 hari pertama. Ini adalah kompetisi sains paling populer untuk jenjang perguruan tinggi. Materi yang diujikan meliputi aljabar abstrak atau struktur aljabar, aljabar linier, analisis riil, analisis kompleks, dan kombinatorik."*/
 date: 2026-06-29
 category: soaldansolusi
 urutan: 9
