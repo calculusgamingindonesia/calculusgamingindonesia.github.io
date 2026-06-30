@@ -52,7 +52,7 @@ urutan: 4
        </div>
    </details>
 
-4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $b_1$, $b_2$, $\dots$, dan $b_k$ adalah vektor kolom berukuran $n-k$. Jika $A_i$ adalah kolom ke-$i$ dari $A$ untuk setiap $i\in\{1, 2, \ldots, n-k\}$, tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A_1&A_2&\cdots&A_{n-k}&Ab_1&Ab_2&\cdots&Ab_k\end{bmatrix}$.
+4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $b_1$, $b_2$, $\dots$, dan $b_k$ adalah vektor kolom berukuran $n-k$. Tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A&Ab_1&Ab_2&\cdots&Ab_k\end{bmatrix}$.
    
    <details>
        <summary>Lihat Solusi</summary>
@@ -63,7 +63,7 @@ urutan: 4
        </div>
    </details>
 
-5. Diberikan barisan $(a_n)\subseteq\mathbb{R}^+$ dengan $n\geq0$. Barisan tersebut memenuhi $\sqrt{a_1}\geq\sqrt{a_0}+1$ dan $\bigg\vert a_{n+1}-\dfrac{a_n^2}{a_{n-1}}\bigg\vert\leq1$ untuk setiap $n\in\mathbb{N}$. Buktikan bahwa barisan $\bigg(\dfrac{a_{n+1}}{a_n}\bigg)$ konvergen, katakan ke $\alpha$. Selanjutnya, buktikan bahwa barisan $\bigg(\dfrac{a_n}{\alpha^n}\bigg)$ juga konvergen.
+5. Diberikan barisan $(a_n)\subseteq\mathbb{R}^+$ dengan $n\in\mathbb{N}\cup\{0\}$. Barisan tersebut memenuhi $\sqrt{a_1}\geq\sqrt{a_0}+1$ dan $\bigg\vert a_{n+1}-\dfrac{a_n^2}{a_{n-1}}\bigg\vert\leq1$ untuk setiap $n\in\mathbb{N}$. Buktikan bahwa barisan $\bigg(\dfrac{a_{n+1}}{a_n}\bigg)$ konvergen, katakan ke $\alpha$. Selanjutnya, buktikan bahwa barisan $\bigg(\dfrac{a_n}{\alpha^n}\bigg)$ juga konvergen.
    
    <details>
        <summary>Lihat Solusi</summary>
