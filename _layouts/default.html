@@ -102,10 +102,27 @@
             left: -2.25em;
         }
 
+        /* MODIFIKASI: Mengunci teks subnomor agar wajib rata kiri di awal */
         ol ul > li, ol ol > li {
+            position: relative;
+            padding-left: 2.25em !important; /* Ruang khusus di kiri untuk nomor */
+            text-indent: 0 !important;        /* Matikan indentasi lama agar tidak renggang */
             text-align: justify;
-            padding-left: 1.75em;
-            text-indent: -1.75em;
+        }
+        
+        /* Gaya untuk penanda (i), (ii), (a) yang dipisah */
+        .custom-sub-marker {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2em;
+            text-align: left;
+        }
+
+        /* Gaya untuk teks utama agar kata pertama terkunci di pinggir kiri */
+        .custom-sub-content {
+            display: block;
+            text-align: justify;
         }
 
         .MathJax_Display, .katex-display {
@@ -121,7 +138,13 @@
     <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
-            li.innerHTML = li.innerHTML.replace(/^(\s*\S+)\s+/, '$1&nbsp;');
+            let target = li.querySelector("p") || li;
+            let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+            if (match) {
+                let marker = match[1];
+                let content = target.innerHTML.substring(match[0].length);
+                target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
+            }
         });
     });
     </script>
