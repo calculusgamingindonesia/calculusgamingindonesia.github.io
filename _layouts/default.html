@@ -83,25 +83,30 @@
     ol ol > li::before {
       content: none;
     }
-            @media screen and (max-width: 768px) {
-    
-    h1 {
-        font-size: 1.5rem !important; 
-        line-height: 1.4 !important;
-    }
-    
+@media screen and (max-width: 768px) {
+
     body {
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 16px;   
+        line-height: 1.7; 
+        padding-left: 20px;   
+        padding-right: 20px;
+    }
+
+    h1 {
+        font-size: 1.4rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 25px !important;
     }
 
     ol {
-        padding-left: 1.5em; 
+        padding-left: 1.2em;   
     }
+    
     ol > li::before {
-        left: -1.5em;
+        left: -1.2em;
     }
 
+    /* Mengamankan rumus panjang */
     .MathJax_Display, .katex-display {
         overflow-x: auto;
         overflow-y: hidden;
