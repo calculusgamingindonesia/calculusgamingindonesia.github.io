@@ -84,8 +84,7 @@
       content: none;
     }
     
-    /* PENGATURAN KHUSUS LAYAR HP (MOBILE) */
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
         h1 {
             font-size: 1.5rem !important; 
             line-height: 1.4 !important;
@@ -94,14 +93,23 @@
         body {
             padding-left: 15px;
             padding-right: 15px;
+            /* Tambahan: Mencegah spasi melar brutal dengan mengizinkan pemotongan suku kata */
+            hyphens: auto;
+            -webkit-hyphens: auto;
         }
 
-        /* Nomor soal ditarik lebih jauh ke kiri agar tidak menempel */
         ol {
             padding-left: 1.75em; 
         }
         ol > li::before {
             left: -2.25em;
+        }
+
+        /* TAMBAHAN: Menjinakkan spasi subnomor agar kata pertama tetap menempel di kiri */
+        ol ul > li, ol ol > li {
+            text-align: justify;
+            padding-left: 1.2em; 
+            text-indent: -1.2em; 
         }
 
         .MathJax_Display, .katex-display {
