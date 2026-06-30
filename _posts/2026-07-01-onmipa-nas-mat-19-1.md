@@ -17,6 +17,7 @@ urutan: 3
    * (a) Untuk setiap $x, y\in\mathbb{R}$ dengan $x<y$, buktikan bahwa
 
    $$f\bigg(\dfrac{x+y}{2}\bigg)\leq\dfrac{f(x)+f(y)}{2}.$$
+   
    * (b) Buktikan bahwa
    
    $$\int_0^{2\pi}f(x)\cos x\,\mathrm{d}x\geq0.$$
@@ -30,7 +31,7 @@ urutan: 3
        </div>
    </details>
 
-2. Misalkan $G$ adalah grup dan $H$ adalah subgrup sejati dari $G$. Buktikan bahwa tidak ada subgrup $S$ dari $G$ dengan $S\neq G$ dan $S\supseteq G-H$.
+3. Misalkan $G$ adalah grup dan $H$ adalah subgrup sejati dari $G$. Buktikan bahwa tidak ada subgrup $S$ dari $G$ dengan $S\neq G$ dan $S\supseteq G-H$.
    
    <details>
        <summary>Lihat Solusi</summary>
@@ -41,7 +42,7 @@ urutan: 3
        </div>
    </details>
 
-3. Diberikan $n, k\in\mathbb{Z}$ dengan $0\leq k\leq\dfrac{n}{2}$. Buktikan secara kombinatorial bahwa
+4. Diberikan $n, k\in\mathbb{Z}$ dengan $0\leq k\leq\dfrac{n}{2}$. Buktikan secara kombinatorial bahwa
    
    $$\sum_{m=k}^{n-k}\dbinom{m}{m-k}\dbinom{n-m}{k}=\dbinom{n+1}{2k+1}.$$
    
@@ -54,7 +55,7 @@ urutan: 3
        </div>
    </details>
 
-4. Diberikan fungsi analitik $f:U\to\mathbb{C}$ dengan $U=\set{z\in\mathbb{C}:\vert z\vert<1}$ dan
+5. Diberikan fungsi analitik $f:U\to\mathbb{C}$ dengan $U=\set{z\in\mathbb{C}:\vert z\vert<1}$ dan
    
    $$f(z)=\sum_{n=0}^\infty c_nz^n$$
    
@@ -79,7 +80,7 @@ urutan: 3
        </div>
    </details>
 
-5. Diberikan matriks $F$ dan $H$ yang berukuran $n\times n$ dan memenuhi $HF-FH=2^{2019}F$. Misalkan $v$ adalah vektor eigen dari $H$ dengan $Fv\neq0$. Buktikan bahwa terdapat $k\in\mathbb{N}$ sedemikian sehingga $F^kv$ adalah vektor eigen dari $F$.
+6. Diberikan matriks $F$ dan $H$ yang berukuran $n\times n$ dan memenuhi $HF-FH=2^{2019}F$. Misalkan $v$ adalah vektor eigen dari $H$ dengan $Fv\neq0$. Buktikan bahwa terdapat $k\in\mathbb{N}$ sedemikian sehingga $F^kv$ adalah vektor eigen dari $F$.
    
    <details>
        <summary>Lihat Solusi</summary>
