@@ -14,9 +14,7 @@ urutan: 3
 </div>
 
 1. Diberikan fungsi $f:\mathbb{R}\to\mathbb{R}$ yang memenuhi $\lambda f(x)+(1-\lambda)f(y)-f(\lambda x+(1-\lambda)y)\geq0$ untuk setiap $\lambda\in[0, 1]$ dan $x, y\in\mathbb{R}$.
-   * (a) Untuk setiap $x, y\in\mathbb{R}$ dengan $x<y$, buktikan bahwa
-
-   $$f\bigg(\dfrac{x+y}{2}\bigg)\leq\dfrac{f(x)+f(y)}{2}.$$
+   * (a) Untuk setiap $x, y\in\mathbb{R}$ dengan $x<y$, buktikan bahwa $f\bigg(\dfrac{x+y}{2}\bigg)\leq\dfrac{f(x)+f(y)}{2}$.
    
    * (b) Buktikan bahwa
    
@@ -67,9 +65,7 @@ urutan: 3
    
    $$W=\pi\sum_{n=1}^\infty n\vert c_n\vert^2.$$
    
-   * (b) Untuk setiap $z\in U$, buktikan bahwa
-   
-   $$\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}.$$
+   * (b) Untuk setiap $z\in U$, buktikan bahwa $\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}$.
    
    <details>
        <summary>Lihat Solusi</summary>
