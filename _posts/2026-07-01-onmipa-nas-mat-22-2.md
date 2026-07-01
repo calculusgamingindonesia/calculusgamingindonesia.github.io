@@ -34,7 +34,7 @@ urutan: 20
        
    </div>
    </details>
-3. Diberikan polinomial kompleks $f$ dengan $f(z)=1+c_1z+c_2z^2+\ldots+c_kz^k$ untuk setiap $z\in\mathbb{C}$ dan $\vert c_n\vert<1945$ untuk setiap $n\in\set{1, 2, \ldots, k}$. Buktikan bahwa fungsi $f$ tidak memiliki akar $z$ dengan $\vert z\vert<\dfrac{1}{2022}$.
+3. Diberikan polinomial kompleks $f$ dengan $f(z)=1+c_1z+c_2z^2+\cdots+c_kz^k$ untuk setiap $z\in\mathbb{C}$ dan $\vert c_n\vert<1945$ untuk setiap $n\in\set{1, 2, \ldots, k}$. Buktikan bahwa fungsi $f$ tidak memiliki akar $z$ dengan $\vert z\vert<\dfrac{1}{2022}$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -61,7 +61,7 @@ urutan: 20
 
 5. Diberikan $n, m\in\mathbb{N}$ dengan $n\leq m$. Buktikan bahwa
 
-   $\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\1&P_1^{m+1}&P_2^{m+1}&\ldots&P_n^{m+1}\\hdots&\hdots&\ddots&\hdots\\1&P_1^{m+n}&P_2^{m+n}&\ldots&P_n^{m+n}\\\end{bmatrix}=1!\cdot2!\cdot\ldots\cdot n!$.
+   $\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\1&P_1^{m+1}&P_2^{m+1}&\cdots&P_n^{m+1}\\hdots&\hdots&\ddots&\hdots\\1&P_1^{m+n}&P_2^{m+n}&\cdots&P_n^{m+n}\end{bmatrix}=1!\cdot2!\cdot\ldots\cdot n!$.
    
    <details>
    <summary>Lihat Solusi</summary>
