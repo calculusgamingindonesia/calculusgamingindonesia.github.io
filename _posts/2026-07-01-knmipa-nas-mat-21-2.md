@@ -60,7 +60,7 @@ urutan: 14
    </div>
    </details>
 
-5. Misalkan $(A, +)$ adalah grup siklik dengan $n$ unsur dan pembangun $\alpha$. Untuk setiap $m\in\mathbb{N}$, didefinisikan ring $A_m$ dengan $(A_m, +)=(A, +)$ dan perkalian yang didefinisikan dengan $\alpha\cdot\alpha=\underbrace{\alpha+\alpha+\cdots+\alpha}_{m}=m\alpha$. Buktikan bahwa $A_r\cong A_s$ sebagai ring jika dan hanya jika $\mathrm{FPB}(r, n)=\mathrm{FPB}(s, n)$.
+5. Misalkan $(A, +)$ adalah grup siklik dengan $n$ unsur dan pembangun $\alpha$. Untuk setiap $m\in\mathbb{N}$, didefinisikan ring $A_m$ dengan $(A_m, +)=(A, +)$ dan operasi perkalian yang memenuhi $\alpha\cdot\alpha=\underbrace{\alpha+\alpha+\cdots+\alpha}_{m}=m\alpha$. Buktikan bahwa $A_r\cong A_s$ sebagai ring jika dan hanya jika $\mathrm{FPB}(r, n)=\mathrm{FPB}(s, n)$.
    
    <details>
    <summary>Lihat Solusi</summary>
