@@ -18,12 +18,12 @@ urutan: 10
    * (b) Jika $(a, b)$ adalah pasangan seimbang dan $a^{2020}=b^{2020}$, tunjukkan bahwa $a=b$.
    
    <details>
-       <summary>Lihat Solusi</summary>
-       <div class="kotak-solusi" markdown="1">
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
        
-       Solusi diserahkan kepada pembaca sebagai latihan.
-       
-       </div>
+   </div>
    </details>
 
 2. Misalkan $B=\set{1, 2, \ldots, n}$. Untuk setiap $k\in\mathbb{N}$ dengan $k\leq n$, buktikan bahwa banyaknya barisan $B_1, B_2, \ldots, B_k$ sedemikian sehingga $B_i\subseteq B$ untuk setiap $i\in\set{1, 2, \ldots, k}$ dan
@@ -33,12 +33,12 @@ urutan: 10
    adalah $(2^k-1)^n$.
    
    <details>
-       <summary>Lihat Solusi</summary>
-       <div class="kotak-solusi" markdown="1">
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
        
-       Solusi diserahkan kepada pembaca sebagai latihan.
-       
-       </div>
+   </div>
    </details>
 
 3. Diberikan $a\in\mathbb{R}$ serta interval terbuka dan terbatas $I\subseteq\mathbb{R}$ dengan $a\in I$. Diberikan juga fungsi terturunkan $f_n, g, h:I\to\mathbb{R}$ dengan $n\in\mathbb{N}$ yang memenuhi
@@ -49,12 +49,12 @@ urutan: 10
    Buktikan bahwa terdapat fungsi terturunkan $f:I\to\mathbb{R}$ sedemikian sehingga barisan fungsi $(f_n)$ konvergen ke $f$ pada $I$ dan memenuhi $h(x)\geq g(x)$ untuk setiap $x\in I$ dengan $x>a$.
    
    <details>
-       <summary>Lihat Solusi</summary>
-       <div class="kotak-solusi" markdown="1">
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
        
-       Solusi diserahkan kepada pembaca sebagai latihan.
-       
-       </div>
+   </div>
    </details>
 
 4. Misalkan $R$ adalah ring dengan unsur satuan. Diketahui bahwa unsur $x, y\in R$ memenuhi $xy=1$ tetapi $yx\neq1$. 
@@ -62,21 +62,21 @@ urutan: 10
    * (b) Tunjukkan bahwa terdapat tak hingga banyaknya unsur $z\in R$ yang memenuhi $z^{2020}=0$. 
    
    <details>
-       <summary>Lihat Solusi</summary>
-       <div class="kotak-solusi" markdown="1">
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
        
-       Solusi diserahkan kepada pembaca sebagai latihan.
-       
-       </div>
+   </div>
    </details>
 
 5. Misalkan $A$, $B$, $C$, dan $D$ adalah matriks berukuran $9\times9$ dengan entri real yang memenuhi $CA=BC$. Jika $A$ dan $B$ memiliki polinomial karakteristik yang sama, selidiki apakah $A-DC$ dan $B-CD$ juga memiliki polinomial karakteristik yang sama.
    
    <details>
-       <summary>Lihat Solusi</summary>
-       <div class="kotak-solusi" markdown="1">
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
        
-       Solusi diserahkan kepada pembaca sebagai latihan.
-       
-       </div>
+   </div>
    </details>
