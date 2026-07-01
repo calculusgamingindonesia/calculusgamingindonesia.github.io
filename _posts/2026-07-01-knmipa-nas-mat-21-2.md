@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Soal dan Solusi KNMIPA Nasional Matematika 2021 (Hari Pertama)"
+title: "Soal dan Solusi KNMIPA Nasional Matematika 2021 (Hari Kedua)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 13
+urutan: 14
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
@@ -36,7 +36,7 @@ urutan: 13
        
    </div>
    </details>
-3. Misalkan $n\in\mathbb{N}$ dan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\{1, 2, \ldots, n\}$. Tentukan nilai dari $\mathrm{det}(A_n)$.
+3. Misalkan $n\in\mathbb{N}$ dan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\set{1, 2, \ldots, n}$. Tentukan nilai dari $\mathrm{det}(A_n)$.
    
    <details>
    <summary>Lihat Solusi</summary>
