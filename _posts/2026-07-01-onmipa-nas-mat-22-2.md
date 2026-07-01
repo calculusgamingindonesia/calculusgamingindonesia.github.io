@@ -24,7 +24,7 @@ urutan: 20
    </div>
    </details>
 
-2. Diberikan fungsi terbatas $f:[a, b]\to\mathbb{R}$ dan $x_0\in(a, b)$. Didefinisikan fungsi $p:(a, b)\to\mathbb{R}$ dengan $p(x)=\sup\set{f(t):t<x}$. Jika $f$ kontinu di $x_0$, selidiki apakah $p$ juga kontinu di $x_0$.
+2. Diberikan fungsi terbatas $f:[a, b]\to\mathbb{R}$ dan $x_0\in(a, b)$. Didefinisikan fungsi $p:(a, b)\to\mathbb{R}$ dengan $p(x)=\sup\set{f(t):t\in[a, x]}$. Jika $f$ kontinu di $x_0$, selidiki apakah $p$ juga kontinu di $x_0$.
 
    <details>
    <summary>Lihat Solusi</summary>
@@ -61,7 +61,7 @@ urutan: 20
 
 5. Diberikan $n, m\in\mathbb{N}$ dengan $n\leq m$. Buktikan bahwa
 
-   $$\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\\\1&P_1^{m+1}&P_2^{m+1}&\cdots&P_n^{m+1}\\\\\vdots&\vdots&\vdots&\ddots&\vdots\\\\1&P_1^{m+n}&P_2^{m+n}&\cdots&P_n^{m+n}\end{bmatrix}=1!\cdot2!\cdot\ldots\cdot n!.$$
+   $$\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\\\1&P_1^{m+1}&P_2^{m+1}&\cdots&P_n^{m+1}\\\\\vdots&\vdots&\vdots&\ddots&\vdots\\\\1&P_1^{m+n}&P_2^{m+n}&\cdots&P_n^{m+n}\end{bmatrix}=1!\cdot2!\cdot\cdots\cdot n!.$$
    
    <details>
    <summary>Lihat Solusi</summary>
