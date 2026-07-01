@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Soal dan Solusi ONMIPA Nasional Matematika 2022 (Hari Pertama)"
-date: 2026-07-02
+date: 2026-07-01
 category: soaldansolusi
 urutan: 19
 ---
