@@ -21,12 +21,12 @@ urutan: 3
    $$\int_0^{2\pi}f(x)\cos x\,\mathrm{d}x\geq0.$$
    
 <details>
-       <summary>Lihat Solusi</summary>
-           <div class="kotak-solusi" markdown="1">
+    <summary>Lihat Solusi</summary>
+        <div class="kotak-solusi" markdown="1">
            Solusi diserahkan kepada pembaca sebagai latihan.
        
-       </div>
-   </details>
+        </div>
+</details>
 
 3. Misalkan $G$ adalah grup dan $H$ adalah subgrup sejati dari $G$. Buktikan bahwa tidak ada subgrup $S$ dari $G$ dengan $S\neq G$ dan $S\supseteq G-H$.
    
