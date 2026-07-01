@@ -67,7 +67,7 @@ urutan: 13
 5. Diberikan barisan fungsi kontinu $(f_n)$ dengan $f_n:[0, 1]\to[0, \infty)$ untuk setiap $n\in\mathbb{N}$. Diberikan ketiga kondisi berikut.
    * (i) Untuk setiap $x\in[0, 1]$, berlaku $f_1(x)\geq f_2(x)\geq f_3(x)\geq\ldots$.
    * (ii) Untuk setiap $x\in[0, 1]$, terdapat $N_x\in\mathbb{N}$ sedemikian sehingga untuk setiap $n\in\mathbb{N}$ dengan $n\geq N_x$, berlaku $f_n(x)\geq f_{n+1}(x)$.
-   * (iii) Barisan fungsi $(f_n)$ konvergen pada $[0, 1]$, katakan ke fungsi $f:[0, 1]\to[0, \infty)$, dan diasumsikan bahwa $M=\sup_{x\in[0, 1]}f(x)$ ada.
+   * (iii) Barisan fungsi $(f_n)$ konvergen pada $[0, 1]$, katakan ke fungsi $f:[0, 1]\to[0, \infty)$, dan diasumsikan bahwa $M=\sup\set{f(x):x\in[0, 1]}$ ada.
   
    * (a) Jika kondisi (i) dan (iii) berlaku, buktikan bahwa terdapat $t\in[0, 1]$ yang memenuhi $f(t)=M$.
    * (b) Jika kondisi (ii) dan (iii) berlaku, berikan contoh bahwa bagian (a) belum tentu berlaku.
