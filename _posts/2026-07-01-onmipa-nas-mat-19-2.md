@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Soal dan Solusi ONMIPA Nasional Matematika 2019 (Hari Kedua)"
-date: 2026-06-28
+date: 2026-07-01
 category: soaldansolusi
 urutan: 4
 ---
