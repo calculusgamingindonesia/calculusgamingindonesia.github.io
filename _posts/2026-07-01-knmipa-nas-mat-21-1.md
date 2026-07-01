@@ -40,7 +40,7 @@ urutan: 13
    </details>
 3. Misalkan $k, n\in\mathbb{N}$ dan $G$ adalah grup dengan $n$ unsur. Buktikan bahwa kedua pernyataan berikut ekuivalen.
    * (i) Bilangan $n$ dan $k$ relatif prima.
-   * (ii) Untuk setiap subgrup $H$ dari $G$, berlaku $\set{\in G:x^k\in H}\subseteq H$.
+   * (ii) Untuk setiap subgrup $H$ dari $G$, berlaku $\set{x\in G:x^k\in H}\subseteq H$.
    
    <details>
    <summary>Lihat Solusi</summary>
