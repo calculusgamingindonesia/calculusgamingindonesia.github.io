@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Soal dan Solusi KNMIPA Nasional Matematika 2020 (Hari Kedua)"
-date: 2026-06-29
+date: 2026-07-01
 category: soaldansolusi
 urutan: 10
 ---
