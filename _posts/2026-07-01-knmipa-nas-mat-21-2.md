@@ -9,7 +9,7 @@ urutan: 14
 <div style="text-align: center; margin-bottom: 40px;">
     <h1 style="margin: 0; line-height: 1.3;">
         Soal dan Solusi KNMIPA Nasional <br>
-        Matematika 2021 (Hari Pertama)
+        Matematika 2021 (Hari Kedua)
     </h1>
 </div>
 
