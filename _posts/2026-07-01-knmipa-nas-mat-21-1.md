@@ -64,7 +64,9 @@ urutan: 13
    </div>
    </details>
 
-5. Diberikan barisan fungsi kontinu $(f_n)$ dengan 
+5. Diberikan barisan fungsi kontinu $(f_n)$ dengan $f_n:[0, 1]\to[0, \infty)$ untuk setiap $n\in\mathbb{N}$. Diberikan kedua kondisi berikut.
+   * (i) Berlaku $f_1(x)\geq f_2(x)\geq f_3(x)\geq\ldots$ untuk setiap $x\in[0, 1]$.
+   * (ii) Barisan fungsi $(f_n)$ konvergen pada $[0, 1]$, katakan ke fungsi $f$, dan diasumsikan bahwa $M=\sup_{x\in[0, 1]}f(x)$ ada.
    
    <details>
    <summary>Lihat Solusi</summary>
