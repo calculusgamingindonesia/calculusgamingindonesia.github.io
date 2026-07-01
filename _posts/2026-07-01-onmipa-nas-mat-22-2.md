@@ -13,9 +13,7 @@ urutan: 20
     </h1>
 </div>
 
-1. Misalkan $G$ adalah grup dan $a, b, c\in G$ memenuhi $abc=e$.
-   * (a) Selidiki apakah $bca=e$.
-   * (b) Selidiki apakah $bac=e$.
+1. Misalkan $k\geq4$ adalah bilangan asli genap dan $S=\{1, 2, \ldots, n\}$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a$, $b$, dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -26,7 +24,7 @@ urutan: 20
    </div>
    </details>
 
-2. Misalkan $n\in\mathbb{N}$ dan $c\in\mathbb{R}$. Tunjukkan bahwa terdapat $a, b\in\mathbb{Z}$ dengan $1\leq b\leq n$ yang memenuhi $\bigg\vert c-\dfrac{a}{b}\bigg\vert\leq\dfrac{1}{bn}$.
+2. Diberikan fungsi terbatas $f:[a, b]\to\mathbb{R}$ dan $x_0\in(a, b)$. Didefinisikan fungsi $p:(a, b)\to\mathbb{R}$ dengan $p(x)=\sup{f(t):t<x}$. Jika $f$ kontinu di $x_0$, selidiki apakah $p$ juga kontinu di $x_0$.
 
    <details>
    <summary>Lihat Solusi</summary>
@@ -36,25 +34,7 @@ urutan: 20
        
    </div>
    </details>
-3. Diberikan polinomial $p$ dengan koefisien kompleks dan $p(z)=az^2+bz+c$ untuk setiap $z\in\mathbb{C}$.
-   * (a) Jika $\set{\omega_0, \omega_1, \omega_2}$ adalah himpunan penyelesaian dari persamaan $\omega^3=1$, tentukan nilai dari $\omega_0p(\omega_0)+\omega_1p(\omega_1)+\omega_2p(\omega_2)$.
-   * (b) Jika $\vert abc\vert>1$, tunjukkan bahwa terdapat $z\in\mathbb{C}$ dengan $\vert z\vert\leq1$ yang memenuhi $\vert p(z)\vert>1$.
-   
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
-   Solusi diserahkan kepada pembaca sebagai latihan.
-       
-   </div>
-   </details>
-
-4. Diberikan matriks $A$ berukuran $4\times 2$ dan matriks $B=\begin{bmatrix}b_{11}&b_{12}&b_{13}&b_{14}\\\\b_{21}&b_{22}&b_{23}&b_{24}\end{bmatrix}$ yang memenuhi
-
-   $$A\begin{bmatrix}b_{11}\\b_{21}\end{bmatrix}=\begin{bmatrix}0\\2\\0\\0\end{bmatrix}\quad\text{dan}\quad A\begin{bmatrix}b_{12}+b_{13}+b_{14}\\b_{22}+b_{23}+b_{24}\end{bmatrix}=\begin{bmatrix}2\\0\\2\\2\end{bmatrix}.$$
-
-   * (a) Tentukan semua nilai eigen dari $AB$ beserta multiplisitas aljabarnya.
-   * (b) Buktikan bahwa $BA=\begin{bmatrix}2&0\\\\0&2\end{bmatrix}$.
+3. Diberikan polinomial kompleks $f$ dengan $f(z)=1+c_1z+c_2z^2+\ldots+c_kz^k$ untuk setiap $z\in\mathbb{C}$ dan $\vert c_n\vert<1945$ untuk setiap $n\in\set{1, 2, \ldots, k}$. Buktikan bahwa fungsi $f$ tidak memiliki akar $z$ dengan $\vert z\vert<\dfrac{1}{2022}$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -65,7 +45,23 @@ urutan: 20
    </div>
    </details>
 
-5. Misalkan barisan $(a_n)\subseteq\bigg(\dfrac{1}{2}, 1\bigg)$ dan didefinisikan barisan $(x_n)$ dengan $x_0=0$ dan $x_{n+1}=\dfrac{a_{n+1}+x_n}{1+a_{n+1}x_n}$ untuk setiap $n\in\mathbb{N}\cup\{0\}$. Selidiki apakah $(x_n)$ konvergen. Jika ya, tentukan nilai limitnya.
+4. Misalkan $A$ adalah ring dengan unsur satuan. Untuk setiap $a\in A$, didefinisikan fungsi $l_a, r_a:A\to A$ dengan $l_a(x)=ax$ dan $r_a(x)=xa$ untuk setiap $x\in A$.
+
+   * (a) Berikan contoh ring tak komutatif $A$ sedemikian sehingga jika $a\in A$ menyebabkan salah satu dari $l_a$ dan $r_a$ injektif, maka yang lainnya juga injektif.
+   * (b) Berikan contoh ring tak komutatif $A$ sedemikian sehingga terdapat $a\in A$ yang menyebabkan tepat salah satu dari $l_a$ dan $r_a$ injektif.
+   
+   <details>
+   <summary>Lihat Solusi</summary>
+   <div class="kotak-solusi" markdown="1">
+   
+   Solusi diserahkan kepada pembaca sebagai latihan.
+       
+   </div>
+   </details>
+
+5. Diberikan $n, m\in\mathbb{N}$ dengan $n\leq m$. Buktikan bahwa
+
+   $\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\1&P_1^{m+1}&P_2^{m+1}&\ldots&P_n^{m+1}\\hdots&\hdots&\ddots&\hdots\\1&P_1^{m+n}&P_2^{m+n}&\ldots&P_n^{m+n}\\\end{bmatrix}=1!\cdot2!\cdot\ldots\cdot n!$.
    
    <details>
    <summary>Lihat Solusi</summary>
