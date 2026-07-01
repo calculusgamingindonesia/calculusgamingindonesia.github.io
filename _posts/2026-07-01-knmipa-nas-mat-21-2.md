@@ -13,7 +13,7 @@ urutan: 13
     </h1>
 </div>
 
-1. Tentukan banyaknya pasangan terurut bilangan asli ganjil $(a_1, a_2, a_3, a_4, a_5) yang memenuhi $a_1+a_2+a_3+a_4+a_5=101$.
+1. Tentukan banyaknya pasangan terurut bilangan asli ganjil $(a_1, a_2, a_3, a_4, a_5)$ yang memenuhi $a_1+a_2+a_3+a_4+a_5=101$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -36,7 +36,7 @@ urutan: 13
        
    </div>
    </details>
-3. Untuk setiap $n\in\mathbb{N}$, misalkan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\{1, 2, \ldots, n\}$. Untuk setiap $n\in\mathbb{N}$, tentukan nilai dari $\mathrm{det}(A_n)$.
+3. Misalkan $n\in\mathbb{N}$ dan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\{1, 2, \ldots, n\}$. Tentukan nilai dari $\mathrm{det}(A_n)$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -47,7 +47,7 @@ urutan: 13
    </div>
    </details>
 
-4. Pasangan terurut $(a, b)\in\mathbb{R}^2$ dikatakan \textit{milenial} jika memenuhi $(a+bi)^{2021}=a^2-b^2-2abi$.
+4. Pasangan terurut $(a, b)\in\mathbb{R}^2$ dikatakan *milenial* jika memenuhi $(a+bi)^{2021}=a^2-b^2-2abi$.
    * (a) Jika $(a, b)$ adalah pasangan milenial, tunjukkan bahwa $a=b=0$ atau $a^2+b^2=1$.
    * (b) Tentukan banyaknya pasangan milenial.
    
