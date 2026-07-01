@@ -65,7 +65,7 @@ urutan: 3
    
    $$W=\pi\sum_{n=1}^\infty n\vert c_n\vert^2.$$
    
-   * (b) Untuk setiap $z\in U$, buktikan bahwa $\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}$.
+   * (b) Untuk setiap $z\in U$, buktikan bahwa $\smash\{\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}}$.
    
    <details>
        <summary>Lihat Solusi</summary>
