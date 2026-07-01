@@ -40,7 +40,7 @@ urutan: 4
    </details>
 
 3. Misalkan $R$ adalah ring komutatif dengan unsur satuan serta $I$ dan $J$ adalah ideal dari $R$ yang memenuhi $I+J=R$.
-   * (a) Buktikan bahwa pemetaan $\smash{\phi:R\to\dfrac{R}{I}\times\dfrac{R}{J}}$ dengan definisi $\phi(r)=(r+I, r+J)$ adalah homomorfisme yang surjektif.
+   * (a) Buktikan bahwa pemetaan $\smash{\phi:R\to\dfrac{R}{I}\times\dfrac{R}{J}}$ dengan definisi $\phi(r)=(r+I, r+J)$ untuk setiap $r\in R$ adalah homomorfisme yang surjektif.
    * (b) Gunakan bagian (a) untuk membuktikan bahwa $\smash{\dfrac{R}{I\cap J}\cong\dfrac{R}{I}\times\dfrac{R}{J}}$.
    
    <details>
