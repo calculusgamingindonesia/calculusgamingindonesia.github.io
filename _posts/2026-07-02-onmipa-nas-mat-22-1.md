@@ -26,7 +26,7 @@ urutan: 19
    </div>
    </details>
 
-2. Misalkan $n\in\mathbb{N}$ dan $c\in\mathbb{R}$. Tunjukkan bahwa terdapat $a, b\in\mathbb{Z}$ dengan $1\leq b\leq n$ yang memenuhi $\bigg\vert c-\dfrac{a}{b}\bigg\vert\leq\dfrac{1}{ab}$.
+2. Misalkan $n\in\mathbb{N}$ dan $c\in\mathbb{R}$. Tunjukkan bahwa terdapat $a, b\in\mathbb{Z}$ dengan $1\leq b\leq n$ yang memenuhi $\bigg\vert c-\dfrac{a}{b}\bigg\vert\leq\dfrac{1}{bn}$.
 
    <details>
    <summary>Lihat Solusi</summary>
