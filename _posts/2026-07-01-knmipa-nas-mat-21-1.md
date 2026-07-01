@@ -26,7 +26,7 @@ urutan: 13
    </div>
    </details>
 
-2. Diberikan fungsi $f$ yang analitik di dalam dan pada kurva tertutup sederhana $\gamma$ dan titik $z_0$ yang tidak berada pada $\gamma$. Untuk setiap $m, n\in\mathbb{N}$, buktikan bahwa
+2. Diberikan fungsi $f$ yang analitik di dalam dan pada kurva tertutup sederhana $\gamma$ serta titik $z_0$ yang tidak berada pada $\gamma$. Untuk setiap $m, n\in\mathbb{N}$, buktikan bahwa
    
    $$\oint_\gamma\dfrac{f^{(m)}(z)}{(z-z_0)^n}\,\mathrm{d}z=\dfrac{(m+n-1)!}{(n-1)!}\oint_\gamma\dfrac{f(z)}{(z-z_0)^{m+n}}\,\mathrm{d}z.$$
 
@@ -70,7 +70,7 @@ urutan: 13
    * (iii) Barisan fungsi $(f_n)$ konvergen pada $[0, 1]$, katakan ke fungsi $f:[0, 1]\to[0, \infty)$, dan diasumsikan bahwa $M=\sup\set{f(x):x\in[0, 1]}$ ada.
   
    * (a) Jika kondisi (i) dan (iii) berlaku, buktikan bahwa terdapat $t\in[0, 1]$ yang memenuhi $f(t)=M$.
-   * (b) Jika kondisi (ii) dan (iii) berlaku, berikan contoh bahwa bagian (a) belum tentu berlaku.
+   * (b) Jika kondisi (ii) dan (iii) berlaku, berikan contoh bahwa kesimpulan pada bagian (a) belum tentu berlaku.
    
    <details>
    <summary>Lihat Solusi</summary>
