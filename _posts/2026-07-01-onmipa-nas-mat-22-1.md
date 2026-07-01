@@ -49,12 +49,12 @@ urutan: 19
    </div>
    </details>
 
-4. Diberikan matriks $A$ berukuran $4\times 2$ dan matriks $B=\begin{bmatrix}b_{11}&b_{12}&b_{13}&b_{14}\\b_{21}&b_{22}&b_{23}&b_{24}\end{bmatrix}$ yang memenuhi
+4. Diberikan matriks $A$ berukuran $4\times 2$ dan matriks $B=\begin{bmatrix}b_{11}&b_{12}&b_{13}&b_{14}\\\\b_{21}&b_{22}&b_{23}&b_{24}\end{bmatrix}$ yang memenuhi
 
    $$A\begin{bmatrix}b_{11}\\b_{21}\end{bmatrix}=\begin{bmatrix}0\\2\\0\\0\end{bmatrix}\quad\text{dan}\quad A\begin{bmatrix}b_{12}+b_{13}+b_{14}\\b_{22}+b_{23}+b_{24}\end{bmatrix}=\begin{bmatrix}2\\0\\2\\2\end{bmatrix}.$$
 
    * (a) Tentukan semua nilai eigen dari $AB$ beserta multiplisitas aljabarnya.
-   * (b) Buktikan bahwa $BA=\begin{bmatrix}2&0\\0&2\end{bmatrix}$.
+   * (b) Buktikan bahwa $BA=\begin{bmatrix}2&0\\\\0&2\end{bmatrix}$.
    
    <details>
    <summary>Lihat Solusi</summary>
