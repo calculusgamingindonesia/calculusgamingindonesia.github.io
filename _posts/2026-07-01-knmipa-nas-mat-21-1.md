@@ -28,7 +28,7 @@ urutan: 13
 
 2. Diberikan fungsi $f$ yang analitik di dalam dan pada kurva tertutup sederhana $\gamma$ dan titik $z_0$ yang tidak berada pada $\gamma$. Untuk setiap $m, n\in\mathbb{N}$, buktikan bahwa
    
-   $$\oint_\gamma\dfrac{f^{(m)}(z)}{(z-z_0)^n}\,\mathrm{d}z=\dfrac{(m+n-1)!}{(n-1)!}\oint_\gamma\dfrac{f(z)}{(z-z_0)^{m+n})\,\mathrm{d}z.$$
+   $$\oint_\gamma\dfrac{f^{(m)}(z)}{(z-z_0)^n}\,\mathrm{d}z=\dfrac{(m+n-1)!}{(n-1)!}\oint_\gamma\dfrac{f(z)}{(z-z_0)^{m+n}}\,\mathrm{d}z.$$
 
    <details>
    <summary>Lihat Solusi</summary>
