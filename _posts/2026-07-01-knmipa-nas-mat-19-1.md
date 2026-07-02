@@ -18,7 +18,7 @@ urutan: 3
    
    * (b) Buktikan bahwa
    
-   $$\int_0^{2\pi}f(x)\cos x\,\mathrm{d}x\geq0.$$
+   $$\int_0^{2\pi}f(x)\cos x\,\mathrm{d}x\geq0$$.
 
    <details>
    <summary>Lihat Solusi</summary>
@@ -42,7 +42,7 @@ urutan: 3
 
 3. Diberikan $n, k\in\mathbb{Z}$ dengan $0\leq k\leq\dfrac{n}{2}$. Buktikan secara kombinatorial bahwa
    
-   $$\sum_{m=k}^{n-k}\dbinom{m}{m-k}\dbinom{n-m}{k}=\dbinom{n+1}{2k+1}.$$
+   $$\sum_{m=k}^{n-k}\dbinom{m}{m-k}\dbinom{n-m}{k}=\dbinom{n+1}{2k+1}$$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -59,15 +59,15 @@ urutan: 3
    
    untuk setiap $z\in U$. Diasumsikan bahwa
    
-   $$W=\iint_U\vert f'(z)\vert^2\,\mathrm{d}x\,\mathrm{d}y<\infty.$$
+   $$W=\iint_U\vert f'(z)\vert^2\,\mathrm{d}x\,\mathrm{d}y<\infty$$.
    
    * (a) Buktikan bahwa
    
-   $$W=\pi\sum_{n=1}^\infty n\vert c_n\vert^2.$$
+   $$W=\pi\sum_{n=1}^\infty n\vert c_n\vert^2$$.
    
    * (b) Untuk setiap $z\in U$, buktikan bahwa
    
-   $$\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}.$$
+   $$\vert f(z)-f(0)\vert\leq\sqrt{\dfrac{W}{\pi}\ln\bigg(\dfrac{1}{1-\vert z\vert^2}\bigg)}$$.
    
    <details>
    <summary>Lihat Solusi</summary>
