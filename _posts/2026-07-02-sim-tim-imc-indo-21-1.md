@@ -24,7 +24,7 @@ urutan: 15
    </div>
    </details>
 
-2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq3\dfrac{13}{4}$.
+2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq\dfrac{13}{4}$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -60,7 +60,7 @@ urutan: 15
    </div>
    </details>
 
-5. Bilangan $1$, $2$, $\ldots$, dan $n$ ditempatkan pada titik-titik dari segi-$n$ beraturan. Selanjutnya, setiap sisi bangun tersebut ditempati oleh hasil kali dari $2$ bilangan pada titik-titik ujungnya. Tentukan nilai minimum dari jumlah semua bilangan yang menempati sisi-sisi bangun tersebut.
+5. Bilangan $1, 2, \ldots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan. Selanjutnya, pada setiap sisi bangun tersebut, ditempatkan hasil kali dari $2$ bilangan pada titik-titik ujungnya. Tentukan nilai minimum dari jumlah semua bilangan pada sisi-sisi bangun tersebut.
    
    <details>
    <summary>Lihat Solusi</summary>
