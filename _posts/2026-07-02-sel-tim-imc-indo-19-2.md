@@ -51,8 +51,8 @@ urutan: 6
    </details>
 
 4. Ring $R$ dikatakan *cantik* jika memenuhi ketiga kondisi berikut.
-   * (i) $R$ memiliki unsur satuan.
-   * (ii) $R$ bukan lapangan.
+   * (i) Ring $R$ memiliki unsur satuan.
+   * (ii) Ring $R$ bukan lapangan.
    * (iii) Setiap unsur di $R-\set{0}$ dapat dinyatakan secara tunggal sebagai jumlah dari suatu unsur yang memiliki invers dan suatu unsur yang tidak memiliki invers.<br><br>
    * (a) Berikan contoh ring $R$ yang cantik dan memiliki setidaknya 2 unsur.
    * (b) Tentukan semua kemungkinan karakteristik dari ring cantik.
@@ -66,7 +66,7 @@ urutan: 6
    </div>
    </details>
 
-5. Misalkan $G$ adalah graf sederhana dengan titik-titik $v_1$, $v_2$, $\ldots$, dan $v_n$ serta rusuk-rusuk $e_1$, $e_2$, $\ldots$, dan $e_m$. Matriks insidensi $B=(b_{ij})$ dari $G$ adalah matriks berukuran $n\times m$ sedemikian sehingga $b_{ik}=1$ jika $v_i$ adalah ujung dari $e_k$ dan $b_{ik}=0$ jika tidak untuk setiap $i\in\set{1, 2, \ldots, n}$ dan $k\in\set{1, 2, \ldots, m}$. Misalkan $B(i, :)$ adalah baris ke-$i$ dari $B$ untuk setiap $i\in\{1, 2, \ldots, n\}$. Untuk setiap $i, j\in\set{1, 2, \ldots, n}$, didefinisikan $Hd(B(i, :), B(j, :))$ sebagai banyaknya $k\in\set{1, 2, \ldots, m}$ yang memenuhi $B(i, k)\neq B(j, k)$. Didefinisikan juga
+5. Misalkan $G$ adalah graf sederhana dengan titik-titik $v_1, v_2, \ldots,$ dan $v_n$ serta rusuk-rusuk $e_1, e_2, \ldots,$ dan $e_m$. Matriks insidensi $B=(b_{ij})$ dari $G$ adalah matriks berukuran $n\times m$ sedemikian sehingga $b_{ik}=1$ jika $v_i$ adalah ujung dari $e_k$ dan $b_{ik}=0$ jika tidak untuk setiap $i\in\set{1, 2, \ldots, n}$ dan $k\in\set{1, 2, \ldots, m}$. Misalkan $B(i, :)$ adalah baris ke-$i$ dari $B$ untuk setiap $i\in\{1, 2, \ldots, n\}$. Untuk setiap $i, j\in\set{1, 2, \ldots, n}$, didefinisikan $Hd(B(i, :), B(j, :))$ sebagai banyaknya $k\in\set{1, 2, \ldots, m}$ yang memenuhi $B(i, k)\neq B(j, k)$. Didefinisikan juga
 
    $$H(G)=\sum_{i=1}^n\sum_{j=i}^nHd(B(i, :), B(j, :)).$$
 
