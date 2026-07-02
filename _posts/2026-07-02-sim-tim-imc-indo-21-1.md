@@ -60,7 +60,7 @@ urutan: 15
    </div>
    </details>
 
-5. Bilangan $1, 2, \ldots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan. Selanjutnya, pada setiap sisi bangun tersebut, ditempatkan hasil kali dari $2$ bilangan pada titik-titik ujungnya. Tentukan nilai minimum dari jumlah semua bilangan pada sisi-sisi bangun tersebut.
+5. Bilangan $1, 2, \ldots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan sedemikian sehingga setiap titik sudut ditempati oleh tepat $1$ bilangan. Selanjutnya, pada setiap sisi bangun tersebut, dihitung hasil kali dari $2$ bilangan yang berada pada kedua titik ujungnya. Tentukan nilai minimum dari jumlah semua hasil kali tersebut.
    
    <details>
    <summary>Lihat Solusi</summary>
