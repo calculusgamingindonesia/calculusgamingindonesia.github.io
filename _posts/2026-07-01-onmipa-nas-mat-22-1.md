@@ -65,7 +65,7 @@ urutan: 19
    </div>
    </details>
 
-5. Diberikan barisan $\smash{(a_n)\subseteq\bigg(\dfrac{1}{2}, 1\bigg)}$ dan didefinisikan barisan $(x_n)$ dengan $x_0=0$ dan $\smash{x_{n+1}=\dfrac{a_{n+1}+x_n}{1+a_{n+1}x_n}}$ untuk setiap $n\in\mathbb{N}\cup\{0\}$. Selidiki apakah $(x_n)$ konvergen. Jika ya, tentukan nilai limitnya.
+5. Diberikan barisan $\smash{(a_n)\subseteq\bigg(\dfrac{1}{2}, 1\bigg)}$ dan didefinisikan barisan $(x_n)$ dengan $x_0=0$ dan $\smash{x_{n+1}=\dfrac{a_{n+1}+x_n}{1+a_{n+1}x_n}}$ untuk setiap $n\in\mathbb{N}\cup\set{0}$. Selidiki apakah $(x_n)$ konvergen. Jika ya, tentukan nilai limitnya.
    
    <details>
    <summary>Lihat Solusi</summary>
