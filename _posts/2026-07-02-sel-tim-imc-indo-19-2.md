@@ -8,8 +8,8 @@ urutan: 6
 
 <div style="text-align: center; margin-bottom: 40px;">
     <h1 style="margin: 0; line-height: 1.3;">
-        Soal dan Solusi Seleksi untuk <br>
-        Tim IMC Indonesia 2019 (Hari Kedua)
+        Soal dan Solusi Seleksi untuk Tim <br>
+        IMC Indonesia 2019 (Hari Kedua)
     </h1>
 </div>
 
