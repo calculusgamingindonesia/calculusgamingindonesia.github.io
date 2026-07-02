@@ -37,7 +37,7 @@ urutan: 6
 
 3. Misalkan $f:[0, \infty)\to\mathbb{R}$ adalah fungsi kontinu yang turun tegas dan memenuhi $\displaystyle\lim_{x\to\infty}f(x)=0$. Buktikan bahwa
    
-   $$\int_0^\infty\dfrac{f(x)=f(x+1)}{f(x)}\,\mathrm{d}x$$
+   $$\int_0^\infty\dfrac{f(x)-f(x+1)}{f(x)}\,\mathrm{d}x$$
    
    divergen.
 
