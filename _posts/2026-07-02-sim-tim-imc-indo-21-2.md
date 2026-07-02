@@ -24,7 +24,7 @@ urutan: 16
    </div>
    </details>
 
-2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq\dfrac{13}{4}$.
+2. Pada segienam beraturan $ABCDEF$, misalkan diagonal $AC$ dan $CE$ berturut-turut dibagi oleh titik $M$ dan $N$ sedemikian sehingga $\dfrac{AM}{AC}=\dfrac{CN}{CE}=r$. Jika titik $B$, $M$, dan $N$ segaris, tentukan nilai dari $r$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -35,7 +35,11 @@ urutan: 16
    </div>
    </details>
 
-3. Diberikan fungsi $f:[0, \infty)\to\mathbb{R}$. Didefinisikan barisan fungsi $(f_n)$ dengan $f_n:[0, \infty)\to\mathbb{R}$ yang memenuhi $f_n(x)=f(x^{2n})$ untuk setiap $n\in\mathbb{N}$. Untuk setiap $\varepsilon\in\mathbb{R}^+$, selidiki apakah terdapat $\delta\in\mathbb{R}^+$ sedemikian sehingga untuk setiap $x, y\in[0, \infty)$ dengan $\vert x-y\vert<\delta$ dan $n\in\mathbb{N}$, berlaku $\vert f_n(x)-f_n(y)\vert<\varepsilon$.
+3. Misalkan $n\in\mathbb{N}$, $\alpha\in\mathbb{R}$, dan $\varepsilon\in\mathbb{R}^+$. Buktikan bahwa terdapat fungsi $f:\mathbb{R}\to\mathbb{R}$ yang terturunkan sebanyak $n$ kali dan memenuhi ketiga kondisi berikut.
+
+   * (i) Berlaku $\vert f^{(k)}(x)\vert\leq\varepsilon$ untuk setiap $k\in\set{0, 1, 2, \ldots, n-1}$ dan $x\in\mathbb{R}$.
+   * (ii) Berlaku $f^{(k)}(0)=0$ untuk setiap $k\in\set{0, 1, 2, \ldots, n-1}$.
+   * (iii) Berlaku $f^{(n)}(0)=\alpha$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -46,10 +50,11 @@ urutan: 16
    </div>
    </details>
 
-4. Misalkan $A$ dan $B$ adalah matriks real berukuran $n\times n$ dan $C=AB-BA$. Misalkan juga $AC=CA$ dan $BC=CB$.
+4. Misalkan $A$ dan $B$ berturut-turut adalah matriks berukuran $3\times2$ dan $2\times3$ yang memenuhi
 
-   * (a) Buktikan bahwa $p(A)B-Bp(A)=Cp'(A)$ untuk setiap polinomial real $p$.
-   * (b) Buktikan bahwa $C$ nilpoten.
+   $$AB=\begin{bmatrix}8&2&-2\\\\2&55&4\\\\-2&4&5\end{bmatrix}.$$
+
+   Tentukan nilai dari $BA$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -60,7 +65,7 @@ urutan: 16
    </div>
    </details>
 
-5. Bilangan $1, 2, \ldots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan sedemikian sehingga setiap titik sudut ditempati oleh tepat $1$ bilangan. Selanjutnya, pada setiap sisi bangun tersebut, dihitung hasil kali dari $2$ bilangan yang berada pada kedua titik ujungnya. Tentukan nilai minimum dari jumlah semua hasil kali tersebut.
+5. Ambrodol memiliki gantungan kunci berbentuk lingkaran dengan n kunci, n ≥ 3. Ketika dia mengeluarkannya dari sakunya, dia tidak tahu apakah gantungan kunci itu berputar dan/atau terbalik. Satu-satunya cara dia dapat membedakan kunci-kunci tersebut adalah dengan mewarnai setiap kuncinya. Tentukan banyak minimum warna yang dibutuhkan.
    
    <details>
    <summary>Lihat Solusi</summary>
