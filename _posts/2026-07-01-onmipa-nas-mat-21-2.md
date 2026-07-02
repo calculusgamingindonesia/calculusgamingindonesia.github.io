@@ -7,10 +7,7 @@ urutan: 14
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">
-        Soal dan Solusi KNMIPA Nasional <br>
-        Matematika 2021 (Hari Kedua)
-    </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi KNMIPA Nasional <br> Matematika 2021 (Hari Kedua)</h1>
 </div>
 
 1. Tentukan banyaknya pasangan terurut bilangan asli ganjil $(a_1, a_2, a_3, a_4, a_5)$ yang memenuhi $a_1+a_2+a_3+a_4+a_5=101$.
