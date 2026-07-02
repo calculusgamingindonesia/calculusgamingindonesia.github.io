@@ -26,7 +26,7 @@ urutan: 5
    </div>
    </details>
 
-2. Misalkan $A$ dan $B$ adalah matriks berukuran $n\times n$ yang memenuhi $AB=BA$. Buktikan bahwa $A$ dan $B$ memiliki suatu vektor eigen yang sama.
+2. Misalkan $A$ dan $B$ adalah matriks kompleks berukuran $n\times n$ yang memenuhi $AB=BA$. Buktikan bahwa $A$ dan $B$ memiliki suatu vektor eigen yang sama.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -65,7 +65,7 @@ urutan: 5
 5. Misalkan $R\in\mathbb{R}^+$ menyebabkan fungsi $f$ analitik pada $D=\set{z\in\mathbb{C}:\vert z\vert<R}$ dan memenuhi $f(z^2)=f(z)-z$ untuk setiap $z\in D$.
    
    * (a) Tunjukkan bahwa $R\leq1$.
-   * (b) Jika $R=1$, selidiki apakah terdapat domain $E\supseteq D$ sedemikian sehingga terdapat fungsi analitik $g:E\to\mathbb{C}$ yang memenuhi $g(z)=f(z)$ untuk setiap $z\in D$.
+   * (b) Jika $R=1$, selidiki apakah terdapat domain $E\supset D$ sedemikian sehingga terdapat fungsi analitik $g:E\to\mathbb{C}$ yang memenuhi $g(z)=f(z)$ untuk setiap $z\in D$.
    
    <details>
    <summary>Lihat Solusi</summary>
