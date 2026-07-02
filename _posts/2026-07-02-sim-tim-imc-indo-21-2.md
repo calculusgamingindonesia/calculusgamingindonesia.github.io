@@ -7,10 +7,7 @@ urutan: 16
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">
-        Soal dan Solusi Simulasi untuk Tim <br>
-        IMC Indonesia 2021 (Hari Kedua)
-    </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Simulasi untuk Tim <br> IMC Indonesia 2021 (Hari Kedua)</h1>
 </div>
 
 1. Misalkan $x, y, z\in\mathbb{N}$ memenuhi $xy=z^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2$, $y=c^2+d^2$, dan $z=ac+bd$.
