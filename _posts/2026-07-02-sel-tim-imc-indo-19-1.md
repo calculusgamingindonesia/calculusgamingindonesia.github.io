@@ -62,7 +62,7 @@ urutan: 5
    </div>
    </details>
 
-5. Misalkan $f$ adalah fungsi analitik pada $D=\set{z\in\mathbb{C}:\vert z\vert<R}$ dengan $R\in\mathbb{R}^+$ dan memenuhi $f(z^2)=f(z)-z$ untuk setiap $z\in D$.
+5. Misalkan $f$ adalah fungsi analitik pada $D=\set{z\in\mathbb{C}:\vert z\vert<R}$ dengan $R\in\mathbb{R}^+$ yang memenuhi $f(z^2)=f(z)-z$ untuk setiap $z\in D$.
    
    * (a) Tunjukkan bahwa $R\leq1$.
    * (b) Jika $R=1$, selidiki apakah terdapat himpunan terbuka dan terhubung $E\supset D$ sedemikian sehingga terdapat fungsi analitik $g:E\to\mathbb{C}$ yang memenuhi $g(z)=f(z)$ untuk setiap $z\in D$.
