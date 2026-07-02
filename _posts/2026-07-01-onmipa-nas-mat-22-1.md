@@ -7,10 +7,7 @@ urutan: 19
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">
-        Soal dan Solusi ONMIPA Nasional <br>
-        Matematika 2022 (Hari Pertama)
-    </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi ONMIPA Nasional <br> Matematika 2022 (Hari Pertama)</h1>
 </div>
 
 1. Misalkan $G$ adalah grup dan $a, b, c\in G$ memenuhi $abc=e$.
