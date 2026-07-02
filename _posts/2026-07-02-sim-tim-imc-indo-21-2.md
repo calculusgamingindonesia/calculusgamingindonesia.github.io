@@ -15,25 +15,15 @@ urutan: 16
 
 1. Misalkan $x, y, z\in\mathbb{N}$ memenuhi $xy=z^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2$, $y=c^2+d^2$, dan $z=ac+bd$.
 
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
+   <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
-       
-   </div>
-   </details>
+   </div></details>
 
 2. Pada segi enam beraturan $ABCDEF$, misalkan titik $M$ dan $N$ berturut-turut berada pada diagonal $AC$ dan $CE$ sedemikian sehingga $\dfrac{AM}{AC}=\dfrac{CN}{CE}=r$. Jika titik $B, M,$ dan $N$ segaris, tentukan nilai dari $r$.
    
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
+   <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
-   
-   </div>
-   </details>
+   </div></details>
 
 3. Misalkan $n\in\mathbb{N}$, $\alpha\in\mathbb{R}$, dan $\varepsilon\in\mathbb{R}^+$. Buktikan bahwa terdapat fungsi $f:\mathbb{R}\to\mathbb{R}$ yang terturunkan sebanyak $n$ kali dan memenuhi ketiga kondisi berikut.
 
@@ -41,14 +31,9 @@ urutan: 16
    * (ii) Berlaku $f^{(k)}(0)=0$ untuk setiap $k\in\set{0, 1, 2, \ldots, n-1}$.
    * (iii) Berlaku $f^{(n)}(0)=\alpha$.
    
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
+   <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
-   
-   </div>
-   </details>
+   </div></details>
 
 4. Misalkan $A$ dan $B$ berturut-turut adalah matriks berukuran $3\times2$ dan $2\times3$ yang memenuhi
 
@@ -56,22 +41,12 @@ urutan: 16
 
    Tentukan nilai dari matriks $BA$.
    
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
+   <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
-   
-   </div>
-   </details>
+   </div></details>
 
 5. Ambrodol memiliki gantungan kunci berbentuk lingkaran yang berisi $n$ kunci dengan $n\geq3$. Ketika dia mengeluarkan gantungan kunci tersebut dari sakunya, dia tidak tahu apakah gantungan kunci itu berputar dan/atau terbalik. Satu-satunya cara untuk membedakan kunci-kunci tersebut adalah dengan mewarnai setiap kunci. Tentukan banyak warna minimum yang dibutuhkan.
    
-   <details>
-   <summary>Lihat Solusi</summary>
-   <div class="kotak-solusi" markdown="1">
-   
+   <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
-   
-   </div>
-   </details>
+   </div></details>
