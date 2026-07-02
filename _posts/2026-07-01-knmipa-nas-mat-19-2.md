@@ -15,7 +15,7 @@ urutan: 4
 
 1. Diberikan $k, n\in\mathbb{N}$. Buktikan bahwa
    
-   $$\sum_{i=0}^k(-1)^i\dbinom{k}{i}(k-i)^n=\begin{cases}n!&\text{jika }k=n,\\0&\text{jika }k>n.\end{cases}$$
+   $$\sum_{i=0}^k(-1)^i\dbinom{k}{i}(k-i)^n=\begin{cases}n!&\text{jika }k=n,\\0&\text{jika }k>n\end{cases}$$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -52,7 +52,7 @@ urutan: 4
    </div>
    </details>
 
-4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $b_1$, $b_2$, $\dots$, dan $b_k$ adalah vektor kolom berukuran $n-k$. Tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A&Ab_1&Ab_2&\cdots&Ab_k\end{bmatrix}$.
+4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $b_1, b_2, \dots,$ dan $b_k$ adalah vektor kolom berukuran $n-k$. Tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A&Ab_1&Ab_2&\cdots&Ab_k\end{bmatrix}$.
    
    <details>
    <summary>Lihat Solusi</summary>
