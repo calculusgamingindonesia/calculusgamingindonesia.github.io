@@ -42,8 +42,8 @@ urutan: 10
    </details>
 
 3. Diberikan $a\in\mathbb{R}$ serta interval terbuka dan terbatas $I\subseteq\mathbb{R}$ dengan $a\in I$. Diberikan juga fungsi terturunkan $f_n, g, h:I\to\mathbb{R}$ dengan $n\in\mathbb{N}$ yang memenuhi ketiga kondisi berikut.
-   * (i) Berlaku $f_n(a)=g(a)$ untuk setiap $n\in\mathbb{N}$,
-   * (ii) Berlaku $f_n'(x)\geq g'(x)$ untuk setiap $x\in I$ dengan $x>a$, dan
+   * (i) Berlaku $f_n(a)=g(a)$ untuk setiap $n\in\mathbb{N}$.
+   * (ii) Berlaku $f_n'(x)\geq g'(x)$ untuk setiap $x\in I$ dengan $x>a$.
    * (iii) Barisan fungsi $(f_n')$ konvergen seragam ke $h'$ pada $I$.
    
    Buktikan bahwa terdapat fungsi terturunkan $f:I\to\mathbb{R}$ sedemikian sehingga barisan fungsi $(f_n)$ konvergen ke $f$ pada $I$ dan memenuhi $h(x)\geq g(x)$ untuk setiap $x\in I$ dengan $x>a$.
