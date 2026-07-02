@@ -7,8 +7,7 @@ urutan: 3
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi ONMIPA Nasional 
-        <br> Matematika 2019 (Hari Pertama)</h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi ONMIPA Nasional <br> Matematika 2019 (Hari Pertama)</h1>
 </div>
 
 1. Diberikan fungsi $f:\mathbb{R}\to\mathbb{R}$ yang memenuhi $\lambda f(x)+(1-\lambda)f(y)-f(\lambda x+(1-\lambda)y)\geq0$ untuk setiap $\lambda\in[0, 1]$ dan $x, y\in\mathbb{R}$.
