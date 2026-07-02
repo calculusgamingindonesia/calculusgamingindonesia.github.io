@@ -37,7 +37,7 @@ urutan: 5
    </div>
    </details>
 
-3. Misalkan $(A, +, \cdot)$ adalah ring sedemikian sehingga untuk setiap $a\in A$, jika $a^2=0$, maka $a=0$. Misalkan juga $B=\set{a\in A:a^2=1}$
+3. Misalkan $(A, +, \cdot)$ adalah ring sedemikian sehingga untuk setiap $a\in A$ dengan $a^2=0$, berlaku $a=0$. Misalkan juga $B=\set{a\in A:a^2=1}$.
    
    * (a) Untuk setiap $a\in A$ dan $b\in B$, buktikan bahwa $ab-ba=bab-a$.
    * (b) Buktikan bahwa $(B, \cdot)$ adalah grup.
@@ -51,7 +51,7 @@ urutan: 5
    </div>
    </details>
 
-4. Misalkan $f:\mathbb{N}\cup\{0\}\to\mathbb{R}^+\cup\{0\}$ adalah fungsi yang memenuhi $f(n+m)\leq f(n)+f(m)$ untuk setiap $n, m\in\mathbb{N}\cup\{0\}$. Buktikan bahwa barisan $\bigg(\dfrac{f(n)}{n}\bigg)$ konvergen dan $\lim_{n\to\infty}\dfrac{f(n)}{n}=\inf\bigg\\{\dfrac{f(n)}{n}:n\in\mathbb{N}\bigg\\}$.
+4. Misalkan $f:\mathbb{N}\cup\{0\}\to\mathbb{R}^+\cup\{0\}$ adalah fungsi yang memenuhi $f(n+m)\leq f(n)+f(m)$ untuk setiap $n, m\in\mathbb{N}\cup\{0\}$. Buktikan bahwa barisan $\bigg(\dfrac{f(n)}{n}\bigg)$ konvergen dan $\displaystyle\lim_{n\to\infty}\dfrac{f(n)}{n}=\inf\bigg\\{\dfrac{f(n)}{n}:n\in\mathbb{N}\bigg\\}$.
    
    <details>
    <summary>Lihat Solusi</summary>
