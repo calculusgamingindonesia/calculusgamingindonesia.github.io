@@ -24,7 +24,7 @@ urutan: 20
    </div>
    </details>
 
-2. Diberikan fungsi terbatas $f:[a, b]\to\mathbb{R}$ dan $x_0\in(a, b)$. Didefinisikan fungsi $p:(a, b)\to\mathbb{R}$ dengan $\displaystyle p(x)=\sup_{t\in[a, x]}f(t)$. Jika $f$ kontinu di $x_0$, selidiki apakah $p$ juga kontinu di $x_0$.
+2. Diberikan fungsi terbatas $f:[a, b]\to\mathbb{R}$ dan $x_0\in(a, b)$. Didefinisikan fungsi $p:(a, b)\to\mathbb{R}$ dengan $\displaystyle p(x)=\sup_{t\in[a, x]}f(t)$ untuk setiap $x\in(a, b)$. Jika $f$ kontinu di $x_0$, selidiki apakah $p$ juga kontinu di $x_0$.
 
    <details>
    <summary>Lihat Solusi</summary>
