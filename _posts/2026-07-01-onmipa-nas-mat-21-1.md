@@ -51,7 +51,7 @@ urutan: 13
    </div>
    </details>
 
-4. Diberikan matriks $A$ berukuran $n\times n$ dengan entri real. Didefinisikan pemetaan linear $T, S:\mathbb{R}^n\to\mathbb{R}^n$ dengan $T(x)=Ax$ dan $S(x)=A^Tx$ untuk setiap $x\in\mathbb{R}^n$.
+4. Diberikan matriks $A$ berukuran $n\times n$ dengan entri real. Didefinisikan operator linear $T, S:\mathbb{R}^n\to\mathbb{R}^n$ dengan $T(x)=Ax$ dan $S(x)=A^Tx$ untuk setiap $x\in\mathbb{R}^n$.
    * (a) Buktikan bahwa $\mathrm{Ker}(S\circ T)=\mathrm{Ker}(T)$.
    * (b) Selidiki apakah $\mathrm{Im}(S\circ T)=\mathrm{Im}(S)$.
    
