@@ -51,7 +51,7 @@ urutan: 5
    </div>
    </details>
 
-4. Misalkan $f:\mathbb{N}\cup\set{0}\to\mathbb{R}^+\cup\set{0}$ adalah fungsi yang memenuhi $f(n+m)\leq f(n)+f(m)$ untuk setiap $n, m\in\mathbb{N}\cup\set{0}$. Buktikan bahwa barisan $\bigg(\dfrac{f(n)}{n}\bigg)$ konvergen dengan $\displaystyle\lim_{n\to\infty}\dfrac{f(n)}{n}=\inf_{n\in\mathbb{N}}\dfrac{f(n)}{n}$.
+4. Misalkan $f:\mathbb{N}\cup\set{0}\to[0, \infty)$ adalah fungsi yang memenuhi $f(n+m)\leq f(n)+f(m)$ untuk setiap $n, m\in\mathbb{N}\cup\set{0}$. Buktikan bahwa barisan $\bigg(\dfrac{f(n)}{n}\bigg)$ konvergen dengan $\displaystyle\lim_{n\to\infty}\dfrac{f(n)}{n}=\inf_{n\in\mathbb{N}}\dfrac{f(n)}{n}$.
    
    <details>
    <summary>Lihat Solusi</summary>
