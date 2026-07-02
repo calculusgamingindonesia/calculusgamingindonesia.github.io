@@ -13,7 +13,7 @@ urutan: 16
     </h1>
 </div>
 
-1. Misalkan $x, y, z\in\mathbb{N}$ yang memenuhi $xy=x^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2$, $y=c^2+d^2$, dan $z=ac+bd$.
+1. Misalkan $x, y, z\in\mathbb{N}$ memenuhi $xy=z^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2$, $y=c^2+d^2$, dan $z=ac+bd$.
 
    <details>
    <summary>Lihat Solusi</summary>
@@ -24,7 +24,7 @@ urutan: 16
    </div>
    </details>
 
-2. Pada segienam beraturan $ABCDEF$, misalkan diagonal $AC$ dan $CE$ berturut-turut dibagi oleh titik $M$ dan $N$ sedemikian sehingga $\dfrac{AM}{AC}=\dfrac{CN}{CE}=r$. Jika titik $B$, $M$, dan $N$ segaris, tentukan nilai dari $r$.
+2. Pada segi enam beraturan $ABCDEF$, misalkan titik $M$ dan $N$ berturut-turut berada pada diagonal $AC$ dan $CE$ sedemikian sehingga $\dfrac{AM}{AC}=\dfrac{CN}{CE}=r$. Jika titik $B, M,$ dan $N$ segaris, tentukan nilai dari $r$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -52,9 +52,9 @@ urutan: 16
 
 4. Misalkan $A$ dan $B$ berturut-turut adalah matriks berukuran $3\times2$ dan $2\times3$ yang memenuhi
 
-   $$AB=\begin{bmatrix}8&2&-2\\\\2&55&4\\\\-2&4&5\end{bmatrix}.$$
+   $$AB=\begin{bmatrix}8&2&-2\\\\2&5&4\\\\-2&4&5\end{bmatrix}.$$
 
-   Tentukan nilai dari $BA$.
+   Tentukan nilai dari matriks $BA$.
    
    <details>
    <summary>Lihat Solusi</summary>
@@ -65,7 +65,7 @@ urutan: 16
    </div>
    </details>
 
-5. Ambrodol memiliki gantungan kunci berbentuk lingkaran dengan n kunci, n ≥ 3. Ketika dia mengeluarkannya dari sakunya, dia tidak tahu apakah gantungan kunci itu berputar dan/atau terbalik. Satu-satunya cara dia dapat membedakan kunci-kunci tersebut adalah dengan mewarnai setiap kuncinya. Tentukan banyak minimum warna yang dibutuhkan.
+5. Ambrodol memiliki gantungan kunci berbentuk lingkaran yang berisi $n$ kunci dengan $n\geq3$. Ketika dia mengeluarkan gantungan kunci tersebut dari sakunya, dia tidak tahu apakah gantungan kunci itu berputar dan/atau terbalik. Satu-satunya cara untuk membedakan kunci-kunci tersebut adalah dengan mewarnai setiap kunci. Tentukan banyak warna minimum yang dibutuhkan.
    
    <details>
    <summary>Lihat Solusi</summary>
