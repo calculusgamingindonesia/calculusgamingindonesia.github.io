@@ -11,6 +11,7 @@ urutan: 3
 </div>
 
 1. Diberikan fungsi $f:\mathbb{R}\to\mathbb{R}$ yang memenuhi $\lambda f(x)+(1-\lambda)f(y)-f(\lambda x+(1-\lambda)y)\geq0$ untuk setiap $\lambda\in[0, 1]$ dan $x, y\in\mathbb{R}$.
+
    * (a) Untuk setiap $x, y\in\mathbb{R}$ dengan $x<y$, buktikan bahwa $\smash{f\bigg(\dfrac{x+y}{2}\bigg)\leq\dfrac{f(x)+f(y)}{2}}$.
    * (b) Buktikan bahwa
 
