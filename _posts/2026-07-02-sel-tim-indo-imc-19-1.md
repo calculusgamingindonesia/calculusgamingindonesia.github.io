@@ -13,7 +13,7 @@ urutan: 5
     </h1>
 </div>
 
-1. Untuk setiap $r\in\set{1, 2, \ldots, k}$, buktikan secara kombinatorial bahwa
+1. Misalkan $r, k, n\in\mathbb{N}$ dengan $r\leq k\leq n$. Buktikan secara kombinatorial bahwa
    
    $$\dbinom{n}{k}=\sum_{j=r}^{n+r-k}\dbinom{j-1}{r-1}\dbinom{n-j}{k-r}.$$
 
