@@ -52,7 +52,7 @@ urutan: 16
 
 4. Misalkan $A$ dan $B$ berturut-turut adalah matriks berukuran $3\times2$ dan $2\times3$ yang memenuhi
 
-   $$AB=\begin{bmatrix}8&2&-2\\\\2&5&4\\\\-2&4&5\end{bmatrix}.$$
+   $$AB=\begin{bmatrix}8&2&-2\\\2&5&4\\\-2&4&5\end{bmatrix}.$$
 
    Tentukan nilai dari matriks $BA$.
    
