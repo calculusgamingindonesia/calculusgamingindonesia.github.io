@@ -24,7 +24,7 @@ urutan: 15
    </div>
    </details>
 
-2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{\dfrac{7}{2}}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq3\sqrt{\dfrac{7}[6}}$.
+2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq3\dfrac{13}{4}$.
    
    <details>
    <summary>Lihat Solusi</summary>
