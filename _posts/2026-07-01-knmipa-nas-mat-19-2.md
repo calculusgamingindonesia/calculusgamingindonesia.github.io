@@ -13,7 +13,7 @@ urutan: 4
 1. Diberikan $k, n\in\mathbb{N}$. Buktikan bahwa
 
    $$\sum_{i=0}^k(-1)^i\dbinom{k}{i}(k-i)^n=\begin{cases}n!&\text{jika }k=n,\\0&\text{jika }k>n.\end{cases}$$
-
+   
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
