@@ -38,9 +38,9 @@ urutan: 9
    </details>
 3. Diberikan fungsi kontinu $f, F:[a, b]\to\mathbb{R}$ dengan
    
-   $$F(x)=\int_a^xf(t)\,\mathrm{d}t,\quad\text{untuk setiap }x\in[a, b].$$
+   $$F(x)=\int_a^xf(t)\,\mathrm{d}t,$$
    
-   Jika $(p_n)\subseteq[a, b]$ adalah barisan Cauchy, buktikan bahwa terdapat $p, c\in[a, b]$ sedemikian sehingga barisan $(F(p_n))$ konvergen ke $f(c)(p-a)$.
+   untuk setiap $x\in[a, b]$. Jika $(p_n)\subseteq[a, b]$ adalah barisan Cauchy, buktikan bahwa terdapat $p, c\in[a, b]$ sedemikian sehingga barisan $(F(p_n))$ konvergen ke $f(c)(p-a)$.
    
    <details>
    <summary>Lihat Solusi</summary>
