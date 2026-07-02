@@ -74,5 +74,3 @@ urutan: 9
        
    </div>
    </details>
-   </div>
-   </details>
