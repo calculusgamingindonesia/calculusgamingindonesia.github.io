@@ -13,7 +13,7 @@ urutan: 10
     </h1>
 </div>
 
-1. Pasangan $(a, b)\in\mathbb{C}^2$ dikatakan *seimbang* jika $\vert a\vert=\vert b\vert=\vert a+b\vert$.
+1. Pasangan $(a, b)\in\mathbb{C}^2$ dikatakan *seimbang* jika memenuhi $\vert a\vert=\vert b\vert=\vert a+b\vert$.
    * (a) Tunjukkan bahwa terdapat pasangan seimbang $(a, b)$ dengan $a\neq b$.
    * (b) Jika $(a, b)$ adalah pasangan seimbang dan $a^{2020}=b^{2020}$, tunjukkan bahwa $a=b$.
    
