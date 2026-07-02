@@ -70,7 +70,7 @@ urutan: 10
    </div>
    </details>
 
-5. Misalkan $A$, $B$, $C$, dan $D$ adalah matriks berukuran $9\times9$ dengan entri real yang memenuhi $CA=BC$. Jika $A$ dan $B$ memiliki polinomial karakteristik yang sama, selidiki apakah $A-DC$ dan $B-CD$ juga memiliki polinomial karakteristik yang sama.
+5. Misalkan $A$, $B$, $C$, dan $D$ adalah matriks real berukuran $9\times9$ yang memenuhi $CA=BC$. Jika $A$ dan $B$ memiliki polinomial karakteristik yang sama, selidiki apakah $A-DC$ dan $B-CD$ juga memiliki polinomial karakteristik yang sama.
    
    <details>
    <summary>Lihat Solusi</summary>
