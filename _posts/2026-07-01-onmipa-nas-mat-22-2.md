@@ -13,7 +13,7 @@ urutan: 20
     </h1>
 </div>
 
-1. Misalkan $k\geq4$ adalah bilangan asli genap dan $S=\{1, 2, \ldots, n\}$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a$, $b$, dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
+1. Misalkan $k\geq4$ adalah bilangan asli genap dan $S=\set{1, 2, \ldots, n}$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a$, $b$, dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
    
    <details>
    <summary>Lihat Solusi</summary>
