@@ -13,7 +13,7 @@ urutan: 15
     </h1>
 </div>
 
-1. Buktikan bahwa tidak ada $a, b, c\in\mathbb{N}$ sedemikian sehingga $\dfrac{a^2+b^2+c^2}{3(ab+bc+ca)}$ adalah bilangan bulat.
+1. Buktikan bahwa tidak ada $a, b, c\in\mathbb{N}$ sedemikian sehingga $\smash{\dfrac{a^2+b^2+c^2}{3(ab+bc+ca)}}$ adalah bilangan bulat.
 
    <details>
    <summary>Lihat Solusi</summary>
@@ -24,7 +24,7 @@ urutan: 15
    </div>
    </details>
 
-2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq\dfrac{13}{4}$.
+2. Untuk setiap $z\in\mathbb{C}$ dengan $\vert z\vert=1$, buktikan bahwa $\smash{\sqrt{3}\leq\vert1+z\vert+\vert1-z+z^2\vert\leq\dfrac{13}{4}}$.
    
    <details>
    <summary>Lihat Solusi</summary>
