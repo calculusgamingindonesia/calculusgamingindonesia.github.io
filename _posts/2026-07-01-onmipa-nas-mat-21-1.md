@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi KNMIPA Nasional Matematika 2021 (Hari Pertama)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 13
+urutan: 14
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
