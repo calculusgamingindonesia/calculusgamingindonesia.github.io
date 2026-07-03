@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Soal dan Solusi KNMIPA Nasional Matematika 2020 (Hari Pertama)"
+title: "Soal dan Solusi KNMIPA-PT Nasional Matematika 2020 (Hari Pertama)"
 date: 2026-07-01
 category: soaldansolusi
 urutan: 107
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi KNMIPA Nasional <br> Matematika 2020 (Hari Pertama)</h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi KNMIPA-PT Nasional <br> Matematika 2020 (Hari Pertama)</h1>
 </div>
 
 1. Untuk setiap $x, y, m\in\mathbb{Z}$ dengan $x, y\geq0$ dan $m\geq x+y$, buktikan bahwa
