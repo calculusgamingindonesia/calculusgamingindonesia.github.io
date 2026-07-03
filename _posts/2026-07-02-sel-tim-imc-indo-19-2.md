@@ -16,7 +16,7 @@ urutan: 202
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Misalkan $a, b\in\mathbb{R}^3$ dengan $a\cdot b\neq0$. Didefinisikan operator linear $T:\mathbb{R}^3\to\mathbb{R}^3$ dengan $T(v)=(a\times v)\times b$ untuk setiap $v\in\mathbb{R}^3$. Tentukan semua nilai eigen dari $T$.
+2. Misalkan $\boldsymbol{a}, \boldsymbol{b}\in\mathbb{R}^3$ dengan $\boldsymbol{a}\cdot\boldsymbol{b}\neq0$. Didefinisikan operator linear $T:\mathbb{R}^3\to\mathbb{R}^3$ dengan $T(\boldsymbol{v})=(\boldsymbol{a}\times\boldsymbol{v})\times\boldsymbol{b}$ untuk setiap $\boldsymbol{v}\in\mathbb{R}^3$. Tentukan semua nilai eigen dari $T$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
