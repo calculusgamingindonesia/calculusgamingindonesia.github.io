@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi Simulasi untuk Tim IMC Indonesia 2021 (Hari Kedua)"
 date: 2026-07-02
 category: soaldansolusi
-urutan: 16
+urutan: 17
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
