@@ -36,7 +36,7 @@ urutan: 204
 
 4. Tentukan nilai dari
 
-   $$\int_{-\frac{1}{\sqrt{3}}}^{\frac{1}{\sqrt{3}}}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{x^2+1}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{-x^2+1}\bigg)}{e^x+1)\,\mathrm{d}x.$$
+   $$\int_{-\frac{1}{\sqrt{3}}}^{\frac{1}{\sqrt{3}}}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{x^2+1}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{-x^2+1}\bigg)}{e^x+1}\,\mathrm{d}x.$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
