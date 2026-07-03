@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi Seleksi untuk Tim IMC Indonesia 2019 (Hari Kedua)"
 date: 2026-07-02
 category: soaldansolusi
-urutan: 6
+urutan: 202
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
