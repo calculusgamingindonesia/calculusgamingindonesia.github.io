@@ -36,7 +36,7 @@ urutan: 301
 
 4. Tentukan nilai dari
 
-   $$\int_{-\frac{1}{\sqrt{3}}}^{\frac{1}{\sqrt{3}}}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{x^2+1}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{-x^2+1}\bigg)}{e^x+1}\,\mathrm{d}x.$$
+   $$\int_{\textstyle-\frac{1}{\sqrt{3}}}^{\textstyle\frac{1}{\sqrt{3}}}\begin{matrix}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{x^2+1}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{-x^2+1}\bigg)}{e^x+1}\end{matrix}\,\mathrm{d}x.$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -48,7 +48,7 @@ urutan: 301
 
    untuk setiap $n\in\mathbb{N}$. Tentukan nilai dari
 
-   $$\lim_{n\to\infty}\dfrac{1}{n}\sum_{k=1}^b(\ln(n+k)+f(n)).$$
+   $$\lim_{n\to\infty}\dfrac{1}{n}\sum_{k=1}^n(\ln(n+k)+f(n)).$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
