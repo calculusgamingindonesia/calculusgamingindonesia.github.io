@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi ONMIPA Nasional Matematika 2019 (Hari Pertama)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 3
+urutan: 103
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
