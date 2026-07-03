@@ -55,7 +55,7 @@ urutan: 103
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diberikan matriks $F$ dan $H$ yang berukuran $n\times n$ dan memenuhi $HF-FH=2^{2019}F$. Misalkan $v$ adalah vektor eigen dari $H$ dengan $Fv\neq0$. Buktikan bahwa terdapat $k\in\mathbb{N}$ sedemikian sehingga $F^kv$ adalah vektor eigen dari $F$.
+5. Diberikan matriks $F$ dan $H$ yang berukuran $n\times n$ dan memenuhi $HF-FH=2^{2019}F$. Misalkan $\boldsymbol{v}$ adalah vektor eigen dari $H$ dengan $F\boldsymbol{v}\neq0$. Buktikan bahwa terdapat $k\in\mathbb{N}$ sedemikian sehingga $F^k\boldsymbol{v}$ adalah vektor eigen dari $F$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
