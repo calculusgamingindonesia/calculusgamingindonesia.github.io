@@ -60,11 +60,6 @@
             margin-top: 15px;
         }
 
-        /* Penyesuaian agar sub-sub list tertarik sejajar ke kiri */
-        ol ul ul {
-            margin-left: -2em;
-        }
-
         ol ol {
             list-style-type: lower-alpha;
             padding-left: 2em;
@@ -74,7 +69,6 @@
 
         ol ul > li, ol ol > li {
             position: relative;
-            /* Diperlebar sedikit ke 2.2em untuk memberi ruang teks "(iii)" */
             padding-left: 2.2em !important; 
             text-indent: 0 !important;
             margin-bottom: 12px;
@@ -88,13 +82,20 @@
         .custom-sub-marker {
             position: absolute;
             left: 0;
-            /* Diperlebar dari 1.5em menjadi 1.8em agar "iii" muat sempurna */
             width: 1.8em; 
             text-align: right;
         }
         .custom-sub-content {
             display: block;
             text-align: justify;
+        }
+
+        /* KELAS BARU: 
+           Menarik list yang bersarang (i, ii, iii) ke kiri sebesar padding parent-nya
+           agar posisinya sejajar secara absolut dengan (a, b, c).
+        */
+        li.sejajar-kiri {
+            margin-left: -2.2em !important;
         }
 
         @media screen and (max-width: 768px) {
@@ -115,9 +116,12 @@
             ol ul > li, ol ol > li {
                 padding-left: 2.4em !important;
             }
-            ol ul ul {
-                margin-left: -2.25em;
+            
+            /* Penyesuaian margin negatif di versi mobile agar proporsional */
+            li.sejajar-kiri {
+                margin-left: -2.4em !important;
             }
+
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
                 overflow-y: hidden;
@@ -131,8 +135,6 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        // PERBAIKAN: Gunakan Array.from() lalu .reverse() agar list 
-        // dikerjakan dari yang paling dalam terlebih dahulu (i, ii, iii) ke terluar (b)
         let listItems = Array.from(document.querySelectorAll("ol ul > li, ol ol > li")).reverse();
         
         listItems.forEach(function(li) {
@@ -142,6 +144,14 @@
                 let marker = match[1].trim();
                 let content = target.innerHTML.substring(match[0].length);
                 target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
+            }
+
+            // DETEKSI SUB-LIST (i, ii, iii):
+            // Jika elemen `li` ini berada di dalam parent yang juga keturunan dari `li` lainnya,
+            // tambahkan kelas 'sejajar-kiri'
+            let parentUL = li.parentElement;
+            if (parentUL && parentUL.closest('li')) {
+                li.classList.add('sejajar-kiri');
             }
         });
     });
