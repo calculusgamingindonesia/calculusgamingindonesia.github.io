@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Soal dan Solusi CAPTION ITS Babak Presentasi 2020"
+title: "Soal dan Solusi CAPTION ITS Bagian Presentasi 2020"
 date: 2026-07-02
 category: soaldansolusi
-urutan: 204
+urutan: 301
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
