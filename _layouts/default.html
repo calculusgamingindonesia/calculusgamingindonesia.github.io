@@ -59,6 +59,12 @@
             padding-left: 0;
             margin-top: 15px;
         }
+
+        /* PERBAIKAN: Menarik sub-sub-list agar posisinya sejajar dengan sub-list di atasnya */
+        ol ul ul {
+            margin-left: -2em;
+        }
+
         ol ol {
             list-style-type: lower-alpha;
             padding-left: 2em;
@@ -107,6 +113,12 @@
             ol ul > li, ol ol > li {
                 padding-left: 2.25em !important;
             }
+            
+            /* PERBAIKAN: Menyesuaikan penarikan margin untuk tampilan mobile */
+            ol ul ul {
+                margin-left: -2.25em;
+            }
+
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
                 overflow-y: hidden;
