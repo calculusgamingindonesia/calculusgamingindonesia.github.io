@@ -66,32 +66,41 @@
             margin-top: 10px;
         }
 
-        /* Set LI sub-item menggunakan struktur Flexbox */
+        /* METODE INDENTASI PASTI SEJAJAR (MENGGANTIKAN FLEXBOX & JS) */
         ol ul > li, ol ol > li {
-            display: flex !important;
-            align-items: flex-start !important;
+            position: relative !important;
+            display: block !important;
             margin-bottom: 12px;
             line-height: 1.7;
-            text-align: justify;
-            padding-left: 0 !important;
+            text-align: justify !important;
+            
+            /* Menggeser seluruh blok teks ke kanan sejauh 2.5em */
+            padding-left: 2.5em !important; 
             text-indent: 0 !important;
         }
 
-        /* Kolom nomor Romawi (i), (ii), (iii) dibuat statis rata kanan */
+        /* Memaksa elemen marker (i), (ii), dst. melompat ke area kosong di kiri */
         .custom-sub-marker {
-            display: inline-block;
-            flex-shrink: 0;
-            width: 2.5em; 
-            text-align: right;
-            padding-right: 0.8em;
-            box-sizing: border-box;
+            position: absolute !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 2.2em !important; /* Batas dinding kolom angka */
+            text-align: right !important;
             font-weight: 500;
         }
 
-        /* Kolom teks di sebelahnya otomatis mulai di titik vertikal yang sama */
+        /* Memastikan isi teks rata kiri sempurna di jalurnya */
         .custom-sub-content {
-            flex-grow: 1;
-            text-align: justify;
+            display: inline !important;
+            text-align: justify !important;
+        }
+
+        /* Menghilangkan margin bawaan tag <p> dari Markdown agar tidak merusak posisi */
+        ol ul > li p, ol ol > li p {
+            display: inline !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            text-align: justify !important;
         }
 
         @media screen and (max-width: 768px) {
@@ -122,24 +131,32 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
-            // Ambil teks HTML mentah di dalam elemen li, abaikan pembungkus <p> jika ada
-            let rawContent = li.innerHTML.trim();
-            if (li.querySelector("p")) {
-                rawContent = li.querySelector("p").innerHTML.trim();
-            }
+        // Fungsi pembagi text dijalankan berulang untuk memastikan struktur HTML murni terpasang
+        function rapikanPoin() {
+            document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
+                // Jangan proses ulang jika sudah berhasil diubah sebelumnya
+                if (li.querySelector(".custom-sub-marker")) return;
 
-            // Regex untuk mendeteksi pola awal kurung seperti (i), (ii), (a), (1), dll.
-            let match = rawContent.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
-            
-            if (match) {
-                let marker = match[1].trim();
-                let content = rawContent.substring(match[0].length);
+                let target = li.querySelector("p") || li;
+                let textMentah = target.innerHTML.trim();
                 
-                // Susun ulang struktur HTML murni menjadi 2 span berdampingan
-                li.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
-            }
-        });
+                // Regex mencocokkan format kurung (i), (ii), (iii), (a), dll.
+                let match = textMentah.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+                
+                if (match) {
+                    let marker = match[1].trim();
+                    let content = textMentah.substring(match[0].length);
+                    
+                    // Ganti isi elemen dengan struktur posisi absolut yang kaku
+                    target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
+                }
+            });
+        }
+
+        // Jalankan saat load awal
+        rapikanPoin();
+        // Jalankan sekali lagi dalam jeda mikro untuk mengantisipasi keterlambatan render MathJax/Jekyll
+        setTimeout(rapikanPoin, 100);
     });
 </script>
 
