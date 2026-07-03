@@ -66,9 +66,10 @@
             margin-top: 10px;
         }
 
+        /* Modifikasi padding-left di sini dari 2em menjadi 2.5em agar muat karakter romawi yang lebih panjang */
         ol ul > li, ol ol > li {
             position: relative;
-            padding-left: 2em !important;
+            padding-left: 2.5em !important;
             text-indent: 0 !important;
             margin-bottom: 12px;
             line-height: 1.7;
@@ -78,10 +79,11 @@
             content: none;
         }
 
+        /* Modifikasi lebar (width) agar nomor romawi seperti (iii) tidak tumpang tindih dan rata kanan dengan rapi */
         .custom-sub-marker {
             position: absolute;
             left: 0;
-            width: 1.5em;
+            width: 2em;
             text-align: right;
         }
         .custom-sub-content {
@@ -105,7 +107,7 @@
                 left: -2.25em;
             }
             ol ul > li, ol ol > li {
-                padding-left: 2.25em !important;
+                padding-left: 2.5em !important;
             }
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
