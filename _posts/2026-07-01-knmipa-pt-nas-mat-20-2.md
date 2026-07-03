@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Soal dan Solusi KNMIPA Nasional Matematika 2020 (Hari Kedua)"
+title: "Soal dan Solusi KNMIPA-PT Nasional Matematika 2020 (Hari Kedua)"
 date: 2026-07-01
 category: soaldansolusi
 urutan: 108
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi KNMIPA Nasional <br> Matematika 2020 (Hari Kedua)</h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi KNMIPA-PT Nasional <br> Matematika 2020 (Hari Kedua)</h1>
 </div>
 
 1. Pasangan $(a, b)\in\mathbb{C}^2$ dikatakan *seimbang* jika memenuhi $\vert a\vert=\vert b\vert=\vert a+b\vert$.
