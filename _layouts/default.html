@@ -66,27 +66,29 @@
             margin-top: 10px;
         }
 
-        /* Menggunakan Flexbox untuk perataan sub-item yang sempurna */
+        /* Set LI sub-item menggunakan struktur Flexbox */
         ol ul > li, ol ol > li {
-            display: flex;
-            align-items: flex-start;
+            display: flex !important;
+            align-items: flex-start !important;
             margin-bottom: 12px;
             line-height: 1.7;
             text-align: justify;
-            padding-left: 0 !important; /* Reset padding lama */
+            padding-left: 0 !important;
             text-indent: 0 !important;
         }
 
-        /* Desain Kolom Penanda (i), (ii), (iii), dst */
+        /* Kolom nomor Romawi (i), (ii), (iii) dibuat statis rata kanan */
         .custom-sub-marker {
+            display: inline-block;
             flex-shrink: 0;
-            width: 2.5em; /* Lebar kolom penanda ditinggikan agar pas untuk (iii) */
+            width: 2.5em; 
             text-align: right;
-            padding-right: 0.75em; /* Jarak antara penanda dan teks */
+            padding-right: 0.8em;
             box-sizing: border-box;
+            font-weight: 500;
         }
 
-        /* Desain Kolom Isi Teks */
+        /* Kolom teks di sebelahnya otomatis mulai di titik vertikal yang sama */
         .custom-sub-content {
             flex-grow: 1;
             text-align: justify;
@@ -121,15 +123,20 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
-            // Deteksi teks p di dalam li jika di-render oleh Markdown generator
-            let target = li.querySelector("p") || li;
-            let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+            // Ambil teks HTML mentah di dalam elemen li, abaikan pembungkus <p> jika ada
+            let rawContent = li.innerHTML.trim();
+            if (li.querySelector("p")) {
+                rawContent = li.querySelector("p").innerHTML.trim();
+            }
+
+            // Regex untuk mendeteksi pola awal kurung seperti (i), (ii), (a), (1), dll.
+            let match = rawContent.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
             
             if (match) {
                 let marker = match[1].trim();
-                let content = target.innerHTML.substring(match[0].length);
+                let content = rawContent.substring(match[0].length);
                 
-                // Set struktur flex di dalam elemen li utama
+                // Susun ulang struktur HTML murni menjadi 2 span berdampingan
                 li.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
             }
         });
