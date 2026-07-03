@@ -60,12 +60,6 @@
             margin-top: 15px;
         }
         
-        /* Tambahan: Mengatur indentasi khusus untuk nested list level 2 (seperti i, ii, iii) */
-        ol ul ul {
-            padding-left: 3em; 
-            margin-top: 10px;
-        }
-
         ol ol {
             list-style-type: lower-alpha;
             padding-left: 2em;
@@ -75,7 +69,6 @@
 
         ol ul > li, ol ol > li {
             position: relative;
-            /* Diperlebar dari 2em menjadi 2.5em agar teks sejajar dan tidak menabrak marker (iii) */
             padding-left: 2.5em !important; 
             text-indent: 0 !important;
             margin-bottom: 12px;
@@ -86,11 +79,15 @@
             content: none;
         }
 
+        /* BARU: Mendorong penomoran Romawi (i, ii, iii) lebih ke tengah */
+        ol ul > li.mock-nested-roman {
+            margin-left: 2.5em;
+        }
+
         .custom-sub-marker {
             position: absolute;
             left: 0;
-            /* Diperlebar dari 1.5em menjadi 2em untuk memberikan ruang bagi (iii) */
-            width: 2em; 
+            width: 2em; /* Lebar box penanda agar teks setelahnya sejajar rata kiri */
             text-align: right;
         }
         .custom-sub-content {
@@ -116,9 +113,9 @@
             ol ul > li, ol ol > li {
                 padding-left: 2.5em !important;
             }
-            /* Menyesuaikan indentasi sub-list di layar mobile */
-            ol ul ul {
-                padding-left: 1.5em;
+            /* Penyesuaian jarak di layar hp */
+            ol ul > li.mock-nested-roman {
+                margin-left: 1.5em;
             }
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
@@ -140,6 +137,11 @@
                 let marker = match[1].trim();
                 let content = target.innerHTML.substring(match[0].length);
                 target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
+                
+                /* BARU: Deteksi otomatis penomoran Romawi kecil seperti (i), (ii), (iii) */
+                if (/^\([ivxIVX]+\)$/.test(marker)) {
+                    li.classList.add('mock-nested-roman');
+                }
             }
         });
     });
