@@ -10,7 +10,7 @@ urutan: 303
     <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi MISSION ITS Babak Presentasi 2022 </h1>
 </div>
 
-1. Diberikan himpunan tertutup $S\subseteq\mathbb{R}^n$ dan fungsi $F:S\to\mathbb{R}^n$. Jika himpunan $\set{(x, t)\in S\times\mathbb{R}:F(x)\leq t}$ tertutup, buktikan bahwa $\lim_{\delta\to0}\inf\set{F(x):x\in S\cap B(y, \delta)-\set{y}}\geq F(y)$ untuk setiap $y\in S$.
+1. Diberikan himpunan tertutup $S\subseteq\mathbb{R}^n$ dan fungsi $F:S\to\mathbb{R}$. Jika himpunan $\set{(x, t)\in S\times\mathbb{R}:F(x)\leq t}$ tertutup, buktikan bahwa $\lim_{\delta\to0}\inf\set{F(x):x\in S\cap B(y, \delta)-\set{y}}\geq F(y)$ untuk setiap $y\in S$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -26,7 +26,7 @@ urutan: 303
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Tentukan model matematika dalam bentuk sistem persamaan diferensial terkait kecanduan game online pada remaja beserta validasinya berdasarkan kelima pengamatan berikut.
+3. Tentukan model matematika dalam bentuk sistem persamaan diferensial terkait kecanduan game online pada remaja beserta validasinya berdasarkan kelima pengamatan berikut.
 
    * (a) Objek pengamatan adalah pemuda-pemuda usia rentan menjadi pecandu game online atau pengguna suatu aplikasi game online.
    * (b) Dengan asumsi bahwa istilah 'terinfeksi' mengacu pada individu yang mengalami kecanduan game online, pengelompokan populasi didefinisikan sebagai berikut.
