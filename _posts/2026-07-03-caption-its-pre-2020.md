@@ -18,7 +18,7 @@ urutan: 301
 
 2. Tentukan nilai dari 
 
-   $$\int_{\sqrt[3]{\log(3)}}^{\sqrt[3]{\log(4)}}\dfrac{x^2\sin(x^3)}{\sin(x^3)+\sin(-x^3+\log(12))}\,\mathrm{d}x.$$
+   $$\int_{\sqrt[3]{\log(3)}}^{\sqrt[3]{\log(4)}}\dfrac{x^2\sin(x^3)}{\sin(x^3)+\sin(\log(12)-x^3)}\,\mathrm{d}x.$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -26,7 +26,7 @@ urutan: 301
 
 3. Misalkan $f:\mathbb{R}\to\mathbb{R}$ adalah fungsi yang terturunkan sebanyak tak hingga kali serta memenuhi
 
-   $$-f(x)+\dfrac{1}{2020}f'(x)+\dfrac{1}{2020}f''(x)+\dfrac{1}{2020}f'''(x)+\cdots=0$$
+   $$f(x)=\dfrac{1}{2020}f'(x)+\dfrac{1}{2020}f''(x)+\dfrac{1}{2020}f'''(x)+\cdots$$
 
    dan $f(0)=1$. Tentukan nilai dari $f(2021)$.
    
@@ -36,7 +36,7 @@ urutan: 301
 
 4. Tentukan nilai dari
 
-   $$\int_{\textstyle -\frac{1}{\sqrt{3}}}^{\textstyle \frac{1}{\sqrt{3}}}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{x^2+1}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{-x^2+1}\bigg)}{e^x+1}\,\mathrm{d}x.$$
+   $$\int_{\textstyle -\frac{1}{\sqrt{3}}}^{\textstyle \frac{1}{\sqrt{3}}}\dfrac{\cos^{-1}\bigg(\dfrac{2x}{1+x^2}\bigg)+\tan^{-1}\bigg(\dfrac{2x}{1-x^2}\bigg)}{e^x+1}\,\mathrm{d}x.$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
