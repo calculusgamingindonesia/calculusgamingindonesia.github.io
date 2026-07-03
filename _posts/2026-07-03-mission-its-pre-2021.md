@@ -26,7 +26,7 @@ urutan: 302
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Pada menit ke-$0$, sebuah tangki berisi 4 pon garam yang terlarut dalam 100 liter air. Air garam yang mengandung 2 pon garam per liter dialirkan masuk ke dalam tangki dengan laju 5 liter/menit dan larutan yang telah tercampur rata dikeluarkan dari tangki dengan laju yang sama. Tentukan jumlah garam di dalam tangki setelah 10 menit.
+3. Pada menit ke-$0$, sebuah tangki berisi $4$ pon garam yang terlarut dalam $100$ liter air. Air garam yang mengandung $2$ pon garam per liter dialirkan masuk ke dalam tangki dengan laju $5$ liter/menit dan larutan yang telah tercampur rata dikeluarkan dari tangki dengan laju yang sama. Tentukan jumlah garam di dalam tangki setelah $10$ menit.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
