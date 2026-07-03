@@ -36,6 +36,7 @@
         summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
         .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
         
+        /* List Utama (Nomor Soal) */
         ol {
             list-style-type: none;
             counter-reset: soal-counter;
@@ -54,48 +55,39 @@
             text-align: right;
         }
         
-        ol ul {
-            list-style-type: none;
-            padding-left: 0;
-            margin-top: 15px;
-        }
-
-        ol ol {
-            list-style-type: lower-alpha;
-            padding-left: 2em;
-            counter-reset: none;
+        /* BARU: Reset total semua padding/margin bawaan browser pada list bersarang.
+           Ini memastikan (a), (b) maupun (i), (ii), (iii) tidak terdorong semakin ke kanan.
+        */
+        ol ol, ol ul, ul ol, ul ul {
+            padding-left: 0 !important;
+            margin-left: 0 !important;
+            list-style-type: none !important;
             margin-top: 10px;
         }
 
-        ol ul > li, ol ol > li {
-            position: relative;
-            padding-left: 2.2em !important; 
+        /* KELAS UTAMA: Menyeragamkan posisi semua jenis sub-poin agar menggantung & sejajar */
+        .custom-hanging-container {
+            position: relative !important;
+            padding-left: 2.3em !important; /* Jarak teks dari tepi kiri */
             text-indent: 0 !important;
             margin-bottom: 12px;
             line-height: 1.7;
             text-align: justify;
-        }
-        ol ul > li::before, ol ol > li::before {
-            content: none;
-        }
-
-        .custom-sub-marker {
-            position: absolute;
-            left: 0;
-            width: 1.8em; 
-            text-align: right;
-        }
-        .custom-sub-content {
             display: block;
-            text-align: justify;
         }
 
-        /* KELAS BARU: 
-           Menarik list yang bersarang (i, ii, iii) ke kiri sebesar padding parent-nya
-           agar posisinya sejajar secara absolut dengan (a, b, c).
-        */
-        li.sejajar-kiri {
-            margin-left: -2.2em !important;
+        /* Posisi absolut penanda/buka-tutup kurung seperti (b) atau (iii) */
+        .custom-sub-marker {
+            position: absolute !important;
+            left: 0 !important;
+            width: 1.9em !important; /* Lebar ruang marker agar teks (iii) tidak tabrakan */
+            text-align: right !important;
+            font-weight: inherit;
+        }
+
+        .custom-sub-content {
+            display: block !important;
+            text-align: justify !important;
         }
 
         @media screen and (max-width: 768px) {
@@ -113,15 +105,12 @@
             ol > li::before {
                 left: -2.25em;
             }
-            ol ul > li, ol ol > li {
-                padding-left: 2.4em !important;
+            .custom-hanging-container {
+                padding-left: 2.5em !important;
             }
-            
-            /* Penyesuaian margin negatif di versi mobile agar proporsional */
-            li.sejajar-kiri {
-                margin-left: -2.4em !important;
+            .custom-sub-marker {
+                width: 2.1em !important;
             }
-
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
                 overflow-y: hidden;
@@ -135,23 +124,24 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        let listItems = Array.from(document.querySelectorAll("ol ul > li, ol ol > li")).reverse();
+        // STRATEGI BARU: Ambil semua elemen paragraf (<p>) dan list (<li>) di dalam main
+        let elements = document.querySelectorAll("main p, main li");
         
-        listItems.forEach(function(li) {
-            let target = li.querySelector("p") || li;
-            let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+        elements.forEach(function(el) {
+            // Hindari pemrosesan ganda jika elemen sudah diubah
+            if (el.querySelector('.custom-sub-marker')) return;
+            
+            let html = el.innerHTML.trim();
+            // Regex mendeteksi teks yang diawali oleh tanda kurung seperti (a), (b), (i), (iii)
+            let match = html.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+            
             if (match) {
                 let marker = match[1].trim();
-                let content = target.innerHTML.substring(match[0].length);
-                target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
-            }
-
-            // DETEKSI SUB-LIST (i, ii, iii):
-            // Jika elemen `li` ini berada di dalam parent yang juga keturunan dari `li` lainnya,
-            // tambahkan kelas 'sejajar-kiri'
-            let parentUL = li.parentElement;
-            if (parentUL && parentUL.closest('li')) {
-                li.classList.add('sejajar-kiri');
+                let content = html.substring(match[0].length);
+                
+                // Paksa elemen menggunakan layout menggantung yang seragam
+                el.classList.add('custom-hanging-container');
+                el.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
             }
         });
     });
