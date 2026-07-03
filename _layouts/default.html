@@ -54,7 +54,7 @@
             text-align: right;
         }
         
-        /* Reset jarak list bersarang (a), (b) & (i), (ii) */
+        /* Reset jarak list bersarang */
         ol ul, ol ol {
             list-style-type: none;
             padding-left: 0;
@@ -69,29 +69,27 @@
             content: none;
         }
 
-        /* --- FLEXBOX: INI YANG BIKIN TEKS SEJAJAR SEMPURNA --- */
-        .flex-list-item {
-            display: flex;
-            align-items: flex-start;
+        /* --- CSS GRID: SOLUSI PASTI SEJAJAR SEPERTI LATEX --- */
+        .grid-list-item {
+            display: grid;
+            /* Kolom 1 (Nomor): Lebar tetap 40px. Kolom 2 (Teks): Mengisi sisa ruang */
+            grid-template-columns: 40px 1fr; 
+            gap: 12px; /* Jarak spasi antara penomoran dan huruf awal teks */
+            align-items: start;
         }
-        .flex-marker {
-            flex-shrink: 0;
-            /* Ubah angka 3em di bawah ini jika ingin menggeser nomor lebih ke kiri atau kanan */
-            width: 3em; 
-            text-align: center; /* Membuat (i), (ii) persis di tengah area lebarnya */
-            margin-right: 0.5em; /* Jarak spasi antara nomor dan awal teks */
+        .grid-marker {
+            text-align: right; /* Memastikan (i) dan (iii) sejajar di kurung tutupnya */
+            white-space: nowrap;
         }
-        .flex-content {
-            flex-grow: 1;
+        .grid-content {
             text-align: justify;
         }
 
         @media screen and (max-width: 768px) {
             h1 { font-size: 1.5rem !important; line-height: 1.4 !important; }
             body { padding-left: 15px; padding-right: 15px; }
-            /* Penyesuaian di layar HP */
-            .flex-marker { width: 2.2em; }
             .MathJax_Display, .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 10px; }
+            .grid-list-item { grid-template-columns: 35px 1fr; gap: 8px; } /* Dikecilkan sedikit untuk HP */
         }
     </style>
     
@@ -110,22 +108,24 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
-                // Cari elemen <p> dari markdown, atau gunakan <li> langsung
                 let target = li.querySelector("p") || li;
-                
-                // Deteksi teks yang diawali kurung seperti (a), (i), (ii)
                 let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
                 
                 if (match) {
                     let marker = match[1].trim();
                     let content = target.innerHTML.substring(match[0].length);
                     
-                    // Ganti struktur HTML menjadi Flexbox
+                    // Membungkus nomor dan teks ke dalam format Grid
                     target.innerHTML = `
-                        <span class="flex-marker">${marker}</span>
-                        <span class="flex-content">${content}</span>
+                        <div class="grid-list-item">
+                            <div class="grid-marker">${marker}</div>
+                            <div class="grid-content">${content}</div>
+                        </div>
                     `;
-                    target.classList.add('flex-list-item');
+                    // Menghilangkan margin bawaan tag <p> agar elemen tidak merenggang aneh di atas
+                    if(target.tagName.toLowerCase() === 'p') {
+                        target.style.margin = "0";
+                    }
                 }
             });
         });
