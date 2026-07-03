@@ -69,7 +69,8 @@
 
         ol ul > li, ol ol > li {
             position: relative;
-            padding-left: 2.5em !important; 
+            /* Jarak ini untuk memastikan teks di kanannya sejajar sempurna */
+            padding-left: 2.8em !important; 
             text-indent: 0 !important;
             margin-bottom: 12px;
             line-height: 1.7;
@@ -79,20 +80,15 @@
             content: none;
         }
 
-        /* BARU: Mendorong penomoran Romawi (i, ii, iii) lebih ke tengah */
-        ol ul > li.mock-nested-roman {
-            margin-left: 2.5em;
-        }
-
+        /* PERBAIKAN: Nomor diam di tempat, posisi ke tengah, teks sejajar */
         .custom-sub-marker {
             position: absolute;
             left: 0;
-            width: 2em; /* Lebar box penanda agar teks setelahnya sejajar rata kiri */
-            text-align: right;
+            width: 2.5em; 
+            text-align: center; /* Mengatur penomoran (i), (ii), dst. agar ke tengah */
         }
         .custom-sub-content {
             display: block;
-            text-align: justify;
         }
 
         @media screen and (max-width: 768px) {
@@ -113,9 +109,8 @@
             ol ul > li, ol ol > li {
                 padding-left: 2.5em !important;
             }
-            /* Penyesuaian jarak di layar hp */
-            ol ul > li.mock-nested-roman {
-                margin-left: 1.5em;
+            .custom-sub-marker {
+                width: 2.2em; /* Penyesuaian lebar nomor di HP */
             }
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
@@ -137,11 +132,6 @@
                 let marker = match[1].trim();
                 let content = target.innerHTML.substring(match[0].length);
                 target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
-                
-                /* BARU: Deteksi otomatis penomoran Romawi kecil seperti (i), (ii), (iii) */
-                if (/^\([ivxIVX]+\)$/.test(marker)) {
-                    li.classList.add('mock-nested-roman');
-                }
             }
         });
     });
