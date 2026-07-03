@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi ONMIPA Nasional Matematika 2022 (Hari Kedua)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 22
+urutan: 116
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
