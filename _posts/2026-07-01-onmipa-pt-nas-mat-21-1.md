@@ -34,7 +34,7 @@ urutan: 111
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Diberikan matriks real $A$ berukuran $n\times n$. Didefinisikan operator linear $T, S:\mathbb{R}^n\to\mathbb{R}^n$ dengan $T(x)=A\boldsymbol{x}$ dan $S(x)=A^T\boldsymbol{x}$ untuk setiap $\boldsymbol{x}\in\mathbb{R}^n$.
+4. Diberikan matriks real $A$ berukuran $n\times n$. Didefinisikan operator linear $T, S:\mathbb{R}^n\to\mathbb{R}^n$ dengan $T(\boldsymbol{x})=A\boldsymbol{x}$ dan $S(\boldsymbol{x})=A^T\boldsymbol{x}$ untuk setiap $\boldsymbol{x}\in\mathbb{R}^n$.
    * (a) Buktikan bahwa $\mathrm{Ker}(S\circ T)=\mathrm{Ker}(T)$.
    * (b) Selidiki apakah $\mathrm{Im}(S\circ T)=\mathrm{Im}(S)$.
    
