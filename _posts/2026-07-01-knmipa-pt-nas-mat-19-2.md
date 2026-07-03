@@ -34,7 +34,7 @@ urutan: 104
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $b_1, b_2, \dots,$ dan $b_k$ adalah vektor kolom berukuran $n-k$. Tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A&Ab_1&Ab_2&\cdots&Ab_k\end{bmatrix}$.
+4. Misalkan $A$ adalah matriks berukuran $n\times(n-k)$ dengan kolom-kolom yang saling ortogonal dan tidak memuat vektor nol. Misalkan juga $\boldsymbol{b_1}, \boldsymbol{b_2}, \dots,$ dan $\boldsymbol{b_k}$ adalah vektor kolom berukuran $n-k$. Tentukan suatu basis dari ruang nol matriks $\begin{bmatrix}A&A\boldsymbol{b_1}&A\boldsymbol{b_2}&\cdots&A\boldsymbol{b_k}\end{bmatrix}$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
