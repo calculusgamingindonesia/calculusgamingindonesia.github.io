@@ -66,28 +66,29 @@
             margin-top: 10px;
         }
 
-        /* Modifikasi padding-left di sini dari 2em menjadi 2.5em agar muat karakter romawi yang lebih panjang */
+        /* Menggunakan Flexbox untuk perataan sub-item yang sempurna */
         ol ul > li, ol ol > li {
-            position: relative;
-            padding-left: 2.5em !important;
-            text-indent: 0 !important;
+            display: flex;
+            align-items: flex-start;
             margin-bottom: 12px;
             line-height: 1.7;
             text-align: justify;
-        }
-        ol ul > li::before, ol ol > li::before {
-            content: none;
+            padding-left: 0 !important; /* Reset padding lama */
+            text-indent: 0 !important;
         }
 
-        /* Modifikasi lebar (width) agar nomor romawi seperti (iii) tidak tumpang tindih dan rata kanan dengan rapi */
+        /* Desain Kolom Penanda (i), (ii), (iii), dst */
         .custom-sub-marker {
-            position: absolute;
-            left: 0;
-            width: 2em;
+            flex-shrink: 0;
+            width: 2.5em; /* Lebar kolom penanda ditinggikan agar pas untuk (iii) */
             text-align: right;
+            padding-right: 0.75em; /* Jarak antara penanda dan teks */
+            box-sizing: border-box;
         }
+
+        /* Desain Kolom Isi Teks */
         .custom-sub-content {
-            display: block;
+            flex-grow: 1;
             text-align: justify;
         }
 
@@ -106,9 +107,6 @@
             ol > li::before {
                 left: -2.25em;
             }
-            ol ul > li, ol ol > li {
-                padding-left: 2.5em !important;
-            }
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
                 overflow-y: hidden;
@@ -123,12 +121,16 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
+            // Deteksi teks p di dalam li jika di-render oleh Markdown generator
             let target = li.querySelector("p") || li;
             let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
+            
             if (match) {
                 let marker = match[1].trim();
                 let content = target.innerHTML.substring(match[0].length);
-                target.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
+                
+                // Set struktur flex di dalam elemen li utama
+                li.innerHTML = '<span class="custom-sub-marker">' + marker + '</span><span class="custom-sub-content">' + content + '</span>';
             }
         });
     });
