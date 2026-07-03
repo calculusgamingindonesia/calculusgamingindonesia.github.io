@@ -60,7 +60,7 @@
             margin-top: 15px;
         }
 
-        /* PERBAIKAN: Menarik sub-sub-list agar posisinya sejajar dengan sub-list di atasnya */
+        /* Penyesuaian agar sub-sub list tertarik sejajar ke kiri */
         ol ul ul {
             margin-left: -2em;
         }
@@ -74,7 +74,8 @@
 
         ol ul > li, ol ol > li {
             position: relative;
-            padding-left: 2em !important;
+            /* Diperlebar sedikit ke 2.2em untuk memberi ruang teks "(iii)" */
+            padding-left: 2.2em !important; 
             text-indent: 0 !important;
             margin-bottom: 12px;
             line-height: 1.7;
@@ -87,7 +88,8 @@
         .custom-sub-marker {
             position: absolute;
             left: 0;
-            width: 1.5em;
+            /* Diperlebar dari 1.5em menjadi 1.8em agar "iii" muat sempurna */
+            width: 1.8em; 
             text-align: right;
         }
         .custom-sub-content {
@@ -111,14 +113,11 @@
                 left: -2.25em;
             }
             ol ul > li, ol ol > li {
-                padding-left: 2.25em !important;
+                padding-left: 2.4em !important;
             }
-            
-            /* PERBAIKAN: Menyesuaikan penarikan margin untuk tampilan mobile */
             ol ul ul {
                 margin-left: -2.25em;
             }
-
             .MathJax_Display, .katex-display {
                 overflow-x: auto;
                 overflow-y: hidden;
@@ -132,7 +131,11 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll("ol ul > li, ol ol > li").forEach(function(li) {
+        // PERBAIKAN: Gunakan Array.from() lalu .reverse() agar list 
+        // dikerjakan dari yang paling dalam terlebih dahulu (i, ii, iii) ke terluar (b)
+        let listItems = Array.from(document.querySelectorAll("ol ul > li, ol ol > li")).reverse();
+        
+        listItems.forEach(function(li) {
             let target = li.querySelector("p") || li;
             let match = target.innerHTML.match(/^(\s*\([a-zA-Z0-9_iI\s\u00a0.-]+\))\s*/);
             if (match) {
