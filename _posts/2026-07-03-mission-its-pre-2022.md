@@ -30,9 +30,9 @@ urutan: 303
 
    * (a) Objek pengamatan adalah pemuda-pemuda usia rentan menjadi pecandu game online atau pengguna suatu aplikasi game online.
    * (b) Dengan asumsi bahwa istilah 'terinfeksi' mengacu pada individu yang mengalami kecanduan game online, pengelompokan populasi didefinisikan sebagai berikut.
-     * (i) Orang yang rentan, yakni orang yang tidak bermain game online atau bermain game online dengan intensitas dan durasi yang normal.
-     * (ii) Orang yang terinfeksi dan bermain game online dengan intensitas dan durasi yang tidak wajar.
-     * (iii) Orang yang sembuh dari kecanduan game online namun masih berpotensi untuk bermain game atau kembali menjadi populasi rentan.
+       * (i) Orang yang rentan, yakni orang yang tidak bermain game online atau bermain game online dengan intensitas dan durasi yang normal.
+       * (ii) Orang yang terinfeksi dan bermain game online dengan intensitas dan durasi yang tidak wajar.
+       * (iii) Orang yang sembuh dari kecanduan game online namun masih berpotensi untuk bermain game atau kembali menjadi populasi rentan.
    * (c) Berdasarkan survei, transmisi seseorang yang rentan menjadi terinfeksi terjadi karena adanya interaksi antara populasi rentan dan terinfeksi.
    * (d) Berdasarkan survei, seseorang bisa sembuh dari kecanduan game online karena kesibukan sehingga tidak memiliki waktu untuk bermain game online, faktor kesehatan, kebosanan, dan adanya edukasi dari orang tua.
    * (e) Bermain game online dengan intensitas dan durasi yang tidak wajar dapat menyebabkan kematian.
