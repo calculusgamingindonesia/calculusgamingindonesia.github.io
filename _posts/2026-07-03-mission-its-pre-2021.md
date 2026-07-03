@@ -32,7 +32,11 @@ urutan: 302
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Didefinisikan fungsi $f_0:\mathbb{R}\to\mathbb{R}$ dengan $f_0(x)=\inf\set{\vert x-k\vert:k\in\mathbb{Z}}$ untuk setiap $x\in\mathbb{R}$. Untuk setiap $m\in\mathbb{N}$, didefinisikan juga $f_m:\mathbb{R}\to\mathbb{R}$ dengan $f_m(x)=\dfrac{1}{4^m}f_0(4^mx)$ untuk setiap $x\in\mathbb{R}$. Terakhir, didefinisikan fungsi $g:\mathbb{R}\to\mathbb{R}$ dengan $g(x)=\sum_{m=0}^\infty f_m(x)$. Tunjukkan bahwa $g$ tak terturunkan di manapun.
+4. Didefinisikan fungsi $f_0:\mathbb{R}\to\mathbb{R}$ dengan $f_0(x)=\inf\set{\vert x-k\vert:k\in\mathbb{Z}}$ untuk setiap $x\in\mathbb{R}$. Untuk setiap $m\in\mathbb{N}$, didefinisikan $f_m:\mathbb{R}\to\mathbb{R}$ dengan $f_m(x)=\dfrac{1}{4^m}f_0(4^mx)$ untuk setiap $x\in\mathbb{R}$. Selanjutnya, didefinisikan fungsi $g:\mathbb{R}\to\mathbb{R}$ dengan
+  
+   $$g(x)=\sum_{m=0}^\infty f_m(x)$$
+   
+   untuk setiap $x\in\mathbb{R}$. Tunjukkan bahwa $g$ tak terturunkan di manapun.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
