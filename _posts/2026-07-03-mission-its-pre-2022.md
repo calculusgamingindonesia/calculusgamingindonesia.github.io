@@ -28,13 +28,13 @@ urutan: 303
 
 3. Tentukan model matematika dalam bentuk sistem persamaan diferensial terkait kecanduan game online pada remaja beserta validasinya berdasarkan kelima pengamatan berikut.
 
-   * (a) Objek pengamatan adalah pemuda-pemuda usia rentan menjadi pecandu game online atau pengguna suatu aplikasi game online.
-   * (b) Dengan asumsi bahwa istilah 'terinfeksi' mengacu pada individu yang mengalami kecanduan game online, pengelompokan populasi didefinisikan sebagai berikut.
+   * (a) Objek pengamatan adalah pemuda pada usia rentan menjadi pecandu atau pengguna game online.
+   * (b) Dengan asumsi bahwa orang yang terinfeksi adalah orang yang mengalami kecanduan game online, pengelompokan populasi didefinisikan sebagai berikut.
        * (i) Orang yang rentan, yakni orang yang tidak bermain game online atau bermain game online dengan intensitas dan durasi yang normal.
-       * (ii) Orang yang terinfeksi dan bermain game online dengan intensitas dan durasi yang tidak wajar.
-       * (iii) Orang yang sembuh dari kecanduan game online namun masih berpotensi untuk bermain game atau kembali menjadi populasi rentan.
-   * (c) Berdasarkan survei, transmisi seseorang yang rentan menjadi terinfeksi terjadi karena adanya interaksi antara populasi rentan dan terinfeksi.
-   * (d) Berdasarkan survei, seseorang bisa sembuh dari kecanduan game online karena kesibukan sehingga tidak memiliki waktu untuk bermain game online, faktor kesehatan, kebosanan, dan adanya edukasi dari orang tua.
+       * (ii) Orang yang terinfeksi, yakni orang yang bermain game online dengan intensitas dan durasi yang tidak wajar.
+       * (iii) Orang yang sembuh dari kecanduan game online, tetapi masih berpotensi untuk kembali bermain game atau kembali menjadi populasi rentan.
+   * (c) Berdasarkan survei, transisi orang yang rentan menjadi terinfeksi terjadi karena adanya interaksi antara populasi rentan dan terinfeksi.
+   * (d) Berdasarkan survei, seseorang dapat sembuh dari kecanduan game online karena kesibukan sehingga tidak memiliki waktu untuk bermain game online, faktor kesehatan, kebosanan, dan adanya edukasi dari orang tua.
    * (e) Bermain game online dengan intensitas dan durasi yang tidak wajar dapat menyebabkan kematian.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
