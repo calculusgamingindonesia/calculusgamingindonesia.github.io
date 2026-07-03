@@ -35,37 +35,61 @@
         details { margin-top: 10px; }
         summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
         
-        /* Matikan penomoran standar bawaan Markdown */
-        ol, ul {
-            list-style-type: none !important;
-            padding-left: 2em; /* Jarak indentasi ke dalam untuk sub-soal */
+        /* --- PURE CSS UNTUK LIST ALA LATEX (TANPA JAVASCRIPT) --- */
+        
+        /* Level 1: (1), (2), (3) */
+        ol {
+            list-style: none;
+            counter-reset: level-one;
+            padding-left: 2.5em; /* Jarak indentasi ke dalam */
+        }
+        
+        ol > li {
+            counter-increment: level-one;
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        /* Menggunakan position absolute + right 100% untuk mengunci teks dan meratakan nomor */
+        ol > li::before {
+            content: "(" counter(level-one) ")";
+            position: absolute;
+            right: 100%;
+            margin-right: 0.8em; /* Spasi antara penomoran dan teks */
+            width: 3em;
+            text-align: right; /* Membuat kurung tutup selalu sejajar */
+        }
+        
+        /* Level 2: (a), (b), (c) */
+        ol ol {
+            counter-reset: level-two;
             margin-top: 10px;
-            margin-bottom: 10px;
         }
-
-        /* --- KUNCI RAHASIA: GRID KHUSUS LATEX --- */
-        .latex-grid {
-            display: grid;
-            grid-template-columns: 2.5em 1fr; /* 2.5em adalah lebar kolom nomor */
-            gap: 12px;
-            align-items: start;
-            margin-bottom: 15px; /* Jarak antar soal */
+        ol ol > li {
+            counter-increment: level-two;
+        }
+        ol ol > li::before {
+            content: "(" counter(level-two, lower-alpha) ")";
         }
         
-        .latex-marker {
-            text-align: right; /* Kurung tutup akan selalu sejajar rapi di kanan */
-            white-space: nowrap;
+        /* Level 3: (i), (ii), (iii) */
+        ol ol ol {
+            counter-reset: level-three;
         }
-        
-        .latex-content {
-            text-align: justify; /* Teks mengotak sempurna layaknya LaTeX */
+        ol ol ol > li {
+            counter-increment: level-three;
+        }
+        ol ol ol > li::before {
+            content: "(" counter(level-three, lower-roman) ")";
         }
 
+        /* Penyesuaian untuk layar HP */
         @media screen and (max-width: 768px) {
             h1 { font-size: 1.5rem !important; line-height: 1.4 !important; }
             body { padding-left: 15px; padding-right: 15px; }
+            ol { padding-left: 2em; }
+            ol > li::before { width: 2em; margin-right: 0.5em; }
             .MathJax_Display, .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 10px; }
-            .latex-grid { grid-template-columns: 2.2em 1fr; gap: 8px; } /* Sesuaikan di HP */
         }
     </style>
     
@@ -80,40 +104,5 @@
     <main>
         {{ content }}
     </main>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Ambil SEMUA elemen <p> dan <li> di dalam main.
-            // Gunakan reverse() agar elemen bersarang (nested) diproses dari dalam ke luar
-            // (mencegah bug HTML hilang saat struktur diubah).
-            let elements = Array.from(document.querySelectorAll("main p, main li")).reverse();
-            
-            elements.forEach(function(el) {
-                let html = el.innerHTML;
-                
-                // Regex pencari: Deteksi teks yang berawalan (1), (a), (iii)
-                // Walaupun di-generate Markdown dengan spasi atau &nbsp;
-                let match = html.match(/^(?:&nbsp;|\s)*(\([a-zA-Z0-9]{1,5}\))(?:&nbsp;|\s)*/);
-                
-                // Jika ketemu dan belum diproses menjadi grid
-                if (match && !html.includes('latex-grid')) {
-                    let marker = match[1]; // Mengambil nomornya (misal: "(iii)")
-                    let content = html.substring(match[0].length); // Mengambil sisa teksnya
-                    
-                    // Rombak paksa elemen tersebut menjadi susunan Grid
-                    el.innerHTML = `
-                        <div class="latex-grid">
-                            <div class="latex-marker">${marker}</div>
-                            <div class="latex-content">${content}</div>
-                        </div>
-                    `;
-                    
-                    // Bersihkan margin bawaan agar tidak ada jarak bolong yang aneh
-                    el.style.margin = "0";
-                    el.style.padding = "0";
-                }
-            });
-        });
-    </script>
 </body>
 </html>
