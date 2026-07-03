@@ -34,7 +34,7 @@ urutan: 107
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Misalkan $V$ adalah ruang vektor berdimensi $n \geq 2$ dan $\set{v_1, v_2, \dots, v_n}$ adalah basis dari $V$. Diberikan operator linear $T: V \to V$ yang memiliki balikan dan operator linear $A, B: V \to V$ yang memenuhi $A(v_1) = B(v_1) = 0$, $A(v_i) = T^{-1}(v_i)$, dan $B(v_i) = T^{-1}(v_{i-1})$ untuk setiap $i \in \set{2, 3, \dots, n}$.
+4. Misalkan $V$ adalah ruang vektor berdimensi $n$ dengan $n\geq2$ dan $\set{v_1, v_2, \dots, v_n}$ adalah basis dari $V$. Diberikan operator linear $T: V \to V$ yang memiliki balikan dan operator linear $A, B: V \to V$ yang memenuhi $A(v_1) = B(v_1) = 0$, $A(v_i) = T^{-1}(v_i)$, dan $B(v_i) = T^{-1}(v_{i-1})$ untuk setiap $i \in \set{2, 3, \dots, n}$.
    * (a) Buktikan bahwa $\mathrm{rank}((A \circ T)^{n-1}) = n - 1$.
    * (b) Tentukan nilai dari $\mathrm{rank}((B \circ T)^{n-1})$.
    
