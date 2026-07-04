@@ -24,13 +24,13 @@ urutan: 102
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Jika $A=\set{z\in\mathbb{C}:\vert z\vert^6=1}$ dan $B=\set{z\in\mathbb{C}:\vert z\vert^9=1}$, maka banyaknya unsur di $A\cup B$ adalah $\dots.$
+3. Jika $A=\set{z\in\mathbb{C}:z^6=1}$ dan $B=\set{z\in\mathbb{C}:z^9=1}$, maka banyaknya unsur di $A\cup B$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Jika $f$ adalah fungsi yang analitik pada $\mathbb{C}$ dan memenuhi $f(x+iy)=x^2+axy+by^2+i(cx^2+dxy+y^2)$ untuk setiap $x, y\in\mathbb{R}$, maka niai dari $f(i)$ adalah $\dots.$
+4. Jika $f$ adalah fungsi yang analitik pada $\mathbb{C}$ dan memenuhi $f(x+iy)=x^2+axy+by^2+i(cx^2+dxy+y^2)$ untuk setiap $x, y\in\mathbb{R}$, maka nilai dari $f(i)$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -50,13 +50,13 @@ urutan: 102
 
 ## Bagian Kedua
 
-1. Misalkan $V$ adalah ruang hasil kali dalam dengan basis ortonormal $\set{u_1, u_2, \dots, u_n}$ dan $\set{v_1, v_2, \dots, v_{n-1}}\subset\set{u_1, u_2, \dots, u_n}$. Tentukan banyaknya unsur di $V$ dengan norma $1$ dan ortogonal dengan $v_1, v_2,$ dan $v_{n-1}$.
+1. Misalkan $V$ adalah ruang hasil kali dalam dengan basis ortonormal $\set{u_1, u_2, \dots, u_n}$ dan $\set{v_1, v_2, \dots, v_{n-1}}\subset\set{u_1, u_2, \dots, u_n}$. Tentukan banyaknya unsur di $V$ dengan norma $1$ dan ortogonal dengan himpunan vektor $\set{v_1, v_2, \dots, v_{n-1}}$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Misalkan $M_n(\mathbb{R}$ adalah himpunan semua matriks real berukuran $n\times n$ dan $W$ adalah subruang vektor dari $M_n(\mathbb{R})$ sedemikian sehingga $\tr(AB)=0$ untuk setiap $A, B\in W$. Tentukan $k\in\mathbb{Z}$ terkecil yang memenuhi $\dim(W)\leq k$.
+2. Misalkan $M_n(\mathbb{R})$ adalah himpunan semua matriks real berukuran $n\times n$ dan $W$ adalah subruang vektor dari $M_n(\mathbb{R})$ sedemikian sehingga $\mathrm{tr}(AB)=0$ untuk setiap $A, B\in W$. Tentukan $k\in\mathbb{Z}$ terkecil yang memenuhi $\dim(W)\leq k$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
