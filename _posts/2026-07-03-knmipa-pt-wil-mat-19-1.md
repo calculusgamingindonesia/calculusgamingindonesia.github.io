@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Soal dan Solusi ONMIPA-PT Wilayah Matematika 2019 (Hari Pertama)"
-date: 2026-07-01
+date: 2026-07-03
 category: soaldansolusi
 urutan: 101
 ---
@@ -14,7 +14,7 @@ urutan: 101
 
 1. Diberikan barisan $(x_n)\subseteq\mathbb{R}$. Jika
 
-   $$\sum_{n=1}^\infty x_n<\infty,
+   $$\sum_{n=1}^\infty x_n<\infty,$$
    
    maka
    
@@ -36,7 +36,7 @@ urutan: 101
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Diberikan ring kuosien $\smash{R=\dfrac{\mathbb{Z}_t[x]}{\langle x^2-1\rangle}$. Banyaknya homomorfisme yang bijektif dari $R$ ke $R$ adalah \dots.
+3. Diberikan ring kuosien $\smash{R=\dfrac{\mathbb{Z}_t[x]}{\langle x^2-1\rangle}}$. Banyaknya homomorfisme yang bijektif dari $R$ ke $R$ adalah \dots.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
