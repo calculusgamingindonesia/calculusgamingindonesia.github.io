@@ -62,7 +62,7 @@ urutan: 101
 
 ## Bagian Kedua
 
-1. Diberikan fungsi terturunkan $g:\mathbb{R}\to\mathbb{R}$ yang memenuhi $g(x)+g'(x)>0$ untuk setiap $x\in\mathbb{R}$. Jika $x_0\in\mathbb{R}$ memenuhi $g(x_0)=0$, buktikan bahwa $g^{2019}(x)\geq0$ untuk setiap $x\in[x_0, \infty)$.
+1. Diberikan fungsi terturunkan $g:\mathbb{R}\to\mathbb{R}$ yang memenuhi $g(x)+g'(x)>0$ untuk setiap $x\in\mathbb{R}$. Jika $x_0\in\mathbb{R}$ memenuhi $g(x_0)=0$, buktikan bahwa $(g(x))^{2019}\geq0$ untuk setiap $x\in[x_0, \infty)$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
