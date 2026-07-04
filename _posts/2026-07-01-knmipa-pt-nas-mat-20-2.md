@@ -18,7 +18,7 @@ urutan: 108
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Misalkan $B=\set{1, 2, \ldots, n}$. Untuk setiap $k\in\mathbb{N}$ dengan $k\leq n$, buktikan bahwa banyaknya barisan $B_1, B_2, \ldots, B_k$ sedemikian sehingga $B_i\subseteq B$ untuk setiap $i\in\set{1, 2, \ldots, k}$ dan
+2. Misalkan $B=\set{1, 2, \dots, n}$. Untuk setiap $k\in\mathbb{N}$ dengan $k\leq n$, buktikan bahwa banyaknya barisan $B_1, B_2, \dots, B_k$ sedemikian sehingga $B_i\subseteq B$ untuk setiap $i\in\set{1, 2, \dots, k}$ dan
    
    $$\bigcup_{i=1}^kB_i=B$$
    
