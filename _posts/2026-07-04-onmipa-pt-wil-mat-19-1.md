@@ -77,9 +77,9 @@ urutan: 101
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Unsur $a$ dan $b$ di $\mathbb{Z}$ dikatakan membangun ring $\mathbb{Z}$ jika untuk setiap $c\in\mathbb{Z}$, terdapat $v, w\in\mathbb{Z}$ yang memenuhi $c=va+wb$. Buktikan bahwa peluang $2$ unsur (tidak harus berbeda) di $\mathbb{Z}$ dapat membangun $\mathbb{Z}$ adalah $\dfrac{6}{\pi^2}$.
+3. Unsur $a$ dan $b$ di $\mathbb{Z}$ dikatakan membangun ring $\mathbb{Z}$ jika untuk setiap $c\in\mathbb{Z}$, terdapat $v, w\in\mathbb{Z}$ yang memenuhi $c=va+wb$. Buktikan bahwa peluang $2$ unsur di $\mathbb{Z}$ dapat membangun $\mathbb{Z}$ adalah $\dfrac{6}{\pi^2}$.
 
-   $\mathrm{Petunjuk.}$ Gunakan deret
+   $\mathrm{Petunjuk.}$ Gunakan fakta bahwa
 
    $$\sum_{n=1}^\infty\dfrac{1}{n^2}=\dfrac{\pi^2}{6}.$$
 
