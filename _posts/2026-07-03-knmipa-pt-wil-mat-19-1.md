@@ -18,7 +18,7 @@ urutan: 101
    
    maka
    
-   $$\lim_{n\to\infty}\dfrac{1}{\sqrt{n}}\sum_{k=1}^\infty}\sqrt{x_k}=\dots.$$
+   $$\lim_{n\to\infty}\dfrac{1}{\sqrt{n}}\sum_{k=1}^\infty\sqrt{x_k}=\dots.$$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
