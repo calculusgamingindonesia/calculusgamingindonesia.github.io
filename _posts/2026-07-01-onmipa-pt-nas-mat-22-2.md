@@ -10,7 +10,7 @@ urutan: 116
     <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi ONMIPA-PT Nasional <br> Matematika 2022 (Hari Kedua)</h1>
 </div>
 
-1. Misalkan $k$ adalah bilangan asli genap dengan $k\geq4$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S=\set{1, 2, \ldots, n}$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a, b,$ dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
+1. Misalkan $k$ adalah bilangan asli genap dengan $k\geq4$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S=\set{1, 2, \dots, n}$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a, b,$ dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -22,7 +22,7 @@ urutan: 116
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
    
-3. Diberikan polinomial kompleks $f$ dengan $f(z)=1+c_1z+c_2z^2+\cdots+c_kz^k$ untuk setiap $z\in\mathbb{C}$ dan $\vert c_n\vert<1945$ untuk setiap $n\in\set{1, 2, \ldots, k}$. Buktikan bahwa fungsi $f$ tidak memiliki akar $z$ dengan $\vert z\vert<\dfrac{1}{2022}$.
+3. Diberikan polinomial kompleks $f$ dengan $f(z)=1+c_1z+c_2z^2+\cdots+c_kz^k$ untuk setiap $z\in\mathbb{C}$ dan $\vert c_n\vert<1945$ untuk setiap $n\in\set{1, 2, \dots, k}$. Buktikan bahwa fungsi $f$ tidak memiliki akar $z$ dengan $\vert z\vert<\dfrac{1}{2022}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -39,7 +39,7 @@ urutan: 116
 
 5. Diberikan $n, m\in\mathbb{N}$ dengan $n\leq m$. Buktikan bahwa
 
-   $$\det\begin{bmatrix}1&P_1^m&P_2^m&\ldots&P_n^m\\1&P_1^{m+1}&P_2^{m+1}&\cdots&P_n^{m+1}\\ \vdots&\vdots&\vdots&\ddots&\vdots\\1&P_1^{m+n}&P_2^{m+n}&\cdots&P_n^{m+n}\end{bmatrix}=1!\cdot2!\cdot\cdots\cdot n!.$$
+   $$\det\begin{bmatrix}1&P_1^m&P_2^m&\cdots&P_n^m\\1&P_1^{m+1}&P_2^{m+1}&\cdots&P_n^{m+1}\\ \vdots&\vdots&\vdots&\ddots&\vdots\\1&P_1^{m+n}&P_2^{m+n}&\cdots&P_n^{m+n}\end{bmatrix}=1!\cdot2!\cdot\cdots\cdot n!.$$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
