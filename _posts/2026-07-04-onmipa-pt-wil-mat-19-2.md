@@ -64,13 +64,17 @@ urutan: 102
 
 3. Diberikan $z_1, z_2, \dots, z_n\in\mathbb{C}$ yang memenuhi $\vert z_1\vert=\vert z_2\vert=\cdots=\vert z_n\vert>0$. Buktikan bahwa
 
-   $$\Re\Bigg(\sum_{j=1}^n\sum_{k=1}^n\dfrac{z_j}{z_k}\Bigg)=0\quad\text{jika dan hanya jika}\quad\sum_{k=1}^nz_k=0.$$
+   $$\mathrm{Re}\Bigg(\sum_{j=1}^n\sum_{k=1}^n\dfrac{z_j}{z_k}\Bigg)=0$$
+
+   jika dan hanya jika
+
+   $$\sum_{k=1}^nz_k=0.$$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Diberikan $n\in\mathbb{N}$ dengan $n\geq4$. Tunjukkan secara kombinatorial bahwa
+5. Diberikan $n\in\mathbb{N}$ dengan $n\geq4$. Tunjukkan secara kombinatorial bahwa
 
    $$\sum_{k=1}^nk\dbinom{n-4}{n-k}\dbinom{n+4}{k}=(n+4)\dbinom{2n-1}{n-1}.$$
 
