@@ -34,7 +34,11 @@ urutan: 115
 
 4. Diberikan matriks $A$ berukuran $4\times 2$ dan matriks $\smash{B=\begin{bmatrix}b_{11}&b_{12}&b_{13}&b_{14}\\!\\\\b_{21}&b_{22}&b_{23}&b_{24}\\!\end{bmatrix}}$ yang memenuhi
 
-   $$A\begin{bmatrix}b_{11}\\b_{21}\end{bmatrix}=\begin{bmatrix}0\\2\\0\\0\end{bmatrix}\quad\text{dan}\quad A\begin{bmatrix}b_{12}+b_{13}+b_{14}\\b_{22}+b_{23}+b_{24}\end{bmatrix}=\begin{bmatrix}2\\0\\2\\2\end{bmatrix}.$$
+   $$A\begin{bmatrix}b_{11}\\b_{21}\end{bmatrix}=\begin{bmatrix}0\\2\\0\\0\end{bmatrix}$$
+
+   dan
+
+   $$A\begin{bmatrix}b_{12}+b_{13}+b_{14}\\b_{22}+b_{23}+b_{24}\end{bmatrix}=\begin{bmatrix}2\\0\\2\\2\end{bmatrix}.$$
 
    * (a) Tentukan semua nilai eigen dari $AB$ beserta multiplisitas aljabarnya.
    * (b) Buktikan bahwa $\smash{BA=\begin{bmatrix}2&0\\\\0&2\end{bmatrix}}$.
@@ -43,7 +47,7 @@ urutan: 115
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diberikan barisan $\smash{(a_n)\subseteq\bigg(\dfrac{1}{2}, 1\bigg)}$ dan didefinisikan barisan $(x_n)$ dengan $x_0=0$ dan $\smash{x_{n+1}=\dfrac{a_{n+1}+x_n}{1+a_{n+1}x_n}}$ untuk setiap $n\in\mathbb{N}\cup\set{0}$. Selidiki apakah $(x_n)$ konvergen. Jika ya, tentukan nilai limitnya.
+6. Diberikan barisan $\smash{(a_n)\subseteq\bigg(\dfrac{1}{2}, 1\bigg)}$ dan didefinisikan barisan $(x_n)$ dengan $x_0=0$ dan $\smash{x_{n+1}=\dfrac{a_{n+1}+x_n}{1+a_{n+1}x_n}}$ untuk setiap $n\in\mathbb{N}\cup\set{0}$. Selidiki apakah $(x_n)$ konvergen. Jika ya, tentukan nilai limitnya.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
