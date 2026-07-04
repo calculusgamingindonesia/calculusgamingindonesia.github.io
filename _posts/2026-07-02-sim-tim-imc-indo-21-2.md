@@ -24,8 +24,8 @@ urutan: 204
 
 3. Misalkan $n\in\mathbb{N}$, $\alpha\in\mathbb{R}$, dan $\varepsilon\in\mathbb{R}^+$. Buktikan bahwa terdapat fungsi $f:\mathbb{R}\to\mathbb{R}$ yang terturunkan sebanyak $n$ kali dan memenuhi ketiga kondisi berikut.
 
-   * (i) Berlaku $\vert f^{(k)}(x)\vert\leq\varepsilon$ untuk setiap $k\in\set{0, 1, 2, \ldots, n-1}$ dan $x\in\mathbb{R}$.
-   * (ii) Berlaku $f^{(k)}(0)=0$ untuk setiap $k\in\set{0, 1, 2, \ldots, n-1}$.
+   * (i) Berlaku $\vert f^{(k)}(x)\vert\leq\varepsilon$ untuk setiap $k\in\set{0, 1, 2, \dots, n-1}$ dan $x\in\mathbb{R}$.
+   * (ii) Berlaku $f^{(k)}(0)=0$ untuk setiap $k\in\set{0, 1, 2, \dots, n-1}$.
    * (iii) Berlaku $f^{(n)}(0)=\alpha$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
