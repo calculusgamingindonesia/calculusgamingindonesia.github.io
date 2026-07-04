@@ -43,7 +43,7 @@ urutan: 202
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Misalkan $G$ adalah graf sederhana dengan titik-titik $v_1, v_2, \ldots,$ dan $v_n$ serta rusuk-rusuk $e_1, e_2, \ldots,$ dan $e_m$. Matriks insidensi $B=(b_{ij})$ dari $G$ adalah matriks berukuran $n\times m$ sedemikian sehingga $b_{ik}=1$ jika $v_i$ adalah ujung dari $e_k$ dan $b_{ik}=0$ jika tidak untuk setiap $i\in\set{1, 2, \ldots, n}$ dan $k\in\set{1, 2, \ldots, m}$. Misalkan $B(i, :)$ adalah baris ke-$i$ dari $B$ untuk setiap $i\in\set{1, 2, \ldots, n}$. Untuk setiap $i, j\in\set{1, 2, \ldots, n}$, didefinisikan $Hd(B(i, :), B(j, :))$ sebagai banyaknya $k\in\set{1, 2, \ldots, m}$ yang memenuhi $B(i, k)\neq B(j, k)$. Didefinisikan juga
+5. Misalkan $G$ adalah graf sederhana dengan titik-titik $v_1, v_2, \dots,$ dan $v_n$ serta rusuk-rusuk $e_1, e_2, \dots,$ dan $e_m$. Matriks insidensi $B=(b_{ij})$ dari $G$ adalah matriks berukuran $n\times m$ sedemikian sehingga $b_{ik}=1$ jika $v_i$ adalah ujung dari $e_k$ dan $b_{ik}=0$ jika tidak untuk setiap $i\in\set{1, 2, \dots, n}$ dan $k\in\set{1, 2, \dots, m}$. Misalkan $B(i, :)$ adalah baris ke-$i$ dari $B$ untuk setiap $i\in\set{1, 2, \dots, n}$. Untuk setiap $i, j\in\set{1, 2, \dots, n}$, didefinisikan $Hd(B(i, :), B(j, :))$ sebagai banyaknya $k\in\set{1, 2, \dots, m}$ yang memenuhi $B(i, k)\neq B(j, k)$. Didefinisikan juga
 
    $$H(G)=\sum_{i=1}^n\sum_{j=i}^nHd(B(i, :), B(j, :)).$$
 
