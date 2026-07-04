@@ -10,7 +10,7 @@ urutan: 204
     <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Simulasi untuk Tim <br> IMC Indonesia 2021 (Hari Kedua)</h1>
 </div>
 
-1. Misalkan $x, y, z\in\mathbb{N}$ memenuhi $xy=z^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2$, $y=c^2+d^2$, dan $z=ac+bd$.
+1. Misalkan $x, y, z\in\mathbb{N}$ memenuhi $xy=z^2+1$. Buktikan bahwa terdapat $a, b, c, d\in\mathbb{Z}$ yang memenuhi $x=a^2+b^2, y=c^2+d^2,$ dan $z=ac+bd$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -22,7 +22,7 @@ urutan: 204
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Misalkan $n\in\mathbb{N}$, $\alpha\in\mathbb{R}$, dan $\varepsilon\in\mathbb{R}^+$. Buktikan bahwa terdapat fungsi $f:\mathbb{R}\to\mathbb{R}$ yang terturunkan sebanyak $n$ kali dan memenuhi ketiga kondisi berikut.
+3. Misalkan $n\in\mathbb{N}, \alpha\in\mathbb{R},$ dan $\varepsilon\in\mathbb{R}^+$. Buktikan bahwa terdapat fungsi $f:\mathbb{R}\to\mathbb{R}$ yang terturunkan sebanyak $n$ kali dan memenuhi ketiga kondisi berikut.
 
    * (i) Berlaku $\vert f^{(k)}(x)\vert\leq\varepsilon$ untuk setiap $k\in\set{0, 1, 2, \dots, n-1}$ dan $x\in\mathbb{R}$.
    * (ii) Berlaku $f^{(k)}(0)=0$ untuk setiap $k\in\set{0, 1, 2, \dots, n-1}$.
