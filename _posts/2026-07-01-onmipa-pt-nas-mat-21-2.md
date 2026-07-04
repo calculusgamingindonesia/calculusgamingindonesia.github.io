@@ -24,7 +24,7 @@ urutan: 112
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
    
-3. Misalkan $n\in\mathbb{N}$ dan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\set{1, 2, \ldots, n}$. Tentukan nilai dari $\mathrm{det}(A_n)$.
+3. Misalkan $n\in\mathbb{N}$ dan $A_n=(a_{ij})$ adalah matriks berukuran $n\times n$ dengan $a_{ij}=\vert i-j\vert$ untuk setiap $i, j\in\set{1, 2, \dots, n}$. Tentukan nilai dari $\mathrm{det}(A_n)$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
