@@ -25,7 +25,7 @@ urutan: 115
    </div></details>
    
 3. Diberikan polinomial kompleks $p$ dengan $p(z)=az^2+bz+c$ untuk setiap $z\in\mathbb{C}$.
-   * (a) Jika $\set{\omega_0, \omega_1, \omega_2}$ adalah himpunan penyelesaian dari persamaan $\omega^3=1$, tentukan nilai dari $\omega_0p(\omega_0)+\omega_1p(\omega_1)+\omega_2p(\omega_2)$.
+   * (a) Jika $\set{\omega_0, \omega_1, \omega_2}$ adalah himpunan semua solusi dari $\omega^3=1$, tentukan nilai dari $\omega_0p(\omega_0)+\omega_1p(\omega_1)+\omega_2p(\omega_2)$.
    * (b) Jika $\vert abc\vert>1$, tunjukkan bahwa terdapat $z\in\mathbb{C}$ dengan $\vert z\vert\leq1$ yang memenuhi $\vert p(z)\vert>1$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
