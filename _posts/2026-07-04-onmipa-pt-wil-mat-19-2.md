@@ -30,7 +30,7 @@ urutan: 102
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Jika $f$ adalah fungsi yang analitik pada $\mathbb{C}$ dan memenuhi $f(x+iy)=x^2+axy+by^2+i(cx^2+dxy+y^2)$ untuk setiap $x, y\in\mathbb{R}$, maka nilai dari $f(i)$ adalah $\dots.$
+4. Jika $f$ adalah fungsi analitik pada $\mathbb{C}$ yang memenuhi $f(x+iy)=x^2+axy+by^2+i(cx^2+dxy+y^2)$ untuk setiap $x, y\in\mathbb{R}$, maka nilai dari $f(i)$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
