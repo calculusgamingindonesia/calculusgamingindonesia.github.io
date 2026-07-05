@@ -26,9 +26,9 @@ urutan: 301
 
 3. Misalkan $f:\mathbb{R}\to\mathbb{R}$ adalah fungsi yang terturunkan sebanyak tak hingga kali serta memenuhi
 
-   $$f(x)=\dfrac{1}{2020}f'(x)+\dfrac{1}{2020}f''(x)+\dfrac{1}{2020}f'''(x)+\cdots$$
+   $$f(x)=\dfrac{f'(x)}{2020}+\dfrac{f''(x)}{2020}+\dfrac{f'''(x)}{2020}+\cdots$$
 
-   dan $f(0)=1$. Tentukan nilai dari $f(2021)$.
+   untuk setiap $x\in\mathbb{R}$ dan $f(0)=1$. Tentukan nilai dari $f(2021)$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
