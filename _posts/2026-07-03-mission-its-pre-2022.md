@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi MISSION ITS Babak Presentasi 2022"
 date: 2026-07-02
 category: soaldansolusi
-urutan: 303
+urutan: 506
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
