@@ -7,7 +7,7 @@ urutan: 302
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi MISSION ITS Babak Presentasi 2021 </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi MISSION ITS <br> Babak Presentasi 2021 </h1>
 </div>
 
 1. Tentukan model matematika dalam bentuk sistem persamaan diferensial terkait penyebaran COVID-19 beserta validasinya berdasarkan ketiga parameter pengamatan berikut.
