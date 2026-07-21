@@ -12,37 +12,40 @@ urutan: 106
 
 ## Bagian Pertama
 
-1. Misalkan $B\subseteq\mathbb{R}$ adalah himpunan tak kosong dan terbatas ke bawah serta $A$ adalah himpunan semua batas bawah dari $B$. Nilai dari $\sup A$ adalah $\dots.$
+1. Diketahui bahwa matriks $\begin{bmatrix}1&0&2\\\\-1&a&10\\\\0&1&b\end{bmatrix}$ memiliki rank $2$. Nilai dari $ab$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Diberikan fungsi terintegral $f:[a, b]\to\mathbb{R}$ dengan fungsi primitif $F$. Jika $E=\set{x\in[a, b]:F'(x)\neq f(x)}$, maka klosur dari $[a, b]-E$ adalah $\dots.$
+2. Misalkan $A$ adalah matriks berukuran $9\times9$ yang memenuhi
+   * (i) semua entri di baris pertamanya berbeda, yaitu $n_1, n_2, \dots, n_9\in\mathbb{N}$.
+   * (ii) entri-entri di baris lainnya adalah suatu permutasi dari entri-entri di baris pertamanya.
+   Nilai eigen yang pasti dimiliki oleh $A$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Misalkan $A$ adalah ring polinomial dengan koefisien kompleks dengan operasi penjumlahan polinomial biasa dan operasi perkalian $\ast$ yang didefinisikan dengan $ax^k\ast bx^j=a\sigma^k(b)x^{k+j}$ untuk setiap $ax^k, bx^j\in A$ dimana $\sigma(c)=\overline{c}$ untuk setiap $c\in\mathbb{C}$. Nilai dari $(x^{2020}+2ix^7+9)\ast((i-1)x^{20}+(1-i))$ adalah $\dots.$
+3. Solusi dari relasi rekurensi $u_n=3n_{n-2}-2u_{n-3}$ untuk setiap $n\in\mathbb{N}$ dengan $n\geq3$ serta syarat awal $u_0=1$ dan $u_1=u_2=0$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Misalkan $g$ adalah grup dengan pembangun $a$ dan $b$ yang memenuhi $a^2=b^2=(ab)^4=e$. Orde terbesar yang mungkin dari $G$ adalah $\dots.$
+4. Banyaknya $z\in\mathbb{C}$ yang memenuhi $z^{2020}=1$ tetapi $z^{20}\neq1$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diberikan ring $B=\bigg\\{\begin{bmatrix}a&0\\\\0&b\end{bmatrix}:a, b\in\mathbb{Z}_{2^{2020}}\bigg\\}$. Jika $M$ adalah himpunan semua unsur $\alpha\in B$ sedemikian sehingga $\alpha^n=0$ untuk suatu $n\in\mathbb{N}$, maka $M=\dots.$
+5. Diketahui bahwa fungsi $f:\mathbb{C}-\{-1\}\to\mathbb{C}$ dengan $f(z)=\dfrac{z}{z+1}$ untuk setiap $z\in\mathbb{C}-\{-1\}$ memetakan cakram terbuka $\bigg\{z\in\mathbb{C}:\bigg\vert z-\dfrac{1}{3}\bigg\vert<r\bigg\}$ menjadi cakram terbuka $\bigg\{z\in\mathbb{C}:\vert z\vert<\dfrac{1}{2}\bigg\}$. Nilai dari $r$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-6. Banyaknya pasangan $(a, b, c)\in\mathbb{Z}^3$ yang memenuhi $a+b+c=13$ dengan $0\leq a\leq4$, $2\leq b\leq5$, dan $1\leq c\leq6$ adalah $\dots.$
+6. Solusi dari persamaan $ie^z+1=0$ yang memenuhi $4<\vert z\vert<5$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -50,25 +53,36 @@ urutan: 106
 
 ## Bagian Kedua
 
-1. $\dots.$
+1. Tentukan nilai $k\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap matriks real $A_1, A_2, \dots,$ dan $A_k$ berukuran $100\times100$, terdapat $\alpha_1, \alpha_2, \dots,$ dan $\alpha_k$ yang tidak semuanya nol dan memenuhi $\det(\alpha_1 A_1+\alpha_2 A_2+\cdots+\alpha_k A_k)=0$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. $\dots.$
+2. Misalkan
+
+   $$\boldsymbol{e}_1=\begin{bmatrix}1\\0\\0\end{bmatrix}, \boldsymbol{e}_2=\begin{bmatrix}0\\1\\0\end{bmatrix}, \boldsymbol{e}_3=\begin{bmatrix}0\\0\\1\end{bmatrix},$$
+
+   dan
+
+   $$\boldsymbol{b}=\begin{bmatrix}b_1\\b_2\\b_3\end{bmatrix}\in\mathbb{R}^3$$
+
+   dengan $\boldsymbol{b}\neq\boldsymbol{0}$. Diketahui bahwa $\boldsymbol{e}_1, 2\boldsymbol{e}_1+\boldsymbol{e}_2,$ dan $\boldsymbol{e}_1+\boldsymbol{e}_2+\boldsymbol{e}_3$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ untuk suatu matriks $A$ berukuran $3\times3$.
+
+   * (a) Buktikan bahwa $a_1\boldsymbol{e}_1+a_2\boldsymbol{e}_2+a_3\boldsymbol{e}_3$ dengan $a_1, a_2, a_3\in\mathbb{R}$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ juga jika dan hanya jika $a_1+a_3=a_2$.
+   * (b) Tentukan semua nilai eigen real dari $A$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. $\dots.$
+3. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. $\dots.$
+4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
