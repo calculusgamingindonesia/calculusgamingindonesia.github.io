@@ -42,7 +42,7 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-6. Banyaknya pasangan terurut bilangan bulat $(a, b, c)$ dengan $0\leq a\leq4$,$ $2\leq b\leq5$, dan $1\leq c\leq6$ yang memenuhi $a+b+c=13$ adalah $\dots.$
+6. Banyaknya pasangan terurut bilangan bulat $(a, b, c)$ dengan $0\leq a\leq4,$ $2\leq b\leq5,$ dan $1\leq c\leq6$ yang memenuhi $a+b+c=13$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
