@@ -36,7 +36,7 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diberikan ring $B=\bigg\\{\begin{bmatrix}a&0\\\\0&b\end{bmatrix}:a, b\in\mathbb{Z}_{2^{2020}}\bigg\\}$. Jika $M$ adalah himpunan semua unsur $\alpha\in B$ sedemikian sehingga $\alpha^n=0$ untuk suatu $n\in\mathbb{N}$, maka $M=\dots.$
+5. Diberikan ring $\smash[t]{B=\bigg\\{\begin{bmatrix}a&0\\\\0&b\end{bmatrix}:a, b\in\mathbb{Z}_{2^{2020}}\bigg\\}}$. Jika $M$ adalah himpunan semua unsur $\alpha\in B$ sedemikian sehingga $\alpha^n=0$ untuk suatu $n\in\mathbb{N}$, maka $M=\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -50,13 +50,13 @@ urutan: 105
 
 ## Bagian Kedua
 
-1. Diberikan fungsi $f:[-1, 1]\to\mathbb{R}$ dengan $\smash{f(x)=\begin{cases}0&\text{ jika }x\in[-1, 0],\\\\1&\text{ jika }x\in(0, 1].\end{cases}}$ Selanjutnya, diberikan fungsi $g:[-1, 1]\to\mathbb{R}$ yang memenuhi $g'(x)=f(x)$ untuk setiap $x\in[-1, 1]-\\{0\\}$. Selidiki apakah terdapat fungsi kontinu $\phi:[-1, 1]\to\mathbb{R}$ yang memenuhi $g(x)=\phi(x)(x+1)$ untuk setiap $x\in[-1, 1]$. Jika ya, tentukan fungsi tersebut. 
+1. Diberikan fungsi $f:[-1, 1]\to\mathbb{R}$ dengan $\smash[t]{f(x)=\begin{cases}0&\text{ jika }x\in[-1, 0],\\\\1&\text{ jika }x\in(0, 1].\end{cases}}$ Selanjutnya, diberikan fungsi $g:[-1, 1]\to\mathbb{R}$ yang memenuhi $g'(x)=f(x)$ untuk setiap $x\in[-1, 1]-\\{0\\}$. Selidiki apakah terdapat fungsi kontinu $\phi:[-1, 1]\to\mathbb{R}$ yang memenuhi $g(x)=\phi(x)(x+1)$ untuk setiap $x\in[-1, 1]$. Jika ya, tentukan fungsi tersebut. 
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Diberikan barisan $(x_n)\subseteq\mathbb{R}$ yang memenuhi $\smash{x_1=\dfrac{1}{2}}$ dan $\smash{x_{n+1}-x_n=\dfrac{n+1}{n+2}}$ untuk setiap $n\in\mathbb{N}$. Selidiki apakah barisan $(x_n)$ konvergen. Jika ya, tentukan limit dari barisan tersebut. 
+2. Diberikan barisan $(x_n)\subseteq\mathbb{R}$ yang memenuhi $\smash[t]{x_1=\dfrac{1}{2}}$ dan $\smash{x_{n+1}-x_n=\dfrac{n+1}{n+2}}$ untuk setiap $n\in\mathbb{N}$. Selidiki apakah barisan $(x_n)$ konvergen. Jika ya, tentukan limit dari barisan tersebut. 
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
