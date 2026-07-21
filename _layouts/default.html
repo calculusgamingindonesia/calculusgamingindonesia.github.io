@@ -22,7 +22,7 @@
             font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
             font-size: 17px;
             color: #000000;
-            font-weight: 500;
+            font-weight: normal;
             line-height: 1.65;
             margin: 40px auto;
             max-width: 800px;
@@ -36,7 +36,6 @@
         summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
         .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
         
-        /* 1. SETUP UTAMA UTK NOMOR SOAL */
         ol {
             list-style-type: none;
             counter-reset: soal-counter;
@@ -67,7 +66,6 @@
             margin-top: 10px;
         }
 
-        /* 2. PENYELARASAN JARAK SUB-POIN (i), (ii), (iii) DAN (a), (b), (c) */
         ol ul > li, ol ol > li {
             position: relative !important;
             display: block !important;
@@ -80,7 +78,6 @@
             text-indent: 0 !important;
         }
 
-        /* Lebar penanda sub-poin disamakan persis (1.7em) dengan posisi (-2.2em) */
         .custom-sub-marker {
             position: absolute !important;
             left: 0 !important; 
@@ -90,12 +87,10 @@
             font-weight: 500;
         }
 
-        /* Menggeser posisi marker agar sejajar lurus ke dalam area padding li */
         ol ul > li > .custom-sub-marker, ol ol > li > .custom-sub-marker {
             left: 0 !important;
         }
         
-        /* Menyingkirkan default marker asli bawaan tag <ol> agar tidak double */
         ol ol > li::before {
             content: none !important;
         }
@@ -105,7 +100,6 @@
             text-align: justify !important;
         }
 
-        /* Menetralkan tag <p> rahasia bawaan compiler Markdown */
         ol ul > li p, ol ol > li p {
             display: inline !important;
             margin: 0 !important;
