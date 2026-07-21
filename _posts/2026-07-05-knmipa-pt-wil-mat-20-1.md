@@ -50,25 +50,25 @@ urutan: 105
 
 ## Bagian Kedua
 
-1. $\dots.$
+1. Tentukan nilai $k\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap matriks real $A_1, A_2, \dots,$ dan $A_k$ berukuran $100\times100$, terdapat $\alpha_1, \alpha_2, \dots,$ dan $\alpha_k$ yang tidak semuanya nol dan memenuhi $\det(\alpha_1 A_1+\alpha_2 A_2+\cdots+\alpha_k A_k)=0$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. $\dots.$
+2. 
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. $\dots.$
+3. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. $\dots.$
+4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
