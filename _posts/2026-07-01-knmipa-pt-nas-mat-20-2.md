@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi KNMIPA-PT Nasional Matematika 2020 (Hari Kedua)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 108
+urutan: 204
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
