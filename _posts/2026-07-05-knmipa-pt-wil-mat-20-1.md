@@ -56,19 +56,30 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. 
+2. Misalkan
+
+   $$\boldsymbol{e}_1=\begin{bmatrix}1\\\\0\\\\0\end{bmatrix}, \boldsymbol{e}_2=\begin{bmatrix}0\\\\1\\\\0\end{bmatrix}, \boldsymbol{e}_3=\begin{bmatrix}0\\\\0\\\\1\end{bmatrix},$$
+
+   dan
+
+   $$\boldsymbol{b}=\begin{bmatrix}b_1\\\\b_2\\\\b_3\end{bmatrix}\neq\boldsymbol{0}.$$
+
+   Diketahui bahwa $\boldsymbol{e}_1, 2\boldsymbol{e}_1+\boldsymbol{e}_2,$ dan $\boldsymbol{e}_1+\boldsymbol{e}_2+\boldsymbol{e}_3$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ untuk suatu matriks $A$ berukuran $3\times3$.
+
+   * (a) Buktikan bahwa $a_1\boldsymbol{e}_1+a_2\boldsymbol{e}_2+a_3\boldsymbol{e}_3$ dengan $a_1, a_2, a_3\in\mathbb{R}$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ juga jika dan hanya jika $a_1+a_3=a_2$.
+   * (b) Tentukan semua nilai eigen real dari $A$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
+4. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
+5. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
