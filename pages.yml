@@ -45,4 +45,4 @@ jobs:
     steps:
       - name: Deploy ke GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # Action yang sebelumnya mengalami kegagalan di log Anda
+        uses: actions/deploy-pages@v4 
