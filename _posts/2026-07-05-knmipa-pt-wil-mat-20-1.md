@@ -50,36 +50,29 @@ urutan: 105
 
 ## Bagian Kedua
 
-1. Tentukan nilai $k\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap matriks real $A_1, A_2, \dots,$ dan $A_k$ berukuran $100\times100$, terdapat $\alpha_1, \alpha_2, \dots,$ dan $\alpha_k$ yang tidak semuanya nol dan memenuhi $\det(\alpha_1 A_1+\alpha_2 A_2+\cdots+\alpha_k A_k)=0$.
+1. Diberikan fungsi $f:[-1, 1]\to\mathbb{R}$ dengan $f(x)=\begin{cases}0&\text{ jika }x\in[-1, 0],\\\\1&\text{ jika }x\in(0, 1].\end{cases}$ Selanjutnya, diberikan fungsi $g:[-1, 1]\to\mathbb{R}$ yang memenuhi $g'(x)=f(x)$ untuk setiap $x\in[-1, 1]-\\{0\\}$. Selidiki apakah terdapat fungsi kontinu $\phi:[-1, 1]\to\mathbb{R}$ yang memenuhi $g(x)=\phi(x)(x+1)$ untuk setiap $x\in[-1, 1]$. Jika ya, tentukan fungsi tersebut. 
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-2. Misalkan
-
-   $$\boldsymbol{e}_1=\begin{bmatrix}1\\0\\0\end{bmatrix}, \boldsymbol{e}_2=\begin{bmatrix}0\\1\\0\end{bmatrix}, \boldsymbol{e}_3=\begin{bmatrix}0\\0\\1\end{bmatrix},$$
-
-   dan
-
-   $$\boldsymbol{b}=\begin{bmatrix}b_1\\b_2\\b_3\end{bmatrix}\in\mathbb{R}^3$$
-
-   dengan $\boldsymbol{b}\neq\boldsymbol{0}$. Diketahui bahwa $\boldsymbol{e}_1, 2\boldsymbol{e}_1+\boldsymbol{e}_2,$ dan $\boldsymbol{e}_1+\boldsymbol{e}_2+\boldsymbol{e}_3$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ untuk suatu matriks $A$ berukuran $3\times3$.
-
-   * (a) Buktikan bahwa $a_1\boldsymbol{e}_1+a_2\boldsymbol{e}_2+a_3\boldsymbol{e}_3$ dengan $a_1, a_2, a_3\in\mathbb{R}$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ juga jika dan hanya jika $a_1+a_3=a_2$.
-   * (b) Tentukan semua nilai eigen real dari $A$.
+2. Diberikan barisan $(x_n)\subseteq\mathbb{R}$ yang memenuhi $x_1=\dfrac{1}{2}$ dan $x_{n+1}-x_n=\dfrac{n+1}{n+2}$ untuk setiap $n\in\mathbb{N}$. Selidiki apakah barisan $(x_n)$ konvergen. Jika ya, tentukan limit dari barisan tersebut. 
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
+3. Misalkan $G$ adalah grup hingga yang memenuhi $(xy)^3=x^3y^3$ untuk setiap $x, y\in G$ dan tidak memuat unsur berorde $3$.
+
+   * (a) Untuk setiap $g\in G$, buktikan bahwa terdapat $z\in G$ yang memenuhi $g=z^3$.
+   * (b) Untuk setiap $x, y\in G$, tunjukkan bahwa $xy^2=y^2x$.
+   * (c) Buktikan bahwa $G$ komutatif.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
+4. Diberikan himpunan $A=\\{a_1, a_2, \dots, a_n\\}$. Jika dipilih $2^{n-1}+1$ subhimpunan berbeda dari $A$, buktikan bahwa terdapat $2$ subhimpunan dimana yang satu adalah subhimpunan dari yang lain.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
