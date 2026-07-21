@@ -7,7 +7,7 @@ urutan: 301
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi CAPTION ITS Babak Presentasi 2020 </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi CAPTION ITS <br> Babak Presentasi 2020 </h1>
 </div>
 
 1. Diberikan persamaan diferensial $\smash{2019y'(x)+\dfrac{W^2(x)}{x}y^{2020}(x)=\dfrac{y(x)}{x+e^{W(x)}}}$ dimana fungsi $W:[0, \infty)\to\mathbb{R}$ didefinisikan dengan $W(x)=f^{-1}(x)$ dimana $f(x)=xe^x$ untuk setiap $x\in[0, \infty)$. Jika $y(0)=1$, tentukan nilai dari $y(e)$.
