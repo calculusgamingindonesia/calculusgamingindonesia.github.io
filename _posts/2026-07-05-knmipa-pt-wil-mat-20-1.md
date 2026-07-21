@@ -73,13 +73,13 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
+3. Misalkan $z\in\mathbb{C}$ memenuhi $\vert z\vert+\vert z-2020\vert=2020$. Tunjukkan bahwa $\vert z-(20+20i)\vert\geq20$.
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
+4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
