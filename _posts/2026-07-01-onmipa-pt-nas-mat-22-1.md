@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi ONMIPA-PT Nasional Matematika 2022 (Hari Pertama)"
 date: 2026-07-01
 category: soaldansolusi
-urutan: 115
+urutan: 207
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
