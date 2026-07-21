@@ -7,7 +7,7 @@ urutan: 202
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Seleksi <br> Tim IMC Indonesia 2019 (Hari Kedua)</h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Seleksi Tim IMC <br> Indonesia 2019 (Hari Kedua)</h1>
 </div>
 
 1. Jika $z\in\mathbb{C}$ memenuhi $\vert z^2+2019\vert<2019$, tunjukkan bahwa $\vert z+\sqrt{2019}\vert>31$.
