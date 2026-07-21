@@ -3,7 +3,7 @@ layout: default
 title: "Soal dan Solusi KNMIPA-PT Wilayah Matematika 2020 (Hari Pertama)"
 date: 2026-07-05
 category: soaldansolusi
-urutan: 105
+urutan: 103
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
