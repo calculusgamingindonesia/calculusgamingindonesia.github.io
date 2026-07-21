@@ -42,7 +42,7 @@ urutan: 301
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diberikan $n\in\mathbb{N}$ dan fungsi $f:\mathbb{N}\to\mathbb{R}$ dengan
+5. Diberikan fungsi $f:\mathbb{N}\to\mathbb{R}$ dengan
 
    $$f(n)=\lim_{x\to0^+}\int_x^{\frac{1}{n}x}\dfrac{\sin^{2020}t}{t^{2021}}\,\mathrm{d}t$$
 
