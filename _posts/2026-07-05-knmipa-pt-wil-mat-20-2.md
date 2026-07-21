@@ -23,8 +23,10 @@ urutan: 106
    </div></details>
 
 2. Misalkan $A$ adalah matriks berukuran $9\times9$ yang memenuhi
+   
    * (i) semua entri di baris pertamanya berbeda, yaitu $n_1, n_2, \dots, n_9\in\mathbb{N}$.
    * (ii) entri-entri di baris lainnya adalah suatu permutasi dari entri-entri di baris pertamanya.
+     
    Nilai eigen yang pasti dimiliki oleh $A$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
