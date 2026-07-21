@@ -21,17 +21,17 @@
         font-size: 16px;
         color: #000;
         font-weight: 400;
-        line-height: 1.5;
+        line-height: 1.6;
         margin: 40px auto;
         max-width: 800px;
-        padding: 0 20px;
+        padding: 0 24px;
         text-align: justify;
       }
       a { color: #0366d6; text-decoration: none; }
       a:hover { text-decoration: underline; }
-      details { margin-top: 10px; }
-      summary { cursor: pointer; color: #0366d6; font-weight: 700; user-select: none; margin-bottom: 10px; }
-      .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 5px solid #28a745; border-radius: 5px; }
+      details { margin-top: 8px; }
+      summary { cursor: pointer; color: #0366d6; font-weight: 700; user-select: none; margin-bottom: 8px; }
+      .kotak-solusi { background: #f9f9f9; padding: 16px; border-left: 4px solid #28a745; border-radius: 8px; }
       ol {
         list-style-type: none;
         counter-reset: soal-counter;
@@ -40,7 +40,7 @@
       ol > li {
         counter-increment: soal-counter;
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 32px;
       }
       ol > li::before {
         content: "(" counter(soal-counter) ")";
@@ -52,19 +52,19 @@
       ol ul {
         list-style-type: none;
         padding-left: 0;
-        margin-top: 15px;
+        margin-top: 16px;
       }
       ol ol {
         list-style-type: lower-alpha;
         padding-left: 2.5em;
         counter-reset: none;
-        margin-top: 10px;
+        margin-top: 8px;
       }
       ol ul > li, ol ol > li {
         position: relative !important;
         display: block !important;
-        margin-bottom: 10px;
-        line-height: 1.5;
+        margin-bottom: 8px;
+        line-height: 1.6;
         text-align: justify !important;
         padding-left: 2.5em !important;
         text-indent: 0 !important;
@@ -95,10 +95,10 @@
       }
       @media screen and (max-width: 768px) {
         h1 { font-size: 1.5rem !important; line-height: 1.5 !important; }
-        body { padding: 0 15px; }
+        body { padding: 0 16px; }
         ol { padding-left: 2em; }
         ol > li::before { left: -2em; }
-        .MathJax_Display, .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 10px; }
+        .MathJax_Display, .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 8px; }
       }
     </style>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css">
