@@ -12,7 +12,11 @@ urutan: 106
 
 ## Bagian Pertama
 
-1. Diketahui bahwa matriks $\smash{\begin{bmatrix}1&0&2\\\\-1&a&10\\\\0&1&b\end{bmatrix}}$ memiliki rank $2$. Nilai dari $ab$ adalah $\dots.$
+1. Diketahui bahwa matriks
+
+   $$\begin{bmatrix}1&0&2\\-1&a&10\\0&1&b\end{bmatrix}$$
+
+   memiliki rank $2$. Nilai dari $ab$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
