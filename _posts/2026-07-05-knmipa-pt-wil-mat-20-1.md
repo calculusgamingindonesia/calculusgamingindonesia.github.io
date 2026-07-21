@@ -24,7 +24,7 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Misalkan $A$ adalah ring polinomial dengan koefisien kompleks dengan operasi penjumlahan polinomial biasa dan operasi perkalian $\ast$ yang didefinisikan dengan $ax^k\ast bx^j=a\sigma^k(b)x^{k+j}$ untuk setiap $ax^k, bx^j\in A$ dimana $\sigma(c)=\overline{c}$ untuk setiap $c\in\mathbb{C}$. Nilai dari $(x^{2020}+2ix^7+9)\ast((i-1)x^{20}+(1-i))$ adalah $\dots.$
+3. Diberikan fungsi $\sigma:\mathbb{C}\to\mathbb{C}$ dengan $\sigma(c)=\overline{c}$ untuk setiap $c\in\mathbb{C}$. Misalkan $A$ adalah ring polinomial dengan koefisien kompleks dengan operasi penjumlahan polinomial biasa dan operasi perkalian $\ast$ yang didefinisikan dengan $ax^k\ast bx^j=a\sigma^k(b)x^{k+j}$ untuk setiap $ax^k, bx^j\in A$. Nilai dari $(x^{2020}+2ix^7+9)\ast((i-1)x^{20}+(1-i))$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
