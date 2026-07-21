@@ -7,7 +7,7 @@ urutan: 303
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi MISSION ITS Babak Presentasi 2022 </h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi MISSION ITS <br> Babak Presentasi 2022 </h1>
 </div>
 
 1. Diberikan himpunan tertutup $S\subseteq\mathbb{R}^n$ dan fungsi $F:S\to\mathbb{R}$. Jika himpunan $\set{(x, t)\in S\times\mathbb{R}:F(x)\leq t}$ tertutup, buktikan bahwa $\displaystyle\lim_{\delta\to0}\inf\set{F(x):x\in S\cap B(y, \delta)-\set{y}}\geq F(y)$ untuk setiap $y\in S$.
