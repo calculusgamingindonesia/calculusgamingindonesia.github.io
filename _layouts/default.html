@@ -18,10 +18,10 @@
     <style>
       body {
         font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
-        font-size: 17px;
-        color: #000000;
-        font-weight: normal;
-        line-height: 1.65;
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+        line-height: 1.5;
         margin: 40px auto;
         max-width: 800px;
         padding: 0 20px;
@@ -30,12 +30,12 @@
       a { color: #0366d6; text-decoration: none; }
       a:hover { text-decoration: underline; }
       details { margin-top: 10px; }
-      summary { cursor: pointer; color: #0366d6; font-weight: bold; user-select: none; margin-bottom: 10px; }
-      .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 4px solid #28a745; border-radius: 4px; }
+      summary { cursor: pointer; color: #0366d6; font-weight: 700; user-select: none; margin-bottom: 10px; }
+      .kotak-solusi { background: #f9f9f9; padding: 15px; border-left: 5px solid #28a745; border-radius: 5px; }
       ol {
         list-style-type: none;
         counter-reset: soal-counter;
-        padding-left: 2.2em; /* Ditambah sedikit agar nomor panjang tidak mepet ke kiri */
+        padding-left: 2.5em;
       }
       ol > li {
         counter-increment: soal-counter;
@@ -45,8 +45,8 @@
       ol > li::before {
         content: "(" counter(soal-counter) ")";
         position: absolute;
-        left: -2.2em;
-        width: 1.7em; /* Lebar area nomor */
+        left: -2.5em;
+        width: 1.5em;
         text-align: right;
       }
       ol ul {
@@ -56,24 +56,24 @@
       }
       ol ol {
         list-style-type: lower-alpha;
-        padding-left: 2.2em; /* Jarak indentasi sub-soal disamakan */
+        padding-left: 2.5em;
         counter-reset: none;
         margin-top: 10px;
       }
       ol ul > li, ol ol > li {
         position: relative !important;
         display: block !important;
-        margin-bottom: 12px;
-        line-height: 1.7;
+        margin-bottom: 10px;
+        line-height: 1.5;
         text-align: justify !important;
-        padding-left: 2.2em !important; /* Jarak teks ke batas kiri sub-poin */
+        padding-left: 2.5em !important;
         text-indent: 0 !important;
       }
       .custom-sub-marker {
         position: absolute !important;
         left: 0 !important;
         top: 0 !important;
-        width: 1.7em !important;
+        width: 1.5em !important;
         text-align: right !important;
         font-weight: 500;
       }
@@ -94,10 +94,10 @@
         text-align: justify !important;
       }
       @media screen and (max-width: 768px) {
-        h1 { font-size: 1.5rem !important; line-height: 1.4 !important; }
-        body { padding-left: 15px; padding-right: 15px; }
-        ol { padding-left: 1.75em; }
-        ol > li::before { left: -2.25em; }
+        h1 { font-size: 1.5rem !important; line-height: 1.5 !important; }
+        body { padding: 0 15px; }
+        ol { padding-left: 2em; }
+        ol > li::before { left: -2em; }
         .MathJax_Display, .katex-display { overflow-x: auto; overflow-y: hidden; padding-bottom: 10px; }
       }
     </style>
