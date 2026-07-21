@@ -59,7 +59,7 @@ urutan: 106
 
 ## Bagian Kedua
 
-1. Tentukan nilai $k\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap matriks real $A_1, A_2, \dots,$ dan $A_k$ berukuran $100\times100$, terdapat $\alpha_1, \alpha_2, \dots,$ dan $\alpha_k$ yang tidak semuanya nol dan memenuhi $\det(\alpha_1 A_1+\alpha_2 A_2+\cdots+\alpha_k A_k)=0$.
+1. Tentukan nilai $k\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap matriks real $A_1, A_2, \dots,$ dan $A_k$ berukuran $100\times100$, terdapat $\alpha_1, \alpha_2, \dots,$ dan $\alpha_k$ yang tak semuanya nol dan memenuhi $\det(\alpha_1 A_1+\alpha_2 A_2+\cdots+\alpha_k A_k)=0$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
