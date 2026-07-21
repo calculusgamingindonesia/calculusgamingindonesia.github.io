@@ -37,7 +37,7 @@ urutan: 203
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Bilangan $1, 2, \dots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan sedemikian sehingga setiap titik sudut ditempati oleh tepat $1$ bilangan. Selanjutnya, pada setiap sisi bangun tersebut, dihitung hasil kali dari $2$ bilangan yang berada pada kedua titik ujungnya. Tentukan nilai minimum dari jumlah semua hasil kali tersebut.
+5. Bilangan $1,$ $2,$ $\dots,$ dan $n$ ditempatkan pada titik-titik sudut segi-$n$ beraturan sedemikian sehingga setiap titik sudut ditempati oleh tepat $1$ bilangan. Selanjutnya, pada setiap sisi bangun tersebut, dihitung hasil kali dari $2$ bilangan yang berada pada kedua titik ujungnya. Tentukan nilai minimum dari jumlah semua hasil kali tersebut.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
