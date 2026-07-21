@@ -33,7 +33,7 @@ urutan: 106
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-3. Solusi dari relasi rekurensi $u_n=3n_{n-2}-2u_{n-3}$ untuk setiap $n\in\mathbb{N}$ dengan $n\geq3$ serta syarat awal $u_0=1$ dan $u_1=u_2=0$ adalah $\dots.$
+3. Solusi dari relasi rekurensi $u_n=3n_{n-2}-2u_{n-3}$ untuk setiap $n\in\mathbb{N}$ dengan $n\geq3$ untuk syarat awal $u_0=1$ dan $u_1=u_2=0$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
