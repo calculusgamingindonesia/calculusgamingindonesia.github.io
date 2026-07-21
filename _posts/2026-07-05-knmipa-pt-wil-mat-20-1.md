@@ -30,7 +30,7 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Misalkan $g$ adalah grup dengan pembangun $a$ dan $b$ yang memenuhi $a^2=b^2=(ab)^4=e$. Orde terbesar yang mungkin dari $G$ adalah $\dots.$
+4. Misalkan $G$ adalah grup dengan pembangun $a$ dan $b$ yang memenuhi $a^2=b^2=(ab)^4=e$. Orde terbesar yang mungkin dari $G$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -42,7 +42,7 @@ urutan: 105
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-6. Banyaknya pasangan $(a, b, c)\in\mathbb{Z}^3$ yang memenuhi $a+b+c=13$ dengan $0\leq a\leq4$, $2\leq b\leq5$, dan $1\leq c\leq6$ adalah $\dots.$
+6. Banyaknya pasangan terurut bilangan bulat $(a, b, c)$ dengan $0\leq a\leq4$, $2\leq b\leq5$, dan $1\leq c\leq6$ yang memenuhi $a+b+c=13$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -58,13 +58,13 @@ urutan: 105
 
 2. Misalkan
 
-   $$\boldsymbol{e}_1=\begin{bmatrix}1\\\\0\\\\0\end{bmatrix}, \boldsymbol{e}_2=\begin{bmatrix}0\\\\1\\\\0\end{bmatrix}, \boldsymbol{e}_3=\begin{bmatrix}0\\\\0\\\\1\end{bmatrix},$$
+   $$\boldsymbol{e}_1=\begin{bmatrix}1\\0\\0\end{bmatrix}, \boldsymbol{e}_2=\begin{bmatrix}0\\1\\0\end{bmatrix}, \boldsymbol{e}_3=\begin{bmatrix}0\\0\\1\end{bmatrix},$$
 
    dan
 
-   $$\boldsymbol{b}=\begin{bmatrix}b_1\\\\b_2\\\\b_3\end{bmatrix}\neq\boldsymbol{0}.$$
+   $$\boldsymbol{b}=\begin{bmatrix}b_1\\b_2\\b_3\end{bmatrix}\in\mathbb{R}^3$$
 
-   Diketahui bahwa $\boldsymbol{e}_1, 2\boldsymbol{e}_1+\boldsymbol{e}_2,$ dan $\boldsymbol{e}_1+\boldsymbol{e}_2+\boldsymbol{e}_3$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ untuk suatu matriks $A$ berukuran $3\times3$.
+   dengan $\boldsymbol{b}\neq\boldsymbol{0}$. Diketahui bahwa $\boldsymbol{e}_1, 2\boldsymbol{e}_1+\boldsymbol{e}_2,$ dan $\boldsymbol{e}_1+\boldsymbol{e}_2+\boldsymbol{e}_3$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ untuk suatu matriks $A$ berukuran $3\times3$.
 
    * (a) Buktikan bahwa $a_1\boldsymbol{e}_1+a_2\boldsymbol{e}_2+a_3\boldsymbol{e}_3$ dengan $a_1, a_2, a_3\in\mathbb{R}$ adalah solusi dari persamaan $A\boldsymbol{x}=\boldsymbol{b}$ juga jika dan hanya jika $a_1+a_3=a_2$.
    * (b) Tentukan semua nilai eigen real dari $A$.
