@@ -12,7 +12,7 @@ urutan: 106
 
 ## Bagian Pertama
 
-1. Diketahui bahwa matriks $\begin{bmatrix}1&0&2\\\\-1&a&10\\\\0&1&b\end{bmatrix}$ memiliki rank $2$. Nilai dari $ab$ adalah $\dots.$
+1. Diketahui bahwa matriks $\smash{\begin{bmatrix}1&0&2\\\\-1&a&10\\\\0&1&b\end{bmatrix}}$ memiliki rank $2$. Nilai dari $ab$ adalah $\dots.$
 
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -39,7 +39,7 @@ urutan: 106
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-5. Diketahui bahwa fungsi $f:\mathbb{C}-\\{-1\\}\to\mathbb{C}$ dengan $f(z)=\dfrac{z}{z+1}$ untuk setiap $z\in\mathbb{C}-\\{-1\\}$ memetakan cakram terbuka $\bigg\\{z\in\mathbb{C}:\bigg\vert z-\dfrac{1}{3}\bigg\vert<r\bigg\\}$ menjadi cakram terbuka $\bigg\\{z\in\mathbb{C}:\vert z\vert<\dfrac{1}{2}\bigg\\}$. Nilai dari $r$ adalah $\dots.$
+5. Diketahui bahwa fungsi $f:\mathbb{C}-\\{-1\\}\to\mathbb{C}$ dengan $\smash{f(z)=\dfrac{z}{z+1}}$ untuk setiap $z\in\mathbb{C}-\\{-1\\}$ memetakan cakram terbuka $\bigg\\{z\in\mathbb{C}:\bigg\vert z-\dfrac{1}{3}\bigg\vert<r\bigg\\}$ menjadi cakram terbuka $\bigg\\{z\in\mathbb{C}:\vert z\vert<\dfrac{1}{2}\bigg\\}$. Nilai dari $r$ adalah $\dots.$
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
@@ -82,7 +82,7 @@ urutan: 106
    Solusi diserahkan kepada pembaca sebagai latihan.
    </div></details>
 
-4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}$.
+4. Untuk setiap $x, y\in\mathbb{N}$, buktikan secara kombinatorial bahwa $\smash{xy=\dbinom{x+y}{2}-\dbinom{x}{2}-\dbinom{y}{2}}$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
