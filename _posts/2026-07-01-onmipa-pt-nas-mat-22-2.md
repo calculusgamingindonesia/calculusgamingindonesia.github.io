@@ -10,7 +10,7 @@ urutan: 116
     <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi ONMIPA-PT Nasional <br> Matematika 2022 (Hari Kedua)</h1>
 </div>
 
-1. Misalkan $k$ adalah bilangan asli genap dengan $k\geq4$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S=\set{1, 2, \dots, n}$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a, b,$ dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
+1. Misalkan $k$ adalah bilangan asli genap dengan $k\geq4$. Tentukan $n\in\mathbb{N}$ terkecil sedemikian sehingga untuk setiap pewarnaan unsur-unsur di $S=\set{1, 2, \dots, n}$ dengan $3$ warna berbeda, terdapat $3$ unsur (tidak harus berbeda) di $S$, katakan $a,$ $b,$ dan $c$, yang berwarna sama dan memenuhi $ka+b=c$.
    
    <details><summary>Lihat Solusi</summary><div class="kotak-solusi" markdown="1">
    Solusi diserahkan kepada pembaca sebagai latihan.
