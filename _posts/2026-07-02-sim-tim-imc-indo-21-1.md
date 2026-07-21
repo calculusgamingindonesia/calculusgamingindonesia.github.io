@@ -7,7 +7,7 @@ urutan: 203
 ---
 
 <div style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Simulasi <br> Tim IMC Indonesia 2021 (Hari Pertama)</h1>
+    <h1 style="margin: 0; line-height: 1.3;">Soal dan Solusi Simulasi Tim IMC <br> Indonesia 2021 (Hari Pertama)</h1>
 </div>
 
 1. Buktikan bahwa tidak ada $a, b, c\in\mathbb{N}$ sedemikian sehingga $\smash{\dfrac{a^2+b^2+c^2}{3(ab+bc+ca)}}$ adalah bilangan bulat.
